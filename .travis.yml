@@ -8,5 +8,5 @@ python:
 install: "pip install -q -r requirements.txt --use-mirrors"
 
 # command to run tests
-script: cd docs ; sphinx-build -nW -b html -d _build/doctrees . _build/html
+script: test.sh
 
