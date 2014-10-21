@@ -10,19 +10,12 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+   :glob:
 
    creating-a-local-apt-server-to-use-backports
    service-ports
    using-linux-containers
-   using-the-custom-scripts
    versions
-
-Ansible roles included in DebOps
-================================
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   roles/*
+   scripts/index
+   roles/index
 
