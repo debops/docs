@@ -17,12 +17,11 @@ Contents:
    using-the-custom-scripts
    versions
 
+Ansible roles included in DebOps
+================================
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   roles/*
 
