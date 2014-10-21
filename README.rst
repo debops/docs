@@ -2,8 +2,8 @@
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://readthedocs.org/projects/debops/badge/?version=latest
-:target: https://readthedocs.org/projects/debops/?badge=latest
-:alt: Documentation Status
+   :target: https://readthedocs.org/projects/debops/?badge=latest
+   :alt: Documentation Status
 
 This is the repository for `DebOps`_ documentation, managed using `Read The Docs`_.
 
