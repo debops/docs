@@ -17,6 +17,11 @@ debops.elasticsearch
 ``debops.elasticsearch`` role allows you to easily setup infrastructure
 capable of running Elasticsearch.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 What are a few features available in this role?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -25,11 +30,6 @@ What are a few features available in this role?
 - Add/Remove plugins and libs on demand
   - You can even set custom configuration to each plugin, check the defaults
 - Tweak pretty much everything that ES allows you to
-
-.. contents:: Table of Contents
-   :local:
-   :depth: 2
-   :backlinks: top
 
 Installation
 ~~~~~~~~~~~~
