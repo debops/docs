@@ -375,7 +375,7 @@ always have a lot of free resources.
     nyancat
 
 Search load balancer servers (``node.master: False`` and ``node.data: False``)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A server of this type would be used to fetch data from other servers,
 aggregate results, etc..
