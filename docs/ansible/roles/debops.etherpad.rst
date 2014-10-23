@@ -20,6 +20,11 @@ with MySQL as a database backend.
 
 .. _Etherpad: http://etherpad.org/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

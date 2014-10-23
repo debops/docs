@@ -18,6 +18,11 @@ This role installs packages required for KVM support on a host. You can
 then access this host with, for example, ``virt-manager`` to create and
 manage KVM virtual machines.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

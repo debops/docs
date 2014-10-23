@@ -28,6 +28,11 @@ Default credentials: ``root:5iveL!fe``
 .. _GitLab: https://about.gitlab.com/
 .. _GitHub: https://github.com/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

@@ -18,6 +18,11 @@ This role manages console-related things, like enabling serial console,
 setting up ``/etc/motd`` and ``/etc/issue`` files, configuring system-wide
 locale settings. You can also provide a list of packages to install.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

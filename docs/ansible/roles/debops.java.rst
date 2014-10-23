@@ -17,6 +17,11 @@ debops.java
 This role installs OpenJDK Java packages. It is useful as a dependency of
 other roles.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

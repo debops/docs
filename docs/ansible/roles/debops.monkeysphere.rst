@@ -23,6 +23,11 @@ functionality is in the works.
 
 .. _Monkeysphere: http://web.monkeysphere.info/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

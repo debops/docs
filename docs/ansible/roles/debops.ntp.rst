@@ -24,6 +24,11 @@ time synchronization in this case is provided by the host operating system.
 
 .. _OpenNTPD: http://www.openntpd.org/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

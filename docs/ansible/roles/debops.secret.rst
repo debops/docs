@@ -45,6 +45,11 @@ Some usage examples of this role in `DebOps`_ include:
 
 .. _DebOps: http://debops.org/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

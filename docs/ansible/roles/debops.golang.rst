@@ -18,6 +18,11 @@ Install Go language (golang) support using Debian packages. You can choose
 to install the system's default version of Go or use the 1.3.x version that
 has been backported from Debian Jessie.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

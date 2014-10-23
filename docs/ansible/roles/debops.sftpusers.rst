@@ -17,6 +17,11 @@ debops.sftpusers
 ``debops.sftpusers`` role can be used to create and manage user accounts
 which have system access restricted to SFTP only.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

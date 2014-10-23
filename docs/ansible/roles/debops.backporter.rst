@@ -35,6 +35,11 @@ availability of `Debian QA Madison`_ service.
 .. _Simple Backport Creation HOWTO: https://wiki.debian.org/SimpleBackportCreation
 .. _Debian QA Madison: https://qa.debian.org/madison.php
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

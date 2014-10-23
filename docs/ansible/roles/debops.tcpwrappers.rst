@@ -26,6 +26,11 @@ except ``localhost`` (relative to remote host) and Ansible Controller.
 
 .. _TCP Wrappers: https://en.wikipedia.org/wiki/TCP\_Wrapper
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

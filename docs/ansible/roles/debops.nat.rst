@@ -27,6 +27,11 @@ You can use ``dnsmasq`` server (available via ``debops.dnsmasq`` Ansible
 role) to complete the network configuration and provide internal DNS/DHCP
 server.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

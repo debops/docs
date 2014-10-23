@@ -17,6 +17,11 @@ debops.rsyslog
 This role manages configuration of ``rsyslog`` server and makes sure that
 it's installed.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

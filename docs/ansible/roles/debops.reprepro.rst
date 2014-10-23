@@ -23,6 +23,11 @@ all hosts managed by Ansible.
 This role is by default not used directly by the playbook. Instead,
 ``debops.apt`` role uses it as a dependency.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

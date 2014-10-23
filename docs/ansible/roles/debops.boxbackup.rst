@@ -21,6 +21,11 @@ configure all specified clients to create backup on the
 
 .. _BoxBackup: http://boxbackup.org/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

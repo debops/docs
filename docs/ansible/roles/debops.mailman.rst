@@ -25,6 +25,11 @@ management can be done using the web interface).
 .. _Postfix: http://postfix.org/
 .. _nginx: http://nginx.org/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

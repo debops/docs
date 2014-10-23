@@ -24,6 +24,11 @@ using ``debops.gitlab_ci`` role.
 .. _GitLab CI Runner: https://github.com/gitlabhq/gitlab-ci-runner/
 .. _GitLab CI: https://about.gitlab.com/gitlab-ci/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

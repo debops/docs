@@ -23,6 +23,11 @@ local APT repository created using ``debops.reprepro`` role.
 
 .. _SafeKeep: http://safekeep.sourceforge.net/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

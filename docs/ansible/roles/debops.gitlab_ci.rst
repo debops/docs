@@ -24,6 +24,11 @@ service to run the tests (can be installed using
 .. _GitLab: https://about.gitlab.com/
 .. _GitLab CI Runner: https://github.com/gitlabhq/gitlab-ci-runner/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

@@ -27,6 +27,11 @@ by other hosts to send SMS messages over the network).
 .. _smstools: http://smstools3.kekekasvi.com/
 .. _DebOps: http://debops.org/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

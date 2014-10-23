@@ -22,6 +22,11 @@ secure access to remote databases is available.
 
 .. _PHPMyAdmin: http://www.phpmyadmin.net/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

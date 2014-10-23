@@ -24,6 +24,11 @@ derivative distributions. Specifically, it will manage:
 * local APT repository (using ``reprepro``)
 * installation of custom packages specified in Ansible inventory
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

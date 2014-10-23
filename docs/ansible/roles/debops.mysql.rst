@@ -21,6 +21,11 @@ You can use this role as a dependency of another role to easily create
 databases and users for a particular application (database and user
 management is also available using Ansible inventory).
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

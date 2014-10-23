@@ -18,6 +18,11 @@ debops.auth
 configured host, including setting up system groups with elevated
 privileges.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

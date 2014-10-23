@@ -26,6 +26,11 @@ What are a few features available in this role?
   - You can even set custom configuration to each plugin, check the defaults
 - Tweak pretty much everything that ES allows you to
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

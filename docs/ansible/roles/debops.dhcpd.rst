@@ -18,6 +18,11 @@ Install and configure `ISC DHCP Server`_.
 
 .. _ISC DHCP Server: https://www.isc.org/downloads/dhcp/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 
