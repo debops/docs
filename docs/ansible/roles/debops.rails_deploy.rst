@@ -646,7 +646,7 @@ Authors and license
 
 ``debops.rails_deploy`` role was written by:
 
-- Nick Janetakis | `e-mail <mailto:nick.janetakis@gmail.com>`_ | `Twitter <https://twitter.com/nickjanetakis>`_ | `GitHub <https://github.com/nickjj>`_
+- Nick Janetakis | `e-mail <mailto:nick.janetakis@gmail.com>`__ | `Twitter <https://twitter.com/nickjanetakis>`__ | `GitHub <https://github.com/nickjj>`__
 
 License: `GPLv3 <https://tldrlegal.com/license/gnu-general-public-license-v3-%28gpl-3%29>`_
 

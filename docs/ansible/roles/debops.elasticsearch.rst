@@ -325,6 +325,7 @@ List of default variables available in the inventory::
           conversionPattern: '[%d{ISO8601}][%-5p][%-25c] %m%n'
 
 
+
 Detailed usage guide
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -434,7 +435,7 @@ Authors and license
 
 ``debops.elasticsearch`` role was written by:
 
-- Nick Janetakis | `e-mail <mailto:nick.janetakis@gmail.com>`_ | `Twitter <https://twitter.com/nickjanetakis>`_ | `GitHub <https://github.com/nickjj>`_
+- Nick Janetakis | `e-mail <mailto:nick.janetakis@gmail.com>`__ | `Twitter <https://twitter.com/nickjanetakis>`__ | `GitHub <https://github.com/nickjj>`__
 
 License: `GPLv3 <https://tldrlegal.com/license/gnu-general-public-license-v3-%28gpl-3%29>`_
 

@@ -176,6 +176,7 @@ List of default variables available in the inventory::
       - 'prune-alias-list.patch'
 
 
+
 Detailed usage guide
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -202,7 +203,7 @@ Authors and license
 
 ``debops.mailman`` role was written by:
 
-- Maciej Delmanowski | `e-mail <mailto:drybjed@gmail.com>`_ | `Twitter <https://twitter.com/drybjed>`_ | `GitHub <https://github.com/drybjed>`_
+- Maciej Delmanowski | `e-mail <mailto:drybjed@gmail.com>`__ | `Twitter <https://twitter.com/drybjed>`__ | `GitHub <https://github.com/drybjed>`__
 
 License: `GPLv3 <https://tldrlegal.com/license/gnu-general-public-license-v3-%28gpl-3%29>`_
 
