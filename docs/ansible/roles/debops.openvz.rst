@@ -148,6 +148,7 @@ List of internal variables used by the role::
     openvz_configfile_calculated_diskspace_limit
     openvz_root_ssh_key
     openvz_configfile_calculated_vswap
+
 Detailed usage guide
 ~~~~~~~~~~~~~~~~~~~~
 

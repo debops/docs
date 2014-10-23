@@ -205,6 +205,7 @@ List of internal variables used by the role::
     backporter_register_package_version
     backporter_build_root
     backporter_register_dsc_version
+
 Detailed usage guide
 ~~~~~~~~~~~~~~~~~~~~
 

@@ -431,6 +431,7 @@ List of default variables available in the inventory::
 List of internal variables used by the role::
 
     rails_deploy_key_data
+
 Detailed usage guide
 ~~~~~~~~~~~~~~~~~~~~
 
