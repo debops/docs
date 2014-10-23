@@ -19,6 +19,11 @@ capable of running Rails applications. It removes all of the headaches
 associated to setting up a secure Rails app that is ready for production so
 you can concentrate on developing your app.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 A few features supplied by this role
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -69,11 +74,6 @@ Security
 - SSL is enabled by default but can be turned off if you really don't want it
 - Self signed SSL certs are automatically managed for you
   - Changing to properly signed certificates is a breeze
-
-.. contents:: Table of Contents
-   :local:
-   :depth: 2
-   :backlinks: top
 
 Installation
 ~~~~~~~~~~~~
