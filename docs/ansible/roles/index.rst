@@ -2,7 +2,7 @@ Ansible roles provided in DebOps
 ================================
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 1
    :glob:
 
    *

@@ -17,5 +17,5 @@ Contents:
    using-linux-containers
    versions
    scripts/index
-   roles/index
+   ansible/roles/index
 
