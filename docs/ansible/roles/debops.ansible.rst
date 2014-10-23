@@ -22,6 +22,11 @@ on a ``devel`` Ansible version in a container or VM.
 If ``redis-server`` is found on managed host, this role will automatically
 enable support for host fact caching in Ansible.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

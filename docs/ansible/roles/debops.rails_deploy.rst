@@ -70,6 +70,11 @@ Security
 - Self signed SSL certs are automatically managed for you
   - Changing to properly signed certificates is a breeze
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

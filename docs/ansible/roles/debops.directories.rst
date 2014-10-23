@@ -18,6 +18,11 @@ This is a simple wrapper role around ``file`` Ansible module, which lets
 you manage (create, modify or remove) directories using inventory
 variables, including creation on multiple hosts at once.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

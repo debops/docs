@@ -18,6 +18,11 @@ Dump all variables used by Ansible during playbook run to a file for
 inspection. This role is not active during normal playbook operation and
 should be used for development only.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

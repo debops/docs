@@ -20,6 +20,11 @@ many hosts in a group.
 This role is an obsolete state and will be replaced in the future. Do not
 use this role in a production environment.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

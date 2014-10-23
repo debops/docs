@@ -20,6 +20,11 @@ environment is suited for local development only. A NATted network can also
 be configured for ease of use for local virtual machines / LXC containers
 without the need for additional external IP addresses.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

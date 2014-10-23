@@ -21,6 +21,11 @@ can appear as named entries in many command outputs, such as
 of reserved and free ports on a particular host, and reference ports by
 their names in firewall configuration files.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

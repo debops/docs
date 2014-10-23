@@ -25,6 +25,11 @@ gateway (for example one managed by ``debops.smstools`` role).
 
 .. _Monit: http://mmonit.com/monit/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

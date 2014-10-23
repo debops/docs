@@ -18,6 +18,11 @@ This role configures OpenSSH server for public key access, disables
 password authentication and creates a specific configuration options for
 ``sftponly`` accounts.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

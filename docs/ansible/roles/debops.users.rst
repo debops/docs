@@ -28,6 +28,11 @@ inventory, with separate lists for:
 for larger number of accounts its preferred to use a dedicated solution,
 like an LDAP directory.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

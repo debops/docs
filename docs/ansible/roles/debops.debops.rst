@@ -19,6 +19,11 @@ This role might be useful to setup Ansible Controller host automatically.
 
 .. _DebOps: http://debops.org/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

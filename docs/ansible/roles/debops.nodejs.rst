@@ -22,6 +22,11 @@ At the moment, on Debian Wheezy a ``nodejs`` package from
 upstream using a script; this will be changed in the future to install
 ``npm`` package as a backported Debian Jessie version.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

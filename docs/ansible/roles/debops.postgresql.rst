@@ -26,6 +26,11 @@ official `PostgreSQL Global Development Group`_ repositories.
 .. _PostgreSQL: http://postgresql.org/
 .. _PostgreSQL Global Development Group: https://wiki.postgresql.org/wiki/Apt
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

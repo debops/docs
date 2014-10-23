@@ -19,6 +19,11 @@ using `EncFS`_, FUSE-based encrypted virtual filesystem.
 
 .. _EncFS: https://en.wikipedia.org/wiki/EncFS
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

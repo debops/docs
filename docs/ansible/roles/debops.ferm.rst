@@ -21,6 +21,11 @@ a dependency by other roles to setup firewall rules for other services.
 
 .. _ferm: http://ferm.foo-projects.org/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

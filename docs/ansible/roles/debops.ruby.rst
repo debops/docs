@@ -33,6 +33,11 @@ This role will also install gems from `RubyGems`_ specified in a list.
 
 .. _RubyGems: http://rubygems.org/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

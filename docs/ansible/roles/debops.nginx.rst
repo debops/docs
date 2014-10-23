@@ -23,6 +23,11 @@ role to configure a webserver for that role using dependency variables.
 
 .. _nginx: http://nginx.org/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

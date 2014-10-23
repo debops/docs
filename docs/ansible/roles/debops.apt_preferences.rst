@@ -25,6 +25,11 @@ backports repository of a current OS release.
 
 .. _APT preferences: https://wiki.debian.org/AptPreferences
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

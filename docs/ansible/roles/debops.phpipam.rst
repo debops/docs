@@ -25,6 +25,11 @@ Default credentials: ``Admin:ipamadmin``
 
 .. _phpIPAM: http://phpipam.net/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

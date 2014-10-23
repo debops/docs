@@ -27,6 +27,11 @@ interface (DHCP server is recommended) or on an internal NAT interface
 (network will be configured by a specific play in DebOps, using
 ``debops.dnsmasq`` and ``debops.nat`` roles).
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

@@ -33,6 +33,11 @@ automatically selected configuration using Ansible inventory. This role can
 also be used as a dependency of another role which allows for example to
 easily manage NAT networks using ``debops.nat`` role.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

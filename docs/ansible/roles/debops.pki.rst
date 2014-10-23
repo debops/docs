@@ -30,6 +30,11 @@ This role is meant to be a simple SSL certificate manager which:
 ``debops.pki`` role is planned to be rewritten to support automatic CA
 signing and custom certificates for clients/applications.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

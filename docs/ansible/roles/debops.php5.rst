@@ -19,6 +19,11 @@ support for PHP5 on a host. ``php5-fpm`` package will be used as a backend
 for PHP5 applications. This role works very well with ``debops.nginx`` role
 for setting up ``nginx`` webserver as a frontend.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

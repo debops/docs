@@ -30,6 +30,11 @@ pool because of the size of existing key database dumps).
 .. _SKS Keyserver: http://sks-keyservers.net/
 .. _connect to an existing pool: http://www.keysigning.org/sks/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

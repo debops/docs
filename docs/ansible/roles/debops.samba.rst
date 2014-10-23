@@ -17,6 +17,11 @@ debops.samba
 This role installs and configures a Samba 3 file server with a default file
 share. You can configure your own shares using inventory variables.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

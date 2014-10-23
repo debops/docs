@@ -26,6 +26,11 @@ You can think of this role as a simple `Heroku`_ or `PagodaBox`_ clone.
 .. _Heroku: https://www.heroku.com/
 .. _PagodaBox: https://pagodabox.com/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

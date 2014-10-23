@@ -27,6 +27,11 @@ Few features available in this role:
 - pretty much every redis config value is tweakable;
 - you can easily use this role as a dependency in your other roles;
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

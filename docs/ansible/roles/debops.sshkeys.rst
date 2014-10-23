@@ -19,6 +19,11 @@ debops.sshkeys
 accounts created by ``debops.sftpusers`` role to disallow access to
 ``~/.ssh/authorized_keys`` for users themselves.
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

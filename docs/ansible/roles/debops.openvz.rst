@@ -23,6 +23,11 @@ Wheezy/Jessie and LXC.
 
 .. _OpenVZ: http://openvz.org/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 

@@ -23,6 +23,11 @@ repository structure.
 
 .. _ownCloud: http://owncloud.org/
 
+.. contents:: Table of Contents
+   :local:
+   :depth: 2
+   :backlinks: top
+
 Installation
 ~~~~~~~~~~~~
 
