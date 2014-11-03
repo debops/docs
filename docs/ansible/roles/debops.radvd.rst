@@ -14,10 +14,12 @@ debops.radvd
 
 
 
-`debops.radvd` role manages [Router Advertisement Daemon](https://en.wikipedia.org/wiki/Radvd),
-which is used to advertise configured IPv6 prefixes on local network. Using
-`radvd` advertisements other devices on the network can obtain an IPv6
-address and Internet connectivity.
+``debops.radvd`` role manages `Router Advertisement Daemon`_.
+``radvd`` periodically sends router advertisements and other hosts on the
+network will automatically pick them up. This results in them obtaining an
+IPv6 address and internet connectivity.
+
+.. _Router Advertisement Daemon: https://en.wikipedia.org/wiki/Radvd)
 
 .. contents:: Table of Contents
    :local:
