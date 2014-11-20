@@ -44,7 +44,7 @@ enable more features of the Postfix SMTP server for their own use. For
 example, ``debops.mailman`` role enables mail forwarding to the configured
 mailing lists, and ``debops.smstools`` role uses Postfix as mail-SMS gateway.
 
-.. _Postfix: http://postfix.org/
+.. _Postfix: http://www.postfix.org/
 
 .. contents:: Table of Contents
    :local:
