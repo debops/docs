@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
    :glob:
 
+   installation
    creating-a-local-apt-server-to-use-backports
    service-ports
    using-linux-containers
