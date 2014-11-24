@@ -48,8 +48,8 @@ Choose, who you want DebOps to be installed:
     sudo make install-scripts
     debops-update
 
-...
-  Local Variables:
-  mode: rst
-  ispell-local-dictionary: "american"
-  End:
+..
+ Local Variables:
+ mode: rst
+ ispell-local-dictionary: "american"
+ End:
