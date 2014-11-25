@@ -72,8 +72,11 @@ You may now start adding systems into ``ansible/inventory/hosts`` as
 you like. To make install some software just add the host into the
 resp. group and add some configuration options.
 
-Example: Etherpad
-~~~~~~~~~~~~~~~~~~~~~~
+Examples
+^^^^^^^^^^^^^^
+
+Setting up Etherpad quickly
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * ``ansible/inventory/hosts``::
 
@@ -101,8 +104,8 @@ want to share, please submit a pull-request. I'd happily integrate it.
 
 
 
-Notes about Platforms
-^^^^^^^^^^^^^^^^^^^^^^^
+Notes about specific platforms
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you need additional configuration for a platform, we suggest
 putting this into a ``group_vars``-file and put the affected systems
