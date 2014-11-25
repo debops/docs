@@ -27,6 +27,18 @@ help you run and manage your infrastructure.
 In fact all of the DebOps playbooks and roles can be ran with Ansible directly.
 
 
+Do you want to contribute?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+DebOps itself is just a name, it's the sum of its parts. So we sincerly
+welcome contributions!
+
+* IRC: `#debops <http://webchat.freenode.net/?channels=debops>`_
+* Issue reporting: `debops/debops issue tracker
+  <https://github.com/debops/debops/issues>`_.
+* Code submission: Please have a look at the
+  :ref:`contributions page <contributing-guidelines>`
+
 Contents:
 
 .. toctree::
@@ -35,6 +47,7 @@ Contents:
 
    installation
    getting-started
+   contributing
    creating-a-local-apt-server-to-use-backports
    service-ports
    using-linux-containers
