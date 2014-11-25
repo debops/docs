@@ -92,6 +92,13 @@ correctly). DebOps automatically installed and configured `nginx`,
 `nodejs` and `mysql` (resp. `mariadb`) for you.
 
 
+More Examples
+~~~~~~~~~~~~~~~~
+
+You can find more examples in the `DebOps examples repository
+<https://github.com/debops/examples>`_. If you have a an example you
+want to share, please submit a pull-request. I'd happily integrate it.
+
 
 
 Notes about Platforms
