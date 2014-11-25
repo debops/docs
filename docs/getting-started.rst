@@ -35,7 +35,7 @@ comfortable with DebOps. Here is an example::
    Ansible does not detect all platforms as detailed as it is
    required. Thus for some platforms running debops without any
    configuration will bring your system into a bad state. Please check
-   `Notes about Platforms`_ for more information. Sorry!
+   `Notes about specific platforms`_ for more information. Sorry!
 
 Before running debops the first time, we suggest you set up a minimal
 configuration. This will make you more comfortable with the results.
