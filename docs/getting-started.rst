@@ -35,7 +35,7 @@ comfortable with DebOps. Here is an example::
    Ansible does not detect all platforms as detailed as it is
    required. Thus for some platforms running debops without any
    configuration will bring your system into a bad state. Please check
-   `Notes about Platforms`_ for more information. Sorry!
+   `Notes about specific platforms`_ for more information. Sorry!
 
 Before running debops the first time, we suggest you set up a minimal
 configuration. This will make you more comfortable with the results.
@@ -72,8 +72,11 @@ You may now start adding systems into ``ansible/inventory/hosts`` as
 you like. To make install some software just add the host into the
 resp. group and add some configuration options.
 
-Example: Etherpad
-~~~~~~~~~~~~~~~~~~~~~~
+Examples
+^^^^^^^^^^^^^^
+
+Setting up Etherpad quickly
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * ``ansible/inventory/hosts``::
 
@@ -92,10 +95,17 @@ correctly). DebOps automatically installed and configured `nginx`,
 `nodejs` and `mysql` (resp. `mariadb`) for you.
 
 
+More Examples
+~~~~~~~~~~~~~~~~
+
+You can find more examples in the `DebOps examples repository
+<https://github.com/debops/examples>`_. If you have a an example you
+want to share, please submit a pull-request. I'd happily integrate it.
 
 
-Notes about Platforms
-^^^^^^^^^^^^^^^^^^^^^^^
+
+Notes about specific platforms
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you need additional configuration for a platform, we suggest
 putting this into a ``group_vars``-file and put the affected systems
