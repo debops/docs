@@ -42,7 +42,7 @@ Examples
 
 Using this role it is easy to update all managed machines::
 
-  ansible all -m apt -a 'upgrade=yes'
+  ansible all -s -m apt -a 'update_cache=yes upgrade=yes'
 
 
 Role dependencies
