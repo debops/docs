@@ -7,7 +7,7 @@ Ansible's ``assemble`` module. To avoid collisions between various services we
 list here custom ports that are set for applications and services that don't
 have specified system ports by default.
 
-You can find a list of ports used thruought the DebOps project by running
+You can find a list of ports used throughout the DebOps project by running
 command::
 
     debops-defaults | grep '_port:'
