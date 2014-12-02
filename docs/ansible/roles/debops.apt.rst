@@ -37,6 +37,14 @@ This role requires at least Ansible ``v1.7.0``. To install it, run::
     ansible-galaxy install debops.apt
 
 
+Examples
+~~~~~~~~~
+
+Using this role it is easy to update all managed machines::
+
+  ansible all -m apt -a 'upgrade=yes'
+
+
 Role dependencies
 ~~~~~~~~~~~~~~~~~
 
