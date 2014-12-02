@@ -36,7 +36,7 @@ Choose, who you want DebOps to be installed:
 
   ::
 
-     sudo PREFIX=/opt/debops make install
+     sudo make install PREFIX=/opt/debops
      sudo chown -R debops:debops /opt/debops
 
 * Scripts into /usr/bin, playbooks and roles into $HOME: This has the
