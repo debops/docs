@@ -3,8 +3,8 @@
 
 |Travis CI| |ReadTheDocs|
 
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-nginx.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-nginx
+.. |Travis CI| image:: http://img.shields.io/travis/debops/docs.svg?style=flat
+   :target: http://travis-ci.org/debops/docs
 
 .. |ReadTheDocs| image:: https://readthedocs.org/projects/debops/badge/?version=latest
    :target: https://readthedocs.org/projects/debops/?badge=latest
