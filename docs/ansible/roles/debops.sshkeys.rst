@@ -1,17 +1,6 @@
 debops.sshkeys
 ##############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-sshkeys.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-sshkeys
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--sshkeys-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-sshkeys/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.sshkeys-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1603
-
 
 
 ``debops.sshkeys`` role can be used to manage users SSH keys in

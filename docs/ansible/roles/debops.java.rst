@@ -1,17 +1,6 @@
 debops.java
 ###########
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-java.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-java
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--java-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-java/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.java-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1571
-
 
 
 This role installs OpenJDK Java packages. It is useful as a dependency of

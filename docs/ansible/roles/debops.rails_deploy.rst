@@ -1,17 +1,6 @@
 debops.rails_deploy
 ###################
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-rails_deploy.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-rails_deploy
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--rails__deploy-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-rails_deploy/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.rails_deploy-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1591
-
 
 
 ``debops.rails_deploy`` role allows you to easily setup infrastructure

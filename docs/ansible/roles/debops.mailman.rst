@@ -1,18 +1,6 @@
 debops.mailman
 ##############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-mailman.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-mailman
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--mailman-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-mailman/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.mailman-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1574
-
-
 
 Install and configure `Mailman`_, a mailing list manager. It will be
 installed behind `Postfix`_ server (using ``debops.postfix`` role) which

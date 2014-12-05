@@ -1,18 +1,6 @@
 debops.debug
 ############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-debug.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-debug
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--debug-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-debug/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.debug-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1558
-
-
 
 Dump all variables used by Ansible during playbook run to a file for
 inspection. This role is not active during normal playbook operation and

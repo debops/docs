@@ -1,17 +1,6 @@
 debops.ifupdown
 ###############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-ifupdown.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-ifupdown
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--ifupdown-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-ifupdown/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.ifupdown-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1570
-
 
 
 This role can be used to manage network interface configuration on Debian

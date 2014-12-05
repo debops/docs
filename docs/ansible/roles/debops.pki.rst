@@ -1,17 +1,6 @@
 debops.pki
 ##########
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-pki.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-pki
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--pki-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-pki/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.pki-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1588
-
 
 
 This role is meant to be a simple SSL certificate manager which:

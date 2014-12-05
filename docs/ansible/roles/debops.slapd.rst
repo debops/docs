@@ -1,17 +1,6 @@
 debops.slapd
 ############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-slapd.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-slapd
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--slapd-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-slapd/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.slapd-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/2243
-
 
 
 This role installs and manages ``slapd``, OpenLDAP server. It will

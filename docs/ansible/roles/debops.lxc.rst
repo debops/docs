@@ -1,17 +1,6 @@
 debops.lxc
 ##########
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-lxc.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-lxc
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--lxc-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-lxc/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.lxc-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1573
-
 
 
 ``debops.lxc`` role can be used to configure and manage LXC environment on

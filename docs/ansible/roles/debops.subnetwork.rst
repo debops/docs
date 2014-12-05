@@ -1,14 +1,6 @@
 debops.subnetwork
 #################
 
-|Travis CI| |test-suite|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-subnetwork.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-subnetwork
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--subnetwork-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-subnetwork/
-
 
 
 ``debops.subnetwork`` is an Ansible role that creates and manages a local

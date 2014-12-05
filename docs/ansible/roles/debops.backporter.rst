@@ -1,18 +1,6 @@
 debops.backporter
 #################
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-backporter.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-backporter
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--backporter-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-backporter/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.backporter-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1554
-
-
 
 This is a helper `Ansible`_ role which allows you to ensure that Debian
 packages with certain versions are available on your hosts. If requested

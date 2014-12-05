@@ -1,18 +1,6 @@
 debops.auth
 ###########
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-auth.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-auth
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--auth-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-auth/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.auth-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1553
-
-
 
 ``debops.auth`` manages basic user authentication and authorization on
 configured host, including setting up system groups with elevated

@@ -1,17 +1,6 @@
 debops.users
 ############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-users.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-users
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--users-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-users/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.users-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1605
-
 
 
 This role can be used to manage user accounts (and user groups). You can

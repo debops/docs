@@ -1,17 +1,6 @@
 debops.nfs
 ##########
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-nfs.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-nfs
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--nfs-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-nfs/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.nfs-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1579
-
 
 
 This role can be used to configure NFSv3 client and server services between

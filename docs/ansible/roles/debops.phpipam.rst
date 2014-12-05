@@ -1,17 +1,6 @@
 debops.phpipam
 ##############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-phpipam.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-phpipam
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--phpipam-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-phpipam/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.phpipam-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1586
-
 
 
 This role installs `phpIPAM`_, an IP Address Manager written in PHP5. MySQL

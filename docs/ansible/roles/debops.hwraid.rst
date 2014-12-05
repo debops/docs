@@ -1,18 +1,6 @@
 debops.hwraid
 #############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-hwraid.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-hwraid
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--hwraid-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-hwraid/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.hwraid-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/2259
-
-
 
 `HWRaid`_ is a repository of software packages useful on hosts with
 hardware RAID storage arrays for Debian and Ubuntu Linux operating systems.

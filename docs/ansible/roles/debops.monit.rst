@@ -1,17 +1,6 @@
 debops.monit
 ############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-monit.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-monit
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--monit-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-monit/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.monit-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1575
-
 
 
 ``debops.monit`` role allows you to install and configure `Monit`_ service

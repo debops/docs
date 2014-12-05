@@ -1,17 +1,6 @@
 debops.console
 ##############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-console.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-console
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--console-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-console/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.console-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1556
-
 
 
 This role manages console-related things, like enabling serial console,

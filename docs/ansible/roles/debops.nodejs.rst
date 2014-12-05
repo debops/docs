@@ -1,17 +1,6 @@
 debops.nodejs
 #############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-nodejs.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-nodejs
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--nodejs-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-nodejs/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.nodejs-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1581
-
 
 
 This role can be used as a dependency for other roles to provide NodeJS and

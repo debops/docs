@@ -1,17 +1,6 @@
 debops.php5
 ###########
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-php5.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-php5
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--php5-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-php5/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.php5-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1585
-
 
 
 This role can be used as a dependency of other roles to easily enable

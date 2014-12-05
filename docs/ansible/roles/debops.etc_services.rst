@@ -1,18 +1,6 @@
 debops.etc_services
 ###################
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-etc_services.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-etc_services
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--etc__services-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-etc_services/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.etc_services-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1563
-
-
 
 ``debops.etc_services`` role can be used to "reserve" or "register"
 a service port in ``/etc/services`` file. Service ports configured this way

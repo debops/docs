@@ -1,17 +1,6 @@
 debops.owncloud
 ###############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-owncloud.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-owncloud
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--owncloud-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-owncloud/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.owncloud-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1584
-
 
 
 This role installs `ownCloud`_ instance on a specified host, with either

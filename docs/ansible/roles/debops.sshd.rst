@@ -1,17 +1,6 @@
 debops.sshd
 ###########
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-sshd.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-sshd
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--sshd-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-sshd/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.sshd-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1602
-
 
 
 This role configures OpenSSH server for public key access, disables

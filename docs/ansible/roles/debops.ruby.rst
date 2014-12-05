@@ -1,17 +1,6 @@
 debops.ruby
 ###########
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-ruby.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-ruby
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--ruby-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-ruby/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.ruby-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1595
-
 
 
 ``debops.ruby`` role installs selected Ruby version via APT package manager.

@@ -1,17 +1,6 @@
 debops.samba
 ############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-samba.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-samba
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--samba-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-samba/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.samba-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1597
-
 
 
 This role installs and configures a Samba 3 file server with a default file

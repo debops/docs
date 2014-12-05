@@ -1,17 +1,6 @@
 debops.reprepro
 ###############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-reprepro.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-reprepro
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--reprepro-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-reprepro/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.reprepro-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1593
-
 
 
 ``debops.reprepro`` role is used to create and manage local APT repository.

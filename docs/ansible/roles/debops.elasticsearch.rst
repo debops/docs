@@ -1,18 +1,6 @@
 debops.elasticsearch
 ####################
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-elasticsearch.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-elasticsearch
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--elasticsearch-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-elasticsearch/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.elasticsearch-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1694
-
-
 
 ``debops.elasticsearch`` role allows you to easily setup infrastructure
 capable of running Elasticsearch.

@@ -1,18 +1,6 @@
 debops.gitlab_ci_runner
 #######################
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-gitlab_ci_runner.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-gitlab_ci_runner
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--gitlab__ci__runner-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-gitlab_ci_runner/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.gitlab_ci_runner-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1568
-
-
 
 `GitLab CI Runner`_ is a helper Ruby program which is used by `GitLab CI`_
 service to run continuous integration tests. It should be installed on

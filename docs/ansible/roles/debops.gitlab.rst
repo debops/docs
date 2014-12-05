@@ -1,18 +1,6 @@
 debops.gitlab
 #############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-gitlab.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-gitlab
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--gitlab-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-gitlab/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.gitlab-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1566
-
-
 
 This role installs `GitLab`_, an Open Source `GitHub`_ clone.
 ``debops.gitlab`` role will also automatically update installed GitLab

@@ -1,18 +1,6 @@
 debops.golang
 #############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-golang.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-golang
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--golang-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-golang/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.golang-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1698
-
-
 
 Install Go language (golang) support using Debian packages. You can choose
 to install the system's default version of Go or use the 1.3.x version that

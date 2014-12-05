@@ -1,17 +1,6 @@
 debops.etherpad
 ###############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-etherpad.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-etherpad
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--etherpad-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-etherpad/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.etherpad-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1564
-
 
 
 This role installs and configures `Etherpad`_, an on-line multiuser

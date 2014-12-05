@@ -1,17 +1,6 @@
 debops.redis
 ############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-redis.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-redis
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--redis-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-redis/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.redis-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1592
-
 
 
 ``debops.redis`` role allows you to easily setup infrastructure capable of

@@ -1,17 +1,6 @@
 debops.boxbackup
 ################
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-boxbackup.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-boxbackup
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--boxbackup-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-boxbackup/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.boxbackup-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1555
-
 
 
 `BoxBackup`_ is an automated, centralized, encrypted backup service. This

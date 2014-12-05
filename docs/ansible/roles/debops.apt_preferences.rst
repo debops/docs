@@ -1,18 +1,6 @@
 debops.apt_preferences
 ######################
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-apt_preferences.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-apt_preferences
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--apt__preferences-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-apt_preferences/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.apt_preferences-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1552
-
-
 
 `APT preferences`_ can be used to influence package selection performed by
 APT during installation or upgrades.  You can for example tell APT that you

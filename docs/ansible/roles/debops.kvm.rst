@@ -1,17 +1,6 @@
 debops.kvm
 ##########
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-kvm.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-kvm
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--kvm-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-kvm/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.kvm-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1572
-
 
 
 This role installs packages required for KVM support on a host. You can

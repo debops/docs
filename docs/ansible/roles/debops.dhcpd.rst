@@ -1,18 +1,6 @@
 debops.dhcpd
 ############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-dhcpd.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-dhcpd
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--dhcpd-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-dhcpd/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.dhcpd-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1559
-
-
 
 Install and configure `ISC DHCP Server`_.
 

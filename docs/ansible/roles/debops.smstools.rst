@@ -1,17 +1,6 @@
 debops.smstools
 ###############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-smstools.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-smstools
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--smstools-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-smstools/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.smstools-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1601
-
 
 
 This is an Ansible role which configures `smstools`_ package and sets up

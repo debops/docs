@@ -1,18 +1,6 @@
 debops.nginx
 ############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-nginx.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-nginx
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--nginx-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-nginx/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.nginx-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1580
-
-
 
 `nginx`_ is a fast and light webserver with extensible configuration.
 

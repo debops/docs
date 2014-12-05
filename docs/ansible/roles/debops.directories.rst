@@ -1,17 +1,6 @@
 debops.directories
 ##################
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-directories.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-directories
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--directories-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-directories/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.directories-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1560
-
 
 
 This is a simple wrapper role around ``file`` Ansible module, which lets

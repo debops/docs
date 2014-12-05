@@ -1,17 +1,6 @@
 debops.radvd
 ############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-radvd.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-radvd
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--radvd-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-radvd/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.radvd-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/2096
-
 
 
 ``debops.radvd`` role manages `Router Advertisement Daemon`_.

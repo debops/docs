@@ -1,18 +1,6 @@
 debops.debops
 #############
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-debops.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-debops
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--debops-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-debops/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.debops-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1557
-
-
 
 Install DebOps scripts, and optionally automatically download DebOps
 playbooks and roles and install them system-wide in `/usr/local`. This role

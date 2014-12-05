@@ -1,17 +1,6 @@
 debops.sks
 ##########
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-sks.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-sks
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--sks-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-sks/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.sks-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1600
-
 
 
 `SKS Keyserver`_ is an OpenPGP/GnuPG key server. This role allows you to

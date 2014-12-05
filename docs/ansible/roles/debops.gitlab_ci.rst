@@ -1,17 +1,6 @@
 debops.gitlab_ci
 ################
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-gitlab_ci.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-gitlab_ci
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--gitlab__ci-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-gitlab_ci/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.gitlab_ci-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1567
-
 
 
 `GitLab CI`_ is a continuous integration service based around `GitLab`_. It

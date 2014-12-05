@@ -1,17 +1,6 @@
 debops.monkeysphere
 ###################
 
-|Travis CI| |test-suite| |Ansible Galaxy|
-
-.. |Travis CI| image:: http://img.shields.io/travis/debops/ansible-monkeysphere.svg?style=flat
-   :target: http://travis-ci.org/debops/ansible-monkeysphere
-
-.. |test-suite| image:: http://img.shields.io/badge/test--suite-ansible--monkeysphere-blue.svg?style=flat
-   :target: https://github.com/debops/test-suite/tree/master/ansible-monkeysphere/
-
-.. |Ansible Galaxy| image:: http://img.shields.io/badge/galaxy-debops.monkeysphere-660198.svg?style=flat
-   :target: https://galaxy.ansible.com/list#/roles/1576
-
 
 
 This role can be used to give SSH users the ability to login to the server
