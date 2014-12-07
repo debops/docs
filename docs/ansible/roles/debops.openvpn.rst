@@ -11,7 +11,7 @@ server-side.
    :backlinks: top
 
 
-.. warning:
+.. warning::
 
   **This is a beta role**, which means that it might be significantly
   changed in the future. Be careful while using this role in a
