@@ -15,7 +15,7 @@ backports repository of a current OS release.
 
 .. contents:: Table of Contents
    :local:
-   :depth: 2
+   :depth: 3
    :backlinks: top
 
 Installation
@@ -31,32 +31,64 @@ This role requires at least Ansible ``v1.7.0``. To install it, run::
 Role variables
 ~~~~~~~~~~~~~~
 
-List of default variables available in the inventory::
+List of default variables available in the inventory:
 
-    ---
-    
-    # List of pins from every host in the cluster
-    apt_preferences_list: []
-    
-      #- package: 'nginx nginx-*'
-      #  backports: [ 'wheezy' ]
-    
-    # List of pins for a specific group of hosts
-    apt_preferences_group_list: []
-    
-    # List of pins for a specific host
-    apt_preferences_host_list: []
-    
-    # List of pins defined by a role via dependency variables
-    apt_preferences_dependent_list: []
-    
-    
-    # Default pin priority used if custom is not specified
-    apt_preferences_priority_default: '500'
-    
-    # Default pin priority used with item.version option
-    apt_preferences_priority_version: '1001'
+.. py:function:: apt_preferences_list(list)
 
+   List of apt_preferences(5) pins to configure in ``/etc/apt/preferences.d/``.
+   These pins will be configured on all hosts in the cluster, if set in
+   ``inventory/group_vars/all/``.
+
+   :param str  package:   Name(s) of the packages to include in this pin
+   :param list backports: If present, this pin defines a preference for
+                          backported package. You can specify names of OS
+                          distributions on which this backport pin should be
+                          enabled
+.. py:function:: apt_preferences_group_list(list)
+
+   List of apt_preferences(5) pins to configure in ``/etc/apt/preferences.d/``.
+   These pins will be configured on hosts in a specified group, if set in
+   ``inventory/group_vars/group_name/``. Only one group "level" is supported.
+
+   :param str  package:   Name(s) of the packages to include in this pin
+   :param list backports: If present, this pin defines a preference for
+                          backported package. You can specify names of OS
+                          distributions on which this backport pin should be
+                          enabled
+
+.. py:function:: apt_preferences_host_list(list)
+
+   List of apt_preferences(5) pins to configure in ``/etc/apt/preferences.d/``.
+   These pins will be configured on specific hosts, if set in
+   ``inventory/host_vars/host_name/``.
+
+   :param str  package:   Name(s) of the packages to include in this pin
+   :param list backports: If present, this pin defines a preference for
+                          backported package. You can specify names of OS
+                          distributions on which this backport pin should be
+                          enabled
+
+.. py:function:: apt_preferences_dependent_list(list)
+
+   List of apt_preferences(5) pins to configure in ``/etc/apt/preferences.d/``.
+   This variable is meant to be used from a role dependency in
+   ``role/meta/main.yml``.
+
+   :param str  package:   Name(s) of the packages to include in this pin
+   :param list backports: If present, this pin defines a preference for
+                          backported package. You can specify names of OS
+                          distributions on which this backport pin should be
+                          enabled
+
+.. py:function:: apt_preferences_priority_default(str)
+
+   Default pin priority used, if custom priority is not specified in a pin definition.
+   By default, ``'500'``.
+
+.. py:function:: apt_preferences_priority_version(str)
+
+   Default pin priority used if custom priority is not specified in
+   a versioned pin definition. By default, ``'500'``.
 
 
 Detailed usage guide
