@@ -15,7 +15,8 @@ server-side.
 
   **This is a beta role**, which means that it might be significantly
   changed in the future. Be careful while using this role in a
-  production environment.
+  production environment. Please see below for a list
+  of known limitations_.
 
   If you are an experienced OpenVPN user, the author would appreciate
   your feedback and enhancements.
@@ -125,6 +126,30 @@ List of default variables available in the inventory::
     openvpn_connections: []
 
 
+Limitations
+~~~~~~~~~~~~~~
+
+This role does not yet implement all bells and whistles. Still
+missing tasks are:
+
+* Automatically configure the ferm-firewall. Getting the list of
+  allowed sources and ports is complicated due to the many ways
+  OpenVPN allows specifying remotes. For now you need to add
+  something like this to your server's playbook::
+
+   - role: debops.ferm
+     ferm_input_list:
+      - type: 'dport_accept'
+	protocol: udp
+        dport: [ 1194 ]
+        #saddr: '{{ my_openvpn_remotes  }}'
+        accept_any: True
+        filename: 'openvpn_dependency_accept'
+        weight: '20'
+
+* Certificates and key-files for managing access to the VPN are not generated
+  automatically. You will need to generate them manually and put them
+  into ``files/openvpn/...``
 
 
 Authors and license
