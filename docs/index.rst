@@ -34,6 +34,7 @@ DebOps itself is just a name, it's the sum of its parts. So we sincerly
 welcome contributions!
 
 * IRC: `#debops <http://webchat.freenode.net/?channels=debops>`_
+* `Mailing list and Forum <https://groups.io/org/groupsio/debops>`_
 * Issue reporting: `debops/debops issue tracker
   <https://github.com/debops/debops/issues>`_.
 * Code submission: Please have a look at the
