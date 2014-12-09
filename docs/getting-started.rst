@@ -83,7 +83,7 @@ Setting up Etherpad quickly
     [deops_etherpad]
     server1
 
-* ``ansible/inventory/host_vasrs/server1.yml``::
+* ``ansible/inventory/host_vars/server1.yml``::
 
     etherpad_title: 'Our Corporate Etherpad'
     etherpad_disable_ip_logging: True
