@@ -13,6 +13,7 @@ DebOps requires a dependency that is not installed by Ansible. Install
    $ easy_install netaddr
 
 
+
 Installing the DebOps scripts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -22,6 +23,13 @@ repository. This makes it easy to update later::
 
    $ git clone https://github.com/debops/debops
    $ cd debops
+
+If you dont have Ansible installed, the bootstrap-ansible.sh can do it 
+for you::
+   
+   $ ./misc/scripts/bootstrap-ansible.sh v1.8.2
+
+This installs version 1.8.2. Without version pin, the newest will be installed.
 
 Choose, who you want DebOps to be installed:
 
