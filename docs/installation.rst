@@ -39,6 +39,14 @@ For more installation options please have a look at the `pip User Guide
 <https://pip.pypa.io/en/latest/user_guide.html>`_.
 
 
+Installing the current development version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you want to install the current development version of DebOps,
+choose one off::
+
+  $ sudo pip install https://github.com/debops/debops/archive/master.zip
+
 
 Updating the DebOps scripts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -47,6 +55,13 @@ For updating the DebOps scripts run (assuming you used `sudo` when
 installing)::
 
   $ sudo pip install -U --no-deps debops
+
+
+If you installed the development version of DebOps and want to update
+it, simply use::
+
+  $ sudo pip install -U --no https://github.com/debops/debops/archive/master.zip
+
 
 ..
  Local Variables:
