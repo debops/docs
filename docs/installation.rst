@@ -48,6 +48,18 @@ choose one off::
   $ sudo pip install https://github.com/debops/debops/archive/master.zip
 
 
+If you want to help working on DebOps, it's best to check out the
+scripts from github::
+
+  $ git clone https://github.com/debops/debops ~/my-projects/debops
+  $ cd ~/my-projects/debops
+
+You can still install the scripts so you can use them easily, e.g.::
+
+   $ pip install --user ~/my-projects/debops
+   $ debops-update
+
+
 Updating the DebOps scripts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
