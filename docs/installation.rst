@@ -10,7 +10,6 @@ Install ``netaddr`` however you see fit:
    $ apt-get install python-netaddr
    $ yum install python-netaddr
    $ pip install netaddr
-   $ easy_install netaddr
 
 
 
