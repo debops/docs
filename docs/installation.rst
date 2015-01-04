@@ -21,12 +21,14 @@ The easiest way to install DebOps is::
    $ sudo pip install debops
    $ debops-update
 
-If you dont have Ansible installed, the bootstrap-ansible.sh can do it 
-for you::
+If you don't have Ansible installed, the script
+``bootstrap-ansible.sh`` can do it for you::
    
    $ ./misc/scripts/bootstrap-ansible.sh v1.8.2
 
-This installs version 1.8.2. Without version pin, the newest will be installed.
+This installs version 1.8.2. Without version pin, the newest version
+will be installed.
+
 
 Other commonly used choices on how to install DebOps:
 
