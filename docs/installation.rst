@@ -7,8 +7,8 @@ Installing Dependencies
 DebOps requires a dependency that is not already installed by Ansible.
 Install ``netaddr`` however you see fit:
 
-   $ apt-get install python-netaddr
-   $ yum install python-netaddr
+   $ apt-get install python-pip python-netaddr
+   $ yum install python-pip python-netaddr
    $ pip install netaddr
 
 
@@ -16,12 +16,10 @@ Install ``netaddr`` however you see fit:
 Installing the DebOps scripts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Download and install the scripts. As long as there is no release with
-a officially declared version number we suggest cloning the git
-repository. This makes it easy to update later::
+The easiest way to install DebOps is::
 
-   $ git clone https://github.com/debops/debops
-   $ cd debops
+   $ sudo pip install debops
+   $ debops-update
 
 If you dont have Ansible installed, the bootstrap-ansible.sh can do it 
 for you::
@@ -30,30 +28,13 @@ for you::
 
 This installs version 1.8.2. Without version pin, the newest will be installed.
 
-Choose, who you want DebOps to be installed:
+Other commonly used choices on how to install DebOps:
 
-* System-wide into /usr/local::
+* Install the scripts into your own ``~/bin``::
 
-     sudo make install
+   $ pip install --user debops
+   $ debops-update
 
-* System-wide into /opt/debops:
-  This would allow passing ownership of
-  the installation to some DebOps-operator. Mind to include
-  ``/opt/debops/bin`` into your ``PATH``.
-
-  ::
-
-     sudo make install PREFIX=/opt/debops
-     sudo chown -R debops:debops /opt/debops
-
-* Scripts into /usr/bin, playbooks and roles into $HOME: This has the
-  advantage that every user can have her own set of roles and
-  playbooks.
-
-  ::
-
-    sudo make install-scripts
-    debops-update
 
 ..
  Local Variables:
