@@ -36,6 +36,14 @@ Other commonly used choices on how to install DebOps:
    $ debops-update
 
 
+Updating the DebOps scripts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+For updating the DebOps scripts run (assuming you used `sudo` when
+installing)::
+
+  $ sudo pip install -U --no-deps debops
+
 ..
  Local Variables:
  mode: rst
