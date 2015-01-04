@@ -35,6 +35,10 @@ Other commonly used choices on how to install DebOps:
    $ pip install --user debops
    $ debops-update
 
+For more installation options please have a look at the `pip User Guide
+<https://pip.pypa.io/en/latest/user_guide.html>`_.
+
+
 
 Updating the DebOps scripts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
