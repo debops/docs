@@ -4,57 +4,78 @@ Installation
 Installing Dependencies
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-DebOps requires a dependency that is not installed by Ansible. Install
-``netaddr`` however you see fit::
+DebOps requires a dependency that is not already installed by Ansible.
+Install ``netaddr`` however you see fit:
 
-   $ apt-get install python-netaddr
-   $ yum install python-netaddr
+   $ apt-get install python-pip python-netaddr
+   $ yum install python-pip python-netaddr
    $ pip install netaddr
-   $ easy_install netaddr
 
 
 
 Installing the DebOps scripts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Download and install the scripts. As long as there is no release with
-a officially declared version number we suggest cloning the git
-repository. This makes it easy to update later::
+The easiest way to install DebOps is::
 
-   $ git clone https://github.com/debops/debops
-   $ cd debops
+   $ sudo pip install debops
+   $ debops-update
 
-If you dont have Ansible installed, the bootstrap-ansible.sh can do it 
-for you::
+If you don't have Ansible installed, the script
+``bootstrap-ansible.sh`` can do it for you::
    
    $ ./misc/scripts/bootstrap-ansible.sh v1.8.2
 
-This installs version 1.8.2. Without version pin, the newest will be installed.
+This installs version 1.8.2. Without version pin, the newest version
+will be installed.
 
-Choose, who you want DebOps to be installed:
 
-* System-wide into /usr/local::
+Other commonly used choices on how to install DebOps:
 
-     sudo make install
+* Install the scripts into your own ``~/bin``::
 
-* System-wide into /opt/debops:
-  This would allow passing ownership of
-  the installation to some DebOps-operator. Mind to include
-  ``/opt/debops/bin`` into your ``PATH``.
+   $ pip install --user debops
+   $ debops-update
 
-  ::
+For more installation options please have a look at the `pip User Guide
+<https://pip.pypa.io/en/latest/user_guide.html>`_.
 
-     sudo make install PREFIX=/opt/debops
-     sudo chown -R debops:debops /opt/debops
 
-* Scripts into /usr/bin, playbooks and roles into $HOME: This has the
-  advantage that every user can have her own set of roles and
-  playbooks.
+Installing the current development version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  ::
+If you want to install the current development version of DebOps,
+choose one off::
 
-    sudo make install-scripts
-    debops-update
+  $ sudo pip install https://github.com/debops/debops/archive/master.zip
+
+
+If you want to help working on DebOps, it's best to check out the
+scripts from github::
+
+  $ git clone https://github.com/debops/debops ~/my-projects/debops
+  $ cd ~/my-projects/debops
+
+You can still install the scripts so you can use them easily, e.g.::
+
+   $ pip install --user ~/my-projects/debops
+   $ debops-update
+
+
+Updating the DebOps scripts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+For updating the DebOps scripts run (assuming you used `sudo` when
+installing)::
+
+  $ sudo pip install -U --no-deps debops
+
+
+If you installed the development version of DebOps and want to update
+it, simply use::
+
+  $ sudo pip install -U --no https://github.com/debops/debops/archive/master.zip
+
 
 ..
  Local Variables:
