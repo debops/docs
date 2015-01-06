@@ -436,7 +436,7 @@ hosts
 
 ::
 
-    [debops_rails]
+    [debops_rails_deploy]
     somehost
 
 inventory/host_vars/somehost.yml
@@ -461,7 +461,7 @@ playbook
     # playbooks/custom.yml
 
     - name: Deploy yourappname
-      hosts: debops_rails
+      hosts: debops_rails_deploy
       sudo: true
 
       roles:
