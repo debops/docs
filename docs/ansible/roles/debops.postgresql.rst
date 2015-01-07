@@ -54,7 +54,7 @@ List of default variables available in the inventory::
     postgresql_owner: 'postgres'
     postgresql_group: 'postgres'
     
-    # List od hosts/networks to allow through firewall. By default nothing is allowed
+    # List of hosts/networks to allow through firewall. By default nothing is allowed
     #postgresql_default_allow:
     #  - '192.168.0.0/16'
     
