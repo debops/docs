@@ -7,12 +7,13 @@ EncFS and GPG.
 1. Make sure you have encfs installed, ie. ``apt-get install encfs``
 2. Make sure you have a `GPG keypair <https://alexcabal.com/creating-the-perfect-gpg-keypair/>`_
 3. Make sure ``$project_dir/ansible/secret/`` is empty
-4. Run ``debops-padlock`` and enter your GPG password unless you have an agent
-5. Goto ``$project_dir/ansible/.encfs.secret/``
-6. Run ``./padlock unlock``
-7. Do something that would result in adding files to ``secret/``, such as touching a file
-8. Run ``./padlock lock``
-9. Confirm you have 1 or more sub-folders or files in ``.encfs.secret/``
+4. Run ``debops-padlock init`` and enter your GPG password unless you
+   have an agent
+5. Run ``debops-padlock unlock``
+6. Do something that would result in adding files to ``secret/``, such
+   as touching a file
+7. Run ``debops-padlock lock``
+8. Confirm you have 1 or more sub-folders or files in ``.encfs.secret/``
 
 The above steps performed the following tasks:
 
@@ -51,7 +52,7 @@ inside of ``secret/`` to somewhere else, then start the steps above.
 Why does it ask for the GPG password twice?
 -------------------------------------------
 
-2 files are being encrypted. The EncFS configuration and the EncFS keyfile.
+Two files are being encrypted. The EncFS configuration and the EncFS keyfile.
 If you use an agent then you won't have to enter your password.
 
 What if GPG fails to decrypt?
@@ -59,3 +60,10 @@ What if GPG fails to decrypt?
 If the configuration is not decrypted properly, EncFS discards the garbled data
 and tries to create a new encrypted directory. You can just ``CTRL+C`` to
 quit and fix your issues.
+
+
+..
+ Local Variables:
+ mode: rst
+ ispell-local-dictionary: "american"
+ End:
