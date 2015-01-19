@@ -20,7 +20,7 @@ The easiest way to install DebOps is::
    $ sudo pip install debops
    $ debops-update
 
-If you don't have Ansible installed, the script
+If you don't have installed Ansible already, the script
 ``bootstrap-ansible.sh`` can do it for you::
    
    $ ./misc/scripts/bootstrap-ansible.sh v1.8.2
