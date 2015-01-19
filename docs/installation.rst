@@ -5,7 +5,7 @@ Installing Dependencies
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 DebOps requires a dependency that is not already installed by Ansible.
-Install ``netaddr`` however you see fit:
+Install ``netaddr`` however you see fit::
 
    $ apt-get install python-pip python-netaddr
    $ yum install python-pip python-netaddr
