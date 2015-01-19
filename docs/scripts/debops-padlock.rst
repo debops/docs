@@ -59,3 +59,10 @@ What if GPG fails to decrypt?
 If the configuration is not decrypted properly, EncFS discards the garbled data
 and tries to create a new encrypted directory. You can just ``CTRL+C`` to
 quit and fix your issues.
+
+
+..
+ Local Variables:
+ mode: rst
+ ispell-local-dictionary: "american"
+ End:
