@@ -15,10 +15,14 @@ Install ``netaddr`` however you see fit::
 Installing the DebOps scripts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The easiest way to install DebOps is::
+The easiest way to install DebOps is using pip, the Python package
+installer, which fetches debops from the `Python Package Index`__::
 
    $ sudo pip install debops
    $ debops-update
+
+.. __: https://pypi.python.org/pypi
+
 
 If you don't have installed Ansible already, the script
 ``bootstrap-ansible.sh`` can do it for you::
