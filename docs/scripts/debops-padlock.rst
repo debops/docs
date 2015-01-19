@@ -52,7 +52,7 @@ inside of ``secret/`` to somewhere else, then start the steps above.
 Why does it ask for the GPG password twice?
 -------------------------------------------
 
-2 files are being encrypted. The EncFS configuration and the EncFS keyfile.
+Two files are being encrypted. The EncFS configuration and the EncFS keyfile.
 If you use an agent then you won't have to enter your password.
 
 What if GPG fails to decrypt?
