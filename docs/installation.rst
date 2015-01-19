@@ -5,10 +5,9 @@ Installing Dependencies
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 DebOps requires a dependency that is not already installed by Ansible.
-Install ``netaddr`` however you see fit:
+Install ``netaddr`` however you see fit::
 
    $ apt-get install python-pip python-netaddr
-   $ yum install python-pip python-netaddr
    $ pip install netaddr
 
 
@@ -16,12 +15,16 @@ Install ``netaddr`` however you see fit:
 Installing the DebOps scripts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The easiest way to install DebOps is::
+The easiest way to install DebOps is using pip, the Python package
+installer, which fetches debops from the `Python Package Index`__::
 
    $ sudo pip install debops
    $ debops-update
 
-If you don't have Ansible installed, the script
+.. __: https://pypi.python.org/pypi
+
+
+If you don't have installed Ansible already, the script
 ``bootstrap-ansible.sh`` can do it for you::
    
    $ ./misc/scripts/bootstrap-ansible.sh v1.8.2
