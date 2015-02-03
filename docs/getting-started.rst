@@ -80,7 +80,7 @@ Setting up Etherpad quickly
 
 * ``ansible/inventory/hosts``::
 
-    [deops_etherpad]
+    [debops_etherpad]
     server1
 
 * ``ansible/inventory/host_vars/server1.yml``::
