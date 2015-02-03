@@ -48,11 +48,11 @@ Contents:
 
    installation
    getting-started
-   contributing
    creating-a-local-apt-server-to-use-backports
    service-ports
    using-linux-containers
    versions
+   contributing
    scripts/index
    ansible/roles/index
 
