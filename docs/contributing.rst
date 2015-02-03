@@ -53,44 +53,41 @@ Code submissions
 We accept `pull requests <https://help.github.com/articles/using-pull-requests>`_
 on everything. Here's a quick work flow:
 
-Fork it
--------
 
-- Fork it into your Github account
-- Clone your fork onto your workstation
-    - ``git clone git@github.com:YOURACCOUNT/the-repo.git``
-- Add the official repo as your upstream
-    - ``git remote add upstream https://github.com/debops/the-repo``
+1. Fork it into your Github account (https://github.com/debops/debops/fork)
+2. Clone your fork onto your workstation::
 
-Make your contribution
-----------------------
+     git clone git@github.com:YOURACCOUNT/debops.git
 
-::
+3. Create your feature branch (``git checkout -b my-new-feature``)
+4. Commit your changes (``git commit -am 'Add some feature'``)
 
-    git checkout -b somefeaturebranch
-    git add <the files you modified>
-    git push origin somefeaturebranch
+   Please try your best to make great commit messages. Have a read
+   through `better commits
+   <http://web-design-weekly.com/2013/09/01/a-better-git-commit>`_ and
+   research how to use ``git add -p``.
 
-Please try your best to make great commit messages. Have a read through
-`better commits <http://web-design-weekly.com/2013/09/01/a-better-git-commit>`_
-and research how to use ``git add -p``.
+5. Push to the branch (``git push origin my-new-feature``)
 
-Submit your pull request through Github
----------------------------------------
+6. Submit your pull request through Github: Select the branch on your
+   repo, click the green PR button and submit it.
 
-Select the branch on your repo, click the green PR button and submit it.
+7. (Optional) Keep in sync with development in the official repo:
 
-Update your fork
-----------------
+   a. Add the official repo as your `upstream`::
 
-You should do this before making any commits and after your PR has been accepted.
+         git remote add upstream https://github.com/debops/debops
 
-::
+   b. Update your fork::
 
-    git checkout master # or whatever the main PR branch is for that repo
-    git fetch upstream
-    git rebase upstream/master
-    git push origin master
+        git checkout master # or whatever the main PR branch is for that repo
+        git fetch upstream
+        git rebase upstream/master
+        git push origin master
+
+      You should do this before making any commits and after your pull
+      request has been accepted.
+
 
 Code style
 ^^^^^^^^^^
@@ -113,3 +110,9 @@ By contributing you agree that these contributions are your own
 (or approved by your employer) and you grant a full, complete, irrevocable
 copyright license to all users and developers of the project, present and
 future, pursuant to the license of the project.
+
+..
+ Local Variables:
+ mode: rst
+ ispell-local-dictionary: "american"
+ End:

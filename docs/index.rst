@@ -48,6 +48,7 @@ Contents:
 
    installation
    getting-started
+   configuration
    creating-a-local-apt-server-to-use-backports
    service-ports
    using-linux-containers

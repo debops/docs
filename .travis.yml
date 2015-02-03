@@ -8,5 +8,5 @@ python:
 install: "pip install -q sphinx==1.2.2"
 
 # command to run tests
-script: ./test.sh
+script: ./test.sh -W
 
