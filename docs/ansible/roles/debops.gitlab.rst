@@ -11,7 +11,7 @@ to new version when support for it becomes available (new GitLab version is
 released on 22nd of each month, usually ``debops.gitlab`` role is updated
 to support new version shortly after that).
 
-The credentials are save in the secrets dir ``secret/credentials/host/gitlab/admin/password``
+The credentials are saved in the secrets dir ``secret/credentials/host/gitlab/admin/password``
 The login is ``admin@host`` 
 
 .. _GitLab: https://about.gitlab.com/
