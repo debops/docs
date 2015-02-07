@@ -42,7 +42,7 @@ configuration. This will make you more comfortable with the results.
 For the very first try, you can put this into
 ``ansible/inventory/host_vars/server1.yml``::
 
-  ntp_timezone: 'Europe/Berlin'
+  ntp_timezone: 'Europe/Paris'
   ssh_host_allow: [ '192.168.178.0/24' ]
   postfix_relayhost: 'mail.intern.example.com'
   postfix_default_local_alias_recipients: ['admin@example.com']
