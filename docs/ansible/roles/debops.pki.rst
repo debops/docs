@@ -16,7 +16,7 @@ use of the certificates within your applications easy and intuitive.
 
 `debops.pki` creates the certificate infrastructure on your ansible controller.
 CAs are stored on the controller, keys, certification requests and signed certs are stored on the hosts.
-For practical purposes, everything key related is copied to the ansible controller too! Your controller contains many secrets and must be well protected.
+For practical purposes, everything PKI related is copied to the ansible controller too! Your controller contains many secrets and must be well protected.
 
 Certificates
     Here you define the certificates you want or have.
@@ -24,7 +24,7 @@ Certificates
     You can set various parameters:
 
     - realm
-        Which realm to use for storing the key and which CA to use for signing
+        Which source and destination to use for keys, certificates and so on and which CA to use for signing. This information is provided by the given realm.
     - cn
         The common name
     - dns
@@ -91,8 +91,6 @@ Then you must tell nginx about these files:
 
     nginx_pki_crt: 'certs/<yourcert>.crt'
     nginx_pki_key: 'private/<yourcert>.key'
-
-You can delete the keys and certificates after the upload if you want.
 
 2. Let debops create your certificate
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
