@@ -14,6 +14,120 @@ certificates signed by an external CA to your hosts in an easy and
 convenient way. Role will automatically create a set of symlinks to make
 use of the certificates within your applications easy and intuitive.
 
+`debops.pki` creates the certificate infrastructure on your ansible controller.
+CAs are stored on the controller, keys, certification requests and signed certs are stored on the hosts.
+For practical purposes, everything PKI related is copied to the ansible controller too! Your controller contains many secrets and must be well protected.
+
+Certificates
+    Here you define the certificates you want or have.
+    They get signed automatically.
+    You can set various parameters:
+
+    - realm
+        Which source and destination to use for keys, certificates and so on and which CA to use for signing. This information is provided by the given realm.
+    - cn
+        The common name
+    - dns
+        subjectAltName, additional dns names. Please us this for wildcards
+    - uri
+        a key that is in the certificate
+    - ip
+        can be added to the subjectAltName
+    - e
+        An E-Mail address for the Signing request
+    - mail
+        An additional E-Mail address for the Signing request
+
+Realm
+    Realm is a term used in debops to allow organisation of     certifcates independent of hosts.
+    A realm is mainly used to define a channel between your ansible controller and the hosts.
+    By defining a realm at later configuration items, debops knows where to find file on server and controller.
+    In addition, you can define the default CA to sign your certificates.
+
+    domain realm:
+        Wildcard Certificates that are stored on each host of a domain.
+        local in secret/pki/<ansible_domain>/realms/domain
+        remote in /etc/pki/domain
+
+    host-domain realm:
+        Wildcard Certificates that are stored on one host of a domain.
+        local in secret/pki/<ansible_domain>/realms/hosts/{{ ansible_fqdn }}/domain
+        remote in /etc/pki/domain
+
+
+    service realm:
+        Special Realm for applications that cannot handle intermediate CAs.
+        Every certificate here is based of special Service Root CA
+
+    host-service realm
+        Same thing as host-domain realm, but for service.
+
+    host-internal realm
+        Host specific non wildcard certificates for internal communication
+
+    You usually don't need to add more realms
+
+CAs.
+    Debops creates its own CA. It supports moving the Root CA to an offline backup for security reasons.
+    You usually don't need to add more CAs
+
+pki_routes.
+    Helper code to move certificates around. XXX
+
+
+Examples
+--------
+
+Upload your own certificate for nginx
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Put your cert into `secret/pki/{ansible_domain}/realms/hosts/{ansible_fqdn}/host/certs`.
+
+Put your key in `secret/pki/{ansible_domain}/realms/hosts/{ansible_fqdn}/host/private`.
+
+Then you must tell nginx about these files:
+
+.. code::
+
+    nginx_pki_crt: 'certs/<yourcert>.crt'
+    nginx_pki_key: 'private/<yourcert>.key'
+
+2. Let debops create your certificate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Warning this is complicated.
+
+.. code::
+
+    pki_certificates:
+      - cn: 'git.yourotherdomain.com'
+        source: 'hosts/{{ ansible_fqdn }}/host'
+        destination: 'host'
+        filename: 'git.yourotherdomain.com'
+
+    pki_routes:
+      - name: 'host_git.starzel.de'
+        authority: 'ca/internal/certs'
+        realm: 'hosts/{{ ansible_fqdn }}/host/certs'
+        file: 'git.yourotherdomain.com.crt'
+
+    nginx_pki_crt: 'certs/git.yourotherdomain.com.crt'
+    nginx_pki_key: 'private/git.yourotherdomain.com.key'
+
+Here is an explanation of each attribute:
+
+- pki_certificates.cn: The common name used for the cert. Must be your domain name
+- pki_certificates.source: Where your certificate will be stored in the ansible controller. `hosts/{{ ansible_fqdn }}` is always correct. for the last part `host`, see next parameter
+- pki_certificates.destination: the realm to use. See above for documentation of realms. The `host` of of `source` above must be either `host` or `domain`, dependening on the `destination` defined here.
+- pki_certificates.filename: Not surprisingly, the filename of the cert. There will be multiple files and they each get their own suffix.
+- pki_routes.name: A unique name used for creating a script.
+- pki_routes.authority: Should be `ca/internal/certs` for `host` certificates and `ca/domain/certs` for `domain` certificates.
+- pki_routes.realm: This must match `pki_certificates.source` plus an additional `/certs` suffix.
+- pki_routes.file: This must match `pki_certificates.filename` with an additional `.crt` suffix.
+- nginx_pki_crt: This must be `certs/` plus `pki_routes.file`
+- nginx_pki_key: This must be `private/` plus `pki_routes.file` with the suffix `key` instead of `crt`
+
+
 .. contents:: Table of Contents
    :local:
    :depth: 2
