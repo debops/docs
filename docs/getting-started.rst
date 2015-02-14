@@ -18,8 +18,8 @@ Enter your hosts into ``ansible/inventory/hosts``. For the beginning
 we suggest entering one server only so you can make yourself
 comfortable with DebOps. Here is an example::
 
-  [all my servers]
-  server1   hostname=serverone.example.com
+  [all_servers]
+  serverone   ansible_ssh_host=serverone.example.com
 
 
 **Verify you can access the server**
@@ -37,15 +37,26 @@ comfortable with DebOps. Here is an example::
    configuration will bring your system into a bad state. Please check
    `Notes about specific platforms`_ for more information. Sorry!
 
-Before running debops the first time, we suggest you set up a minimal
+Before running ``debops`` the first time, we suggest you set up a minimal
 configuration. This will make you more comfortable with the results.
 For the very first try, you can put this into
-``ansible/inventory/host_vars/server1.yml``::
+``ansible/inventory/host_vars/serverone/vars.yml``::
 
+  # Set custom timezone on the server
   ntp_timezone: 'Europe/Paris'
-  ssh_host_allow: [ '192.168.178.0/24' ]
+
+  # Protect the SSH service by specifying list of hosts/networks which can
+  # access it (by default access is allowed from anywhere, but firewall blocks
+  # too many connection attempts in a short amout of time)
+  sshd_host_allow: [ '192.168.178.0/24' ]
+
+  # Specify a mail server to send all mail through (it needs to accept the
+  # incoming messages from your host)
   postfix_relayhost: 'mail.intern.example.com'
-  postfix_default_local_alias_recipients: ['admin@example.com']
+
+  # Set a default admin e-mail address where all messages to root account will
+  # be forwarded
+  postfix_default_local_alias_recipients: [ 'admin@example.com' ]
 
 
 **Run the DebOps playbooks**
@@ -81,18 +92,18 @@ Setting up Etherpad quickly
 * ``ansible/inventory/hosts``::
 
     [debops_etherpad]
-    server1
+    serverone
 
-* ``ansible/inventory/host_vars/server1.yml``::
+* ``ansible/inventory/host_vars/serverone/etherpad.yml``::
 
     etherpad_title: 'Our Corporate Etherpad'
     etherpad_disable_ip_logging: True
     etherpad_admins: [ 'etherpad-admin' ]
 
-After running ``debops -l server1`` you can access the running
+After running ``debops -l serverone`` you can access the running
 etherpad on ``pad.example.com`` (given the hostname resolve
-correctly). DebOps automatically installed and configured `nginx`,
-`nodejs` and `mysql` (resp. `mariadb`) for you.
+correctly). DebOps automatically installed and configured ``nginx``,
+``nodejs`` and ``mysql`` (resp. ``mariadb``) for you.
 
 
 More Examples
@@ -118,7 +129,9 @@ Ubuntu
 Rapbian (Debian for Raspberry PI)
    Requires some setup::
 
+     # Default administrator account
      ansible_ssh_user: 'pi'
+
      # Work around missing detection of Raspbian in Ansible
      apt_default_sources_lookup: 'raspbian'
      apt_default_mirrors_lookup: 'raspbian'

@@ -1,33 +1,44 @@
 Installation
-===========================
+============
 
-Installing Dependencies
-^^^^^^^^^^^^^^^^^^^^^^^^
+Required Dependencies
+^^^^^^^^^^^^^^^^^^^^^
 
-DebOps requires a dependency that is not already installed by Ansible.
-Install ``netaddr`` however you see fit::
+Besides `Ansible`_, DebOps requires a few additional packages to be installed
+on your workstation (Ansible Controller). These are:
 
-   $ apt-get install python-pip python-netaddr
-   $ pip install netaddr
+- Python ``netaddr`` library
+- ``uuidgen``
 
+To install required packages on `Debian GNU/Linux`_ or derivatives, run::
 
+    $ sudo apt-get install python-pip python-netaddr uuid-runtime
+
+.. _Ansible: http://ansible.com/
+.. _Debian GNU/Linux: http://debian.org/
 
 Installing the DebOps scripts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The easiest way to install DebOps is using pip, the Python package
-installer, which fetches debops from the `Python Package Index`__::
+The easiest way to install DebOps is using ``pip``, the Python package
+installer, which fetches ``debops`` from the `Python Package Index`__::
 
    $ sudo pip install debops
+
+After scripts are installed, you need to download the DebOps playbooks and
+roles from GitHub. You do that using command::
+
    $ debops-update
+
+By default, they will be downloaded to ``~/.local/share/debops/`` directory.
 
 .. __: https://pypi.python.org/pypi
 
 
 If you don't have installed Ansible already, the script
 ``bootstrap-ansible.sh`` can do it for you::
-   
-   $ ./misc/scripts/bootstrap-ansible.sh v1.8.2
+
+     $ ./misc/scripts/bootstrap-ansible.sh v1.8.2
 
 This installs version 1.8.2. Without version pin, the newest version
 will be installed.
