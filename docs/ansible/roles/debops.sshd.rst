@@ -29,6 +29,15 @@ Role dependencies
 - ``debops.tcpwrappers``
 
 
+Usage tips
+~~~~~~~~~~
+
+By default, sshd creates a firewall rule to limit access by ssh.
+If you believe you should be able to access a server and you can ping it but not ssh, connect to the machine by other means and check if you are blocked. you can do this with the command ``cat /proc/net/xt_recent/badguys``.
+You can get there if you try too many connection attempts at a short time. You can also check the ``dmesg`` log file. Unsuccessful logging attempts are logged there.
+
+
+
 Role variables
 ~~~~~~~~~~~~~~
 
