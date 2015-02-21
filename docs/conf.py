@@ -15,6 +15,13 @@
 import sys
 import os
 
+# Generate documentation on the fly based on Ansible default variables
+import yaml2rst
+
+for element in os.listdir('ansible/roles'):
+  if os.path.isdir('ansible/roles/' + element):
+    yaml2rst.convert_file('ansible/roles/' + element + '/defaults/main.yml', 'ansible/roles/' + element + '/docs/defaults.rst')
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -67,7 +74,7 @@ release = 'master'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns = ['_build','ansible/roles/ansible-*/*.rst','ansible/roles/ansible-*/docs/parts']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.

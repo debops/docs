@@ -6,4 +6,5 @@ Ansible roles provided in DebOps
    :glob:
 
    *
+   ansible-*/docs/*
 
