@@ -56,6 +56,7 @@ Contents:
    contributing
    scripts/index
    ansible/roles/index
+   ansible/roles/ansible-*/docs/index
 
 
 .. |debops_logo| image:: http://debops.org/images/debops-small.png

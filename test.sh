@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Clone submodules
+git submodule update --init
+
 cd docs
 
 # Fix sphinx to ignore non-local image warnings

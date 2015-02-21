@@ -1,0 +1,4 @@
+[submodule "docs/ansible/roles/ansible-postfix"]
+	path = docs/ansible/roles/ansible-postfix
+	url = https://github.com/debops/ansible-postfix
+	branch = master
