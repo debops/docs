@@ -2,3 +2,7 @@
 	path = docs/ansible/roles/ansible-postfix
 	url = https://github.com/debops/ansible-postfix
 	branch = master
+[submodule "docs/ansible/roles/ansible-rsnapshot"]
+	path = docs/ansible/roles/ansible-rsnapshot
+	url = https://github.com/debops/ansible-rsnapshot
+	branch = master
