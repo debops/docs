@@ -6,3 +6,7 @@
 	path = docs/ansible/roles/ansible-rsnapshot
 	url = https://github.com/debops/ansible-rsnapshot
 	branch = master
+[submodule "docs/ansible/roles/ansible-secret"]
+	path = docs/ansible/roles/ansible-secret
+	url = https://github.com/debops/ansible-secret
+	branch = master
