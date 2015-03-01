@@ -64,7 +64,7 @@ Realm
 
 
     service realm:
-        Special Realm for applications that cannot handle intermediate CAs.
+        Special realm for applications that cannot handle intermediate CAs.
         Every certificate here is based of special Service Root CA
 
     host-service realm
