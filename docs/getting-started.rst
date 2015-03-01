@@ -83,6 +83,36 @@ You may now start adding systems into ``ansible/inventory/hosts`` as
 you like. To make install some software just add the host into the
 resp. group and add some configuration options.
 
+
+
+Prepare a new host for using DebOps
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To add another host to DebOps a few requirements have to be fulfilled:
+
+* The SSH private key of the user running ``debops`` has to be `loaded
+  into ssh-agent <https://wiki.debian.org/SSH#ssh-agent_and_ssh-add>`_
+  and the corresponding environment variables have to point to the
+  running ``ssh-agent`` process.
+
+* The SSH host key of the new host has to be added to the
+  ``~/.ssh/known_hosts`` file of the user running ``debops``.
+
+* It should be possible to login with `root` into the new host.
+
+**Run the DebOps boostrap**
+
+::
+
+   $ debops bootstrap -u root -k -l <hostname>
+
+This will install ``python`` and ``sudo`` on the target host, create an
+account of the user running ``debops``, install its SSH public key into
+the ``~/.ssh/authorized_keys`` file and grant it full ``sudo``
+permissions.
+
+
+
 Examples
 ^^^^^^^^^^^^^^
 
