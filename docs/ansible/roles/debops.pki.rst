@@ -124,18 +124,42 @@ Warning this is complicated.
     nginx_pki_crt: 'certs/git.yourotherdomain.com.crt'
     nginx_pki_key: 'private/git.yourotherdomain.com.key'
 
+
 Here is an explanation of each attribute:
 
-- pki_certificates.cn: The common name used for the cert. Must be your domain name
-- pki_certificates.source: Where your certificate will be stored in the ansible controller. `hosts/{{ ansible_fqdn }}` is always correct. for the last part `host`, see next parameter
-- pki_certificates.destination: the realm to use. See above for documentation of realms. The `host` of of `source` above must be either `host` or `domain`, dependening on the `destination` defined here.
-- pki_certificates.filename: Not surprisingly, the filename of the cert. There will be multiple files and they each get their own suffix.
-- pki_routes.name: A unique name used for creating a script.
-- pki_routes.authority: Should be `ca/internal/certs` for `host` certificates and `ca/domain/certs` for `domain` certificates.
-- pki_routes.realm: This must match `pki_certificates.source` plus an additional `/certs` suffix.
-- pki_routes.file: This must match `pki_certificates.filename` with an additional `.crt` suffix.
-- nginx_pki_crt: This must be `certs/` plus `pki_routes.file`
-- nginx_pki_key: This must be `private/` plus `pki_routes.file` with the suffix `key` instead of `crt`
+- ``pki_certificates.cn``: The common name used for the cert. Must be
+  your domain name.
+
+- ``pki_certificates.source``: Where your certificate will be stored
+  in the ansible controller. ``hosts/{{ ansible_fqdn }}`` is always
+  correct. For the last part ``host``, see the next parameter.
+
+- ``pki_certificates.destination``: the realm to use. See above for
+  documentation of realms. The ``host`` of of ``source`` above must be
+  either ``host`` or ``domain``, dependening on the ``destination``
+  defined here.
+
+- ``pki_certificates.filename``: Not surprisingly, the filename of the
+  cert. There will be multiple files and they each get their own
+  suffix.
+
+- ``pki_routes.name``: A unique name used for creating a script.
+
+- ``pki_routes.authority``: Should be ``ca/internal/certs`` for
+  ``host`` certificates and ``ca/domain/certs`` for ``domain``
+  certificates.
+
+- ``pki_routes.realm``: This must match ``pki_certificates.source``
+  plus an additional ``/certs`` suffix.
+
+- ``pki_routes.file``: This must match ``pki_certificates.filename``
+  with an additional ``.crt`` suffix.
+
+- ``nginx_pki_crt``: This must be ``certs/`` plus the value of
+  ``pki_routes.file``.
+
+- ``nginx_pki_key``: This must be ``private/`` plus `pki_routes.file``
+  with the suffix ``key`` instead of ``crt``
 
 
 .. contents:: Table of Contents
