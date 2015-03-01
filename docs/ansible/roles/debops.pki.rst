@@ -54,22 +54,21 @@ Realm
     By defining a realm at later configuration items, debops knows where to find file on server and controller.
     In addition, you can define the default CA to sign your certificates.
 
-    domain realm:
+    `domain` realm:
         Wildcard Certificates that are stored on each host of a domain.
         local in secret/pki/<ansible_domain>/realms/domain
         remote in /etc/pki/domain
 
-    host-domain realm:
+    `host-domain` realm:
         Wildcard Certificates that are stored on one host of a domain.
         local in secret/pki/<ansible_domain>/realms/hosts/{{ ansible_fqdn }}/domain
         remote in /etc/pki/domain
 
-
-    service realm:
+    `service` realm:
         Special realm for applications that cannot handle intermediate CAs.
         Every certificate here is based of special Service Root CA
 
-    host-service realm
+    `host-service` realm
         Same thing as host-domain realm, but for service.
 
     host-internal realm
@@ -107,7 +106,7 @@ Then you must tell nginx about these files:
 
 Warning this is complicated.
 
-.. code::
+::
 
     pki_certificates:
       - cn: 'git.yourotherdomain.com'
@@ -146,7 +145,7 @@ Here is an explanation of each attribute:
 Installation
 ~~~~~~~~~~~~
 
-This role requires at least Ansible ``v1.7.0``. To install it, run::
+This role requires at least Ansible `v1.7.0`. To install it, run::
 
     ansible-galaxy install debops.pki
 
