@@ -77,19 +77,19 @@ Realm
 
     You usually don't need to add more realms
 
-CAs.
+CAs
     Debops creates its own CA. It supports moving the Root CA to an offline backup for security reasons.
     You usually don't need to add more CAs
 
-pki_routes.
+pki_routes
     Helper code to move certificates around. XXX
 
 
 Examples
 --------
 
-Upload your own certificate for nginx
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Upload your own certificate for nginx
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Put your cert into `secret/pki/{ansible_domain}/realms/hosts/{ansible_fqdn}/host/certs`.
 
