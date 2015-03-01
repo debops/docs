@@ -47,7 +47,9 @@ Certificates
         An additional E-Mail address for the Signing request
 
 Realm
-    Realm is a term used in debops to allow organisation of     certifcates independent of hosts.
+    In Debops realms are used for organizing certificates independent
+    of hosts.
+
     A realm is mainly used to define a channel between your ansible controller and the hosts.
     By defining a realm at later configuration items, debops knows where to find file on server and controller.
     In addition, you can define the default CA to sign your certificates.
