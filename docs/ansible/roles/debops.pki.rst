@@ -23,19 +23,27 @@ Certificates
     They get signed automatically.
     You can set various parameters:
 
-    - realm
-        Which source and destination to use for keys, certificates and so on and which CA to use for signing. This information is provided by the given realm.
-    - cn
+    ``realm``:
+        Which source and destination to use for keys, certificates and
+	so on and which CA to use for signing. This information is
+	provided by the given realm.
+
+    ``cn``:
         The common name
-    - dns
-        subjectAltName, additional dns names. Please us this for wildcards
-    - uri
+
+    ``dns``:
+        subjectAltName, additional dns names. Please us this for wildcards.
+
+    ``uri``:
         a key that is in the certificate
-    - ip
+
+    ``ip``:
         can be added to the subjectAltName
-    - e
+
+    ``e``:
         An E-Mail address for the Signing request
-    - mail
+
+    ``mail``:
         An additional E-Mail address for the Signing request
 
 Realm
