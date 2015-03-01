@@ -90,16 +90,17 @@ Examples
 1. Upload your own certificate for nginx
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Put your cert into `secret/pki/{ansible_domain}/realms/hosts/{ansible_fqdn}/host/certs`.
+1. Put your `cert` into
+   file:`secret/pki/{ansible_domain}/realms/hosts/{ansible_fqdn}/host/certs/<yourcert>.crt`.
 
-Put your key in `secret/pki/{ansible_domain}/realms/hosts/{ansible_fqdn}/host/private`.
+1. Put your `key` into
+   file:`secret/pki/{ansible_domain}/realms/hosts/{ansible_fqdn}/host/private/<yourcert>.key`.
 
-Then you must tell nginx about these files:
+3. Then you must tell nginx about these files::
 
-.. code::
+     nginx_pki_crt: 'certs/<yourcert>.crt'
+     nginx_pki_key: 'private/<yourcert>.key'
 
-    nginx_pki_crt: 'certs/<yourcert>.crt'
-    nginx_pki_key: 'private/<yourcert>.key'
 
 2. Let debops create your certificate
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
