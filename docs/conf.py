@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# DebOps documentation build configuration file, created by
-# sphinx-quickstart on Tue Oct 21 10:34:56 2014.
+# DebOps documentation build configuration file
+# Copyright (C) 2014-2015 DebOps projekt team
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -54,7 +54,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'DebOps'
-copyright = u'2014, Maciej Delmanowski, Nick Janetakis'
+copyright = u'2014-2015, Maciej Delmanowski, Nick Janetakis'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
