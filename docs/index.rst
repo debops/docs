@@ -47,6 +47,7 @@ Contents:
    :glob:
 
    debops/docs/index
+   installation
    getting-started
    creating-a-local-apt-server-to-use-backports
    service-ports
