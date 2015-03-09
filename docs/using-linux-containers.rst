@@ -7,7 +7,7 @@ Using Linux containers
 - `Interacting with a container`_
 
 Host requirements
-^^^^^^^^^^^^^^^^^
+-----------------
 
 **Your host must be Debian based**
 
@@ -24,7 +24,7 @@ but if you not you can run ``ssh-keygen -t`` and follow the instructions.
 DebOps expects the RSA keys to be in ``~/.ssh``.
 
 Configuring a host
-^^^^^^^^^^^^^^^^^^
+------------------
 
 **Add it to your inventory**
 
@@ -64,7 +64,7 @@ a kernal update. Other operating systems like Ubuntu 14.x and Debian Jessie
 do not require the reboot.
 
 LXC cheatsheet
-^^^^^^^^^^^^^^
+--------------
 
 ::
 
@@ -88,7 +88,7 @@ LXC cheatsheet
     sudo lxc-[tab complete]
 
 Interacting with a container
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------
 
 Once it has been created and it's running you can SSH to it, just run:
 

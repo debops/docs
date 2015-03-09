@@ -77,7 +77,7 @@ release = 'master'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build','ansible/roles/ansible-*/*.rst','ansible/roles/ansible-*/docs/parts']
+exclude_patterns = ['_build','debops/*.rst','debops-playbooks/*.rst','ansible/roles/ansible-*/*.rst','ansible/roles/ansible-*/docs/parts']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.

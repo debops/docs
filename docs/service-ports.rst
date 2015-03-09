@@ -36,7 +36,7 @@ inventory.
 +----------------+-----------+----------------+
 
 Standard ports
-==============
+--------------
 
 Run ``cat /etc/services`` to obtain a list of standard ports.
 
