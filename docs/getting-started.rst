@@ -3,7 +3,7 @@ Getting Started
 
 
 Your first project
-^^^^^^^^^^^^^^^^^^^^
+------------------
 
 **Set up your first project**
 
@@ -67,7 +67,7 @@ For the very first try, you can put this into
 
 
 What you get after this
-^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 
 * apt-repositories and auto-update
 * Firewall and tcpwrapper set up
@@ -77,7 +77,7 @@ What you get after this
 
 
 Where to go from here
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------
 
 You may now start adding systems into ``ansible/inventory/hosts`` as
 you like. To make install some software just add the host into the
@@ -86,7 +86,7 @@ resp. group and add some configuration options.
 
 
 Prepare a new host for using DebOps
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------
 
 To add another host to DebOps a few requirements have to be fulfilled:
 
@@ -114,7 +114,7 @@ permissions.
 
 
 Examples
-^^^^^^^^^^^^^^
+--------
 
 Setting up Etherpad quickly
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -146,7 +146,7 @@ want to share, please submit a pull-request. I'd happily integrate it.
 
 
 Notes about specific platforms
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 If you need additional configuration for a platform, we suggest
 putting this into a ``group_vars``-file and put the affected systems

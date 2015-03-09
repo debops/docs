@@ -5,12 +5,12 @@ The ``debops-update`` tool will orchestrate updating everything or specific
 components for you.
 
 Roles
-`````
+-----
 
 Each role will have a ``VERSION`` file in its repository.
 
 Playbooks
-`````````
+---------
 
 The ``debops/debops-playbooks`` repository will have a ``galaxy/requirements.txt``
 file which will contain a list of roles and versions. It will also have a
@@ -20,7 +20,7 @@ Over time as the project matures we will create release specific branches in the
 playbooks repository and they will lock in specific requirements files.
 
 Scripts
-```````
+-------
 
 Scripts will also be versioned with release branches and a VERSION file as they
 stabilize.

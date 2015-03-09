@@ -13,7 +13,7 @@ A collection of `Ansible <http://ansible.com/>`_ playbooks,
 scalable from one container to an entire data center.
 
 DebOps is a framework
-^^^^^^^^^^^^^^^^^^^^^
+---------------------
 
 - **60+ highly extensible roles** with sane defaults
 - **Tuned for production** and works great for development
@@ -28,7 +28,7 @@ In fact all of the DebOps playbooks and roles can be ran with Ansible directly.
 
 
 Do you want to contribute?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 
 DebOps itself is just a name, it's the sum of its parts. So we sincerly
 welcome contributions!
@@ -46,15 +46,11 @@ Contents:
    :maxdepth: 2
    :glob:
 
-   installation
-   getting-started
-   configuration
+   debops/docs/index
    creating-a-local-apt-server-to-use-backports
    service-ports
    using-linux-containers
    versions
-   contributing
-   scripts/index
    ansible/roles/index
    ansible/roles/ansible-*/docs/index
 

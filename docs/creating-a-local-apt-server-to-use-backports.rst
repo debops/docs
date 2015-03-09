@@ -13,7 +13,7 @@ version of the package so it's more up to date. The backports are built off of
 Debian Jessie without having to actually use the testing apt source.
 
 What are some benefits of doing it this way?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------------------
 
 A lot of other roles will compile from source  but that's time demanding and
 error prone. A backported version of Ruby 2.1.x will apt install in about 5
@@ -27,7 +27,7 @@ installing an apt package using Ansible's ``apt`` module. It does not care where
 the apt server is located.
 
 Pick a server
-^^^^^^^^^^^^^
+-------------
 
 The first step is to decide where you want this server. It doesn't need to be
 literally local to your workstation. It's local in the context of it not being
@@ -37,7 +37,7 @@ Popular options could be your Ansible controller inside of a container or a
 micro-size instance on the cloud depending on your requirements for availability.
 
 Configure a throw away build server
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------
 
 You could use your apt server but it's best to use a temporary host. I would
 just spin up a container.
@@ -70,7 +70,7 @@ Expect it to take 5 to 15 minutes depending on how fast your server is. You only
 need to do this once.
 
 Where are the packages
-``````````````````````
+~~~~~~~~~~~~~~~~~~~~~~
 
 Good question, they have been transferred to your Ansible controller in the
 ``secret/reprepro/includedeb/wheezy-backports/`` directory.
@@ -78,7 +78,7 @@ Good question, they have been transferred to your Ansible controller in the
 At this point you can delete your build server.
 
 Configure the local APT server
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 Next up, we need to tell our server that it is an APT server.
 
@@ -96,7 +96,7 @@ the server to check its fully qualified domain name.
 ``debops -l youraptserver -t apt``
 
 Make your hosts aware
-^^^^^^^^^^^^^^^^^^^^^
+---------------------
 
 The last step is to make your hosts aware of the server.
 
@@ -114,7 +114,7 @@ you have your containers inside of a ``[containers]`` group.
 ``debops -l containers``
 
 Use your shiny new package
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 
 Well, this part is easy. Just use the Ruby role on any host that is aware of
 your local apt server and it will install Ruby 2.1.x in about 5 seconds.

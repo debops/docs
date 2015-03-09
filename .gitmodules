@@ -14,3 +14,7 @@
 	path = docs/ansible/roles/ansible-nfs
 	url = https://github.com/debops/ansible-nfs
 	branch = master
+[submodule "docs/debops"]
+	path = docs/debops
+	url = https://github.com/debops/debops
+	branch = master
