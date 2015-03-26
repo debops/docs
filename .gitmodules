@@ -18,3 +18,7 @@
 	path = docs/debops
 	url = https://github.com/debops/debops
 	branch = master
+[submodule "docs/ansible/roles/ansible-stunnel"]
+	path = docs/ansible/roles/ansible-stunnel
+	url = https://github.com/debops/ansible-stunnel
+	branch = master
