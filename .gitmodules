@@ -26,3 +26,7 @@
 	path = docs/ansible/roles/ansible-dokuwiki
 	url = https://github.com/debops/ansible-dokuwiki
 	branch = master
+[submodule "docs/ansible/roles/ansible-dhcpd"]
+	path = docs/ansible/roles/ansible-dhcpd
+	url = https://github.com/debops/ansible-dhcpd
+	branch = master
