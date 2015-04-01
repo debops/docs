@@ -30,3 +30,7 @@
 	path = docs/ansible/roles/ansible-dhcpd
 	url = https://github.com/debops/ansible-dhcpd
 	branch = master
+[submodule "docs/ansible/roles/ansible-dovecot"]
+	path = docs/ansible/roles/ansible-dovecot
+	url = https://github.com/debops/ansible-dovecot
+	branch = master
