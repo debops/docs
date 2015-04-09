@@ -8,7 +8,7 @@ debops.radvd
 network will automatically pick them up. This results in them obtaining an
 IPv6 address and internet connectivity.
 
-.. _Router Advertisement Daemon: https://en.wikipedia.org/wiki/Radvd)
+.. _Router Advertisement Daemon: https://en.wikipedia.org/wiki/Radvd
 
 .. contents:: Table of Contents
    :local:
