@@ -38,3 +38,7 @@
 	path = docs/ansible/roles/ansible-fail2ban
 	url = https://github.com/debops/ansible-fail2ban
 	branch = master
+[submodule "docs/ansible/roles/ansible-preseed"]
+	path = docs/ansible/roles/ansible-preseed
+	url = https://github.com/debops/ansible-preseed
+	branch = master
