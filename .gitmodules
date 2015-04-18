@@ -42,3 +42,7 @@
 	path = docs/ansible/roles/ansible-preseed
 	url = https://github.com/debops/ansible-preseed
 	branch = master
+[submodule "docs/ansible/roles/ansible-ipxe"]
+	path = docs/ansible/roles/ansible-ipxe
+	url = https://github.com/debops/ansible-ipxe
+	branch = master
