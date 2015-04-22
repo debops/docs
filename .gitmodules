@@ -46,3 +46,7 @@
 	path = docs/ansible/roles/ansible-ipxe
 	url = https://github.com/debops/ansible-ipxe
 	branch = master
+[submodule "docs/ansible/roles/ansible-tftpd"]
+	path = docs/ansible/roles/ansible-tftpd
+	url = https://github.com/debops/ansible-tftpd
+	branch = master
