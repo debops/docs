@@ -50,3 +50,7 @@
 	path = docs/ansible/roles/ansible-tftpd
 	url = https://github.com/debops/ansible-tftpd
 	branch = master
+[submodule "docs/ansible/roles/ansible-tgt"]
+	path = docs/ansible/roles/ansible-tgt
+	url = https://github.com/debops/ansible-tgt
+	branch = master
