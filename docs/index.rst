@@ -11,12 +11,7 @@ scalable from one container to an entire data center.
    :glob:
 
    debops/docs/index
-   installation
-   getting-started
-   creating-a-local-apt-server-to-use-backports
-   service-ports
-   using-linux-containers
-   versions
+   debops-playbooks/docs/index
    ansible/roles/index
    ansible/roles/ansible-*/docs/index
 
