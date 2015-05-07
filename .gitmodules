@@ -54,3 +54,7 @@
 	path = docs/ansible/roles/ansible-tgt
 	url = https://github.com/debops/ansible-tgt
 	branch = master
+[submodule "docs/debops-playbooks"]
+	path = docs/debops-playbooks
+	url = https://github.com/debops/debops-playbooks
+	branch = master
