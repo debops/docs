@@ -58,3 +58,7 @@
 	path = docs/debops-playbooks
 	url = https://github.com/debops/debops-playbooks
 	branch = master
+[submodule "docs/ansible/roles/ansible-rstudio_server"]
+	path = docs/ansible/roles/ansible-rstudio_server
+	url = https://github.com/debops/ansible-rstudio_server
+	branch = master
