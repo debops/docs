@@ -62,3 +62,7 @@
 	path = docs/ansible/roles/ansible-rstudio_server
 	url = https://github.com/debops/ansible-rstudio_server
 	branch = master
+[submodule "docs/ansible/roles/ansible-tinc"]
+	path = docs/ansible/roles/ansible-tinc
+	url = https://github.com/debops/ansible-tinc
+	branch = master
