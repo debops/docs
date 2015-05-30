@@ -66,3 +66,7 @@
 	path = docs/ansible/roles/ansible-tinc
 	url = https://github.com/debops/ansible-tinc
 	branch = master
+[submodule "docs/ansible/roles/ansible-ifupdown"]
+	path = docs/ansible/roles/ansible-ifupdown
+	url = https://github.com/debops/ansible-ifupdown
+	branch = master
