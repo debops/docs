@@ -70,3 +70,7 @@
 	path = docs/ansible/roles/ansible-ifupdown
 	url = https://github.com/debops/ansible-ifupdown
 	branch = master
+[submodule "docs/ansible/roles/ansible-snmpd"]
+	path = docs/ansible/roles/ansible-snmpd
+	url = https://github.com/debops/ansible-snmpd
+	branch = master
