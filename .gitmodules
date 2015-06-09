@@ -74,3 +74,7 @@
 	path = docs/ansible/roles/ansible-snmpd
 	url = https://github.com/debops/ansible-snmpd
 	branch = master
+[submodule "docs/ansible/roles/ansible-memcached"]
+	path = docs/ansible/roles/ansible-memcached
+	url = https://github.com/debops/ansible-memcached
+	branch = master
