@@ -86,3 +86,7 @@
 	path = docs/ansible/roles/ansible-mariadb
 	url = https://github.com/debops/ansible-mariadb
 	branch = master
+[submodule "docs/ansible/roles/ansible-bootstrap"]
+	path = docs/ansible/roles/ansible-bootstrap
+	url = https://github.com/debops/ansible-bootstrap
+	branch = master
