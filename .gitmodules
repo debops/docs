@@ -94,3 +94,7 @@
 	path = docs/ansible/roles/ansible-lvm
 	url = https://github.com/debops/ansible-lvm
 	branch = master
+[submodule "docs/ansible/roles/ansible-iscsi"]
+	path = docs/ansible/roles/ansible-iscsi
+	url = https://github.com/debops/ansible-iscsi
+	branch = master
