@@ -98,3 +98,11 @@
 	path = docs/ansible/roles/ansible-iscsi
 	url = https://github.com/debops/ansible-iscsi
 	branch = master
+[submodule "docs/ansible/roles/ansible-libvirt"]
+	path = docs/ansible/roles/ansible-libvirt
+	url = https://github.com/debops/ansible-libvirt
+	branch = master
+[submodule "docs/ansible/roles/ansible-libvirtd"]
+	path = docs/ansible/roles/ansible-libvirtd
+	url = https://github.com/debops/ansible-libvirtd
+	branch = master
