@@ -106,3 +106,7 @@
 	path = docs/ansible/roles/ansible-libvirtd
 	url = https://github.com/debops/ansible-libvirtd
 	branch = master
+[submodule "docs/ansible/roles/ansible-librenms"]
+	path = docs/ansible/roles/ansible-librenms
+	url = https://github.com/debops/ansible-librenms
+	branch = master
