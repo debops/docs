@@ -114,7 +114,3 @@
 	path = docs/ansible/roles/ansible-sshd
 	url = https://github.com/debops/ansible-sshd
 	branch = master
-[submodule "docs/ansible/roles/ansible-core"]
-	path = docs/ansible/roles/ansible-core
-	url = https://github.com/debops/ansible-core
-	branch = master
