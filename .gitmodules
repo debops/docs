@@ -118,3 +118,7 @@
 	path = docs/ansible/roles/ansible-core
 	url = https://github.com/debops/ansible-core
 	branch = master
+[submodule "docs/ansible/roles/ansible-fcgiwrap"]
+	path = docs/ansible/roles/ansible-fcgiwrap
+	url = https://github.com/debops/ansible-fcgiwrap
+	branch = master
