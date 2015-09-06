@@ -126,3 +126,7 @@
 	path = docs/ansible/roles/ansible-grub
 	url = https://github.com/debops/ansible-grub
 	branch = master
+[submodule "docs/ansible/roles/ansible-docker"]
+	path = docs/ansible/roles/ansible-docker
+	url = https://github.com/debops/ansible-docker
+	branch = master
