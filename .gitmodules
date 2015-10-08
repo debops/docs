@@ -134,3 +134,7 @@
 	path = docs/ansible/roles/ansible-docker_gen
 	url = https://github.com/debops/ansible-docker_gen
 	branch = master
+[submodule "docs/ansible/roles/ansible-postgresql_server"]
+	path = docs/ansible/roles/ansible-postgresql_server
+	url = https://github.com/debops/ansible-postgresql_server
+	branch = master
