@@ -138,3 +138,7 @@
 	path = docs/ansible/roles/ansible-postgresql_server
 	url = https://github.com/debops/ansible-postgresql_server
 	branch = master
+[submodule "docs/ansible/roles/ansible-postgresql"]
+	path = docs/ansible/roles/ansible-postgresql
+	url = https://github.com/debops/ansible-postgresql
+	branch = master
