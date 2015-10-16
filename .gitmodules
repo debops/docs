@@ -146,3 +146,7 @@
 	path = docs/ansible/roles/ansible-apt_preferences
 	url = https://github.com/debops/ansible-apt_preferences
 	branch = master
+[submodule "docs/ansible/roles/ansible-swapfile"]
+	path = docs/ansible/roles/ansible-swapfile
+	url = https://github.com/debops/ansible-swapfile
+	branch = master
