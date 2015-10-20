@@ -34,6 +34,16 @@ Role dependencies
 - ``debops.php5``
 - ``debops.mysql``
 
+Example inventory
+~~~~~~~~~~~~~~~~~
+
+For a working ownCloud installation you need to add a database to the server, for MariaDB it looks like this::
+
+    [debops_owncloud]
+    hostname
+
+    [debops_mariadb_server]
+    hostname
 
 Role variables
 ~~~~~~~~~~~~~~
