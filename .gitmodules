@@ -150,3 +150,7 @@
 	path = docs/ansible/roles/ansible-swapfile
 	url = https://github.com/debops/ansible-swapfile
 	branch = master
+[submodule "docs/ansible/roles/ansible-atd"]
+	path = docs/ansible/roles/ansible-atd
+	url = https://github.com/debops/ansible-atd
+	branch = master
