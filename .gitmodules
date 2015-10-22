@@ -154,3 +154,7 @@
 	path = docs/ansible/roles/ansible-atd
 	url = https://github.com/debops/ansible-atd
 	branch = master
+[submodule "docs/ansible/roles/ansible-dhparam"]
+	path = docs/ansible/roles/ansible-dhparam
+	url = https://github.com/debops/ansible-dhparam
+	branch = master
