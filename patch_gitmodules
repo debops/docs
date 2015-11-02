@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## Patching .gitmodules to ignore untracked files in them which will be created when building the documentation.
+## http://stackoverflow.com/a/5127213/2239985
+## This could also be done by each user of this repo by global ignore but doing it this way is preferred.
+
+grep --invert-match --extended-regexp '\s*?ignore\s*?=\s*?' .gitmodules | sed 's/\(branch = master\)/\1\n\tignore = untracked/' > .gitmodules.tmp
+mv .gitmodules.tmp .gitmodules
