@@ -71,18 +71,18 @@ List of default variables available in the inventory::
     
     # --- An example account entry, everything except 'name' is optional
     # List of all recognized values, default value listed first
-    #
-    #  - name: 'username'               # mandatory, default group if not defined
-    #    state: 'present,absent'
-    #    group: 'name'                  # default group
-    #    groups: []                     # list of groups to set
-    #    append: yes/no                 # add to, or set groups
-    #    gid: 1000
-    #    uid: 1000
-    #    shell: '/bin/sh'
-    #    comment: 'GECOS entry'
-    #    systemuser: False/True         # create system user
-    #    systemgroup: False/True        # create system group
+    # (users_list/users_admins/users_default/users_group_list/users_host_list/users_groups):
+    #   name: 'username'               # mandatory, default group if not defined
+    #   state: 'present,absent'
+    #   group: 'name'                  # default group
+    #   groups: []                     # list of groups to set
+    #   append: yes/no                 # add to, or set groups
+    #   gid: 1000
+    #   uid: 1000
+    #   shell: '/bin/sh'
+    #   comment: 'GECOS entry'
+    #   systemuser: False/True         # create system user
+    #   systemgroup: False/True        # create system group
     #
     #    dotfiles: False/True           # download and configure dotfiles?
     #    dotfiles_repo: 'repository'
