@@ -203,3 +203,7 @@
 	url = https://github.com/debops/ansible-debops
 	branch = master
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-cryptsetup"]
+	path = docs/ansible/roles/ansible-cryptsetup
+	url = https://github.com/debops/ansible-cryptsetup
+	branch = master
