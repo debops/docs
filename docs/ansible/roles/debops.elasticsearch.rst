@@ -60,13 +60,15 @@ List of default variables available in the inventory::
     # ---- DebOps role dependencies ----
     
     # Automatically install Java 7 Open JDK JRE.
+    # Set this to [] if you're installing a JRE separately.
     elasticsearch_role_dependencies: ['java']
     
     
     # ---- Version ----
     
-    # It will automatically install the latest minor release, only supply 1.x.
-    elasticsearch_version: '1.3'
+    # It will automatically install the latest 1.7 minor release.
+    # Use '2.x' to install Elasticsearch 2.1 or newer.
+    elasticsearch_version: '1.7'
     
     
     # ---- Cluster ----
@@ -213,6 +215,7 @@ List of default variables available in the inventory::
     
     # ---- Gateway ----
     
+    # If you're installing Elasticsearch 2.x, set this to 'default'.
     elasticsearch_gateway_type: 'local'
     
     # These get dynamically set by ES, make sure you know what you're doing.
