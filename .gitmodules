@@ -207,3 +207,6 @@
 	path = docs/ansible/roles/ansible-cryptsetup
 	url = https://github.com/debops/ansible-cryptsetup
 	branch = master
+[submodule "docs/ansible/roles/ansible-pki"]
+	path = docs/ansible/roles/ansible-pki
+	url = https://github.com/debops/ansible-pki
