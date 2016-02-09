@@ -210,3 +210,6 @@
 [submodule "docs/ansible/roles/ansible-pki"]
 	path = docs/ansible/roles/ansible-pki
 	url = https://github.com/debops/ansible-pki
+[submodule "docs/ansible/roles/ansible-unattended_upgrades"]
+	path = docs/ansible/roles/ansible-unattended_upgrades
+	url = https://github.com/debops/ansible-unattended_upgrades

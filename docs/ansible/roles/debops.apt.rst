@@ -7,9 +7,7 @@ derivative distributions. Specifically, it will manage:
 
 * list of APT sources
 * centralized APT cache (using ``apt-cacher-ng``)
-* automatic package updates (using ``unattended-upgrades`` and ``apticron``)
-* Debian Preseed configuration
-* local APT repository (using ``reprepro``)
+* automatic package updates (using ``apticron``)
 * installation of custom packages specified in Ansible inventory
 
 .. contents:: Table of Contents
@@ -77,22 +75,6 @@ List of default variables available in the inventory::
     
     # Send only information about changes from the last notification?
     apt_update_notifications_diff: True
-    
-    
-    # ---- unattended-upgrades ----
-    
-    # Enable unattended-upgrades
-    apt_unattended_upgrades: True
-    
-    # Do not automatically upgrade these packages
-    apt_unattended_upgrades_blacklist: [ 'vim', 'libc6' ]
-    
-    # If True, send mail notifications about all performed automatic upgrades
-    # If False, send mail notifications only on errors
-    apt_unattended_upgrades_notify_always: True
-    
-    # Automatically remove unused dependencies
-    apt_unattended_upgrades_autoremove: True
     
     
     # ---- Other ----
