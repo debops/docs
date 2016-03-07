@@ -213,3 +213,6 @@
 [submodule "docs/ansible/roles/ansible-unattended_upgrades"]
 	path = docs/ansible/roles/ansible-unattended_upgrades
 	url = https://github.com/debops/ansible-unattended_upgrades
+[submodule "docs/ansible/roles/ansible-mailman"]
+	path = docs/ansible/roles/ansible-mailman
+	url = https://github.com/debops/ansible-mailman
