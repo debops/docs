@@ -207,6 +207,7 @@
 	path = docs/ansible/roles/ansible-cryptsetup
 	url = https://github.com/debops/ansible-cryptsetup
 	branch = master
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-pki"]
 	path = docs/ansible/roles/ansible-pki
 	url = https://github.com/debops/ansible-pki
@@ -216,3 +217,6 @@
 [submodule "docs/ansible/roles/ansible-mailman"]
 	path = docs/ansible/roles/ansible-mailman
 	url = https://github.com/debops/ansible-mailman
+[submodule "docs/ansible/roles/debops.owncloud"]
+	path = docs/ansible/roles/ansible-owncloud
+	url = https://github.com/debops/ansible-owncloud.git
