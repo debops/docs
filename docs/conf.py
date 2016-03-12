@@ -102,6 +102,10 @@ pygments_style = 'sphinx'
 # for more details.
 highlight_language = 'YAML'
 
+## TODO: Change later to this when it can handle:
+## enabled: '{{ True if (owncloud_database_name != owncloud_database_user) else False }}'
+#  highlight_language = 'YAML+Jinja'
+
 # A list of ignored prefixes for module index sorting.
 #modindex_common_prefix = []
 
@@ -153,9 +157,12 @@ html_static_path = ['_static']
 # using the given strftime format.
 #html_last_updated_fmt = '%b %d, %Y'
 
+# http://www.sphinx-doc.org/en/stable/config.html#confval-html_use_smartypants
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
-#html_use_smartypants = True
+html_use_smartypants = False
+# Disabled because it will render :command:`iptables --list` as `iptables –list`.
+
 
 # Custom sidebar templates, maps document names to template names.
 #html_sidebars = {}
