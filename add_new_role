@@ -8,6 +8,6 @@ then
     exit 0
 fi
 
-git submodule add "https://github.com/debops/ansible-${ROLE}.git" docs/ansible/roles
+git submodule add "https://github.com/debops/ansible-${ROLE}.git" "docs/ansible/roles/ansible-${ROLE}"
 
 ./patch_gitmodules
