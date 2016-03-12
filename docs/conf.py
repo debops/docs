@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # DebOps documentation build configuration file
-# Copyright (C) 2014-2015 DebOps projekt team
+# Copyright (C) 2014-2016 DebOps Project http://debops.org/
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -54,7 +54,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'DebOps'
-copyright = u'2014-2015, Maciej Delmanowski, Nick Janetakis'
+copyright = u'2014-2016, Maciej Delmanowski, Nick Janetakis, Robin Schneider'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -212,7 +212,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', 'DebOps.tex', u'DebOps Documentation',
-   u'Maciej Delmanowski, Nick Janetakis', 'manual'),
+   u'Maciej Delmanowski, Nick Janetakis, Robin Schneider', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -242,7 +242,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'debops', u'DebOps Documentation',
-     [u'Maciej Delmanowski, Nick Janetakis'], 1)
+     [u'Maciej Delmanowski, Nick Janetakis, Robin Schneider'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -256,7 +256,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'DebOps', u'DebOps Documentation',
-   u'Maciej Delmanowski, Nick Janetakis', 'DebOps', 'One line description of project.',
+   u'Maciej Delmanowski, Nick Janetakis, Robin Schneider', 'DebOps', 'One line description of project.',
    'Miscellaneous'),
 ]
 
