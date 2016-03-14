@@ -224,3 +224,6 @@
 	path = docs/ansible/roles/ansible-owncloud
 	url = https://github.com/debops/ansible-owncloud.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-etc_services"]
+	path = docs/ansible/roles/ansible-etc_services
+	url = https://github.com/debops/ansible-etc_services
