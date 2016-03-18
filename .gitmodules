@@ -232,3 +232,7 @@
 	path = docs/ansible/roles/ansible-subnetwork
 	url = https://github.com/debops/ansible-subnetwork.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-apt_cacher_ng"]
+	path = docs/ansible/roles/ansible-apt_cacher_ng
+	url = https://github.com/debops/ansible-apt_cacher_ng.git
+	ignore = untracked
