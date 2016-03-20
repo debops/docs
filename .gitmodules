@@ -236,3 +236,7 @@
 	path = docs/ansible/roles/ansible-apt_cacher_ng
 	url = https://github.com/debops/ansible-apt_cacher_ng.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-apt"]
+	path = docs/ansible/roles/ansible-apt
+	url = https://github.com/debops/ansible-apt.git
+	ignore = untracked
