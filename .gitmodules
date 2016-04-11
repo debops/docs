@@ -240,3 +240,6 @@
 	path = docs/ansible/roles/ansible-apt
 	url = https://github.com/debops/ansible-apt.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-gitlab_runner"]
+	path = docs/ansible/roles/ansible-gitlab_runner
+	url = https://github.com/debops/ansible-gitlab_runner
