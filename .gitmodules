@@ -243,3 +243,6 @@
 [submodule "docs/ansible/roles/ansible-gitlab_runner"]
 	path = docs/ansible/roles/ansible-gitlab_runner
 	url = https://github.com/debops/ansible-gitlab_runner
+[submodule "docs/ansible/roles/ansible-logrotate"]
+	path = docs/ansible/roles/ansible-logrotate
+	url = https://github.com/debops/ansible-logrotate
