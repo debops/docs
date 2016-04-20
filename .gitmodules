@@ -246,3 +246,6 @@
 [submodule "docs/ansible/roles/ansible-logrotate"]
 	path = docs/ansible/roles/ansible-logrotate
 	url = https://github.com/debops/ansible-logrotate
+[submodule "docs/ansible/roles/ansible-ferm"]
+	path = docs/ansible/roles/ansible-ferm
+	url = https://github.com/debops/ansible-ferm
