@@ -27,5 +27,21 @@ if [ "${current_checkout}" != "${new_checkout}" ] ; then
     # Push changes to the origin
     git push
 
+else
+
+    # Get latest updates from all submodules
+    git submodule update --init --remote
+
+    # Check if there are uncommited changes
+    if ! $(git diff --quiet && git diff --cached --quiet) ; then
+
+	# Commit all changes
+	git commit --all --message 'Updated all submodules to latest master'
+
+	# Push changes to the origin
+	git push
+
+    fi
+
 fi
 
