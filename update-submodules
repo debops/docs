@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Update git submodules and commit new version of the documentation
+
+set -e
+
+# Get current checkout
+current_checkout="$(git rev-parse HEAD)"
+
+# Get latest state of the repository
+git fetch
+
+# Get new checkout id
+new_checkout="$(git rev-parse FETCH_HEAD)"
+
+if [ "${current_checkout}" != "${new_checkout}" ] ; then
+
+    # Switch current checkout to the new state
+    git reset --hard FETCH_HEAD
+
+    # Get latest updates from all submodules
+    git submodule update --init --remote
+
+    # Commit all changes
+    git commit --all --message 'Updated all submodules to latest master'
+
+    # Push changes to the origin
+    git push
+
+fi
+
