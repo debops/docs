@@ -249,3 +249,6 @@
 [submodule "docs/ansible/roles/ansible-ferm"]
 	path = docs/ansible/roles/ansible-ferm
 	url = https://github.com/debops/ansible-ferm
+[submodule "docs/ansible/roles/ansible-rsyslog"]
+	path = docs/ansible/roles/ansible-rsyslog
+	url = https://github.com/debops/ansible-rsyslog
