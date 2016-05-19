@@ -252,3 +252,6 @@
 [submodule "docs/ansible/roles/ansible-rsyslog"]
 	path = docs/ansible/roles/ansible-rsyslog
 	url = https://github.com/debops/ansible-rsyslog
+[submodule "docs/ansible/roles/ansible-ntp"]
+	path = docs/ansible/roles/ansible-ntp
+	url = https://github.com/debops/ansible-ntp
