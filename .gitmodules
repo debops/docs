@@ -243,15 +243,20 @@
 [submodule "docs/ansible/roles/ansible-gitlab_runner"]
 	path = docs/ansible/roles/ansible-gitlab_runner
 	url = https://github.com/debops/ansible-gitlab_runner
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-logrotate"]
 	path = docs/ansible/roles/ansible-logrotate
 	url = https://github.com/debops/ansible-logrotate
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-ferm"]
 	path = docs/ansible/roles/ansible-ferm
 	url = https://github.com/debops/ansible-ferm
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-rsyslog"]
 	path = docs/ansible/roles/ansible-rsyslog
 	url = https://github.com/debops/ansible-rsyslog
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-ntp"]
 	path = docs/ansible/roles/ansible-ntp
 	url = https://github.com/debops/ansible-ntp
+	ignore = untracked
