@@ -260,3 +260,6 @@
 	path = docs/ansible/roles/ansible-ntp
 	url = https://github.com/debops/ansible-ntp
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-apt_install"]
+	path = docs/ansible/roles/ansible-apt_install
+	url = https://github.com/debops/ansible-apt_install
