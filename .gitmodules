@@ -263,3 +263,6 @@
 [submodule "docs/ansible/roles/ansible-apt_install"]
 	path = docs/ansible/roles/ansible-apt_install
 	url = https://github.com/debops/ansible-apt_install
+[submodule "docs/ansible/roles/ansible-tcpwrappers"]
+	path = docs/ansible/roles/ansible-tcpwrappers
+	url = https://github.com/debops/ansible-tcpwrappers
