@@ -32,7 +32,7 @@ else
     # Get latest updates from all submodules
     git submodule update --init --remote
 
-    # Check if there are uncommited changes
+    # Check if there are uncommitted changes
     if ! $(git diff --quiet && git diff --cached --quiet) ; then
 
 	# Commit all changes
