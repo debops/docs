@@ -268,3 +268,6 @@
 	path = docs/ansible/roles/ansible-tcpwrappers
 	url = https://github.com/debops/ansible-tcpwrappers
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-resources"]
+	path = docs/ansible/roles/ansible-resources
+	url = https://github.com/debops/ansible-resources
