@@ -271,3 +271,6 @@
 [submodule "docs/ansible/roles/ansible-resources"]
 	path = docs/ansible/roles/ansible-resources
 	url = https://github.com/debops/ansible-resources
+[submodule "docs/ansible/roles/ansible-slapd"]
+	path = docs/ansible/roles/ansible-slapd
+	url = https://github.com/debops/ansible-slapd
