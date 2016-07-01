@@ -280,3 +280,6 @@
 [submodule "docs/ansible/roles/ansible-golang"]
 	path = docs/ansible/roles/ansible-golang
 	url = https://github.com/debops/ansible-golang
+[submodule "docs/ansible/roles/ansible-nodejs"]
+	path = docs/ansible/roles/ansible-nodejs
+	url = https://github.com/debops/ansible-nodejs
