@@ -1,1 +1,3 @@
-yaml2rst
+## Install unreleased develop version until htgoebel makes a release.
+# yaml2rst
+https://github.com/ypid/yaml2rst/archive/feature/expose-strip_regex.zip

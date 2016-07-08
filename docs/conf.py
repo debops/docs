@@ -18,12 +18,13 @@ import os
 # Generate documentation on the fly based on Ansible default variables
 import yaml2rst
 
-try:
-  for element in os.listdir('ansible/roles'):
-    if os.path.isdir('ansible/roles/' + element):
-      yaml2rst.convert_file('ansible/roles/' + element + '/defaults/main.yml', 'ansible/roles/' + element + '/docs/defaults.rst')
-except:
-  pass
+for element in os.listdir('ansible/roles'):
+  if os.path.isdir('ansible/roles/' + element):
+    yaml2rst.convert_file(
+      'ansible/roles/' + element + '/defaults/main.yml',
+      'ansible/roles/' + element + '/docs/defaults.rst',
+      strip_regex=r'\s*(:?\[{3}|\]{3})\d?$',
+    )
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
