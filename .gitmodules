@@ -271,15 +271,20 @@
 [submodule "docs/ansible/roles/ansible-resources"]
 	path = docs/ansible/roles/ansible-resources
 	url = https://github.com/debops/ansible-resources
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-slapd"]
 	path = docs/ansible/roles/ansible-slapd
 	url = https://github.com/debops/ansible-slapd
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-ruby"]
 	path = docs/ansible/roles/ansible-ruby
 	url = https://github.com/debops/ansible-ruby
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-golang"]
 	path = docs/ansible/roles/ansible-golang
 	url = https://github.com/debops/ansible-golang
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-nodejs"]
 	path = docs/ansible/roles/ansible-nodejs
 	url = https://github.com/debops/ansible-nodejs
+	ignore = untracked
