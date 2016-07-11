@@ -288,3 +288,6 @@
 	path = docs/ansible/roles/ansible-nodejs
 	url = https://github.com/debops/ansible-nodejs
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-php"]
+	path = docs/ansible/roles/ansible-php
+	url = https://github.com/debops/ansible-php
