@@ -24,6 +24,7 @@ for element in os.listdir('ansible/roles'):
       'ansible/roles/' + element + '/defaults/main.yml',
       'ansible/roles/' + element + '/docs/defaults.rst',
       strip_regex=r'\s*(:?\[{3}|\]{3})\d?$',
+      yaml_strip_regex=r'^\s{66,67}#\s\]{3}\d?$',
     )
 
 # If extensions (or modules to document with autodoc) are in another directory,
