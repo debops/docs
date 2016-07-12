@@ -46,9 +46,10 @@
 
 .. DebOps people [[[
 
-.. FIXME: Change to debops-keyring
+.. FIXME Change to debops-keyring
 
 .. _drybjed: https://wiki.debops.org/wiki:user:drybjed
 .. _ypid: https://wiki.debops.org/wiki:user:ypid
+.. _ypid-ansible-common: https://github.com/ypid/ypid-ansible-common/
 
 .. ]]]

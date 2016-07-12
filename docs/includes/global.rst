@@ -608,7 +608,7 @@
 .. _Ansible zypper module: https://docs.ansible.com/ansible/zypper_module.html
 .. _Ansible zypper_repository module: https://docs.ansible.com/ansible/zypper_repository_module.html
 .. _Ansible  module: https://docs.ansible.com/ansible/_module.html
-Deprecated modules follow:
+.. Deprecated modules follow:
 .. _Ansible docker module: https://docs.ansible.com/ansible/docker_module.html
 .. _Ansible ec2_ami_search module: https://docs.ansible.com/ansible/ec2_ami_search_module.html
 .. _Ansible fireball module: https://docs.ansible.com/ansible/fireball_module.html
@@ -754,9 +754,10 @@ Deprecated modules follow:
 
 .. DebOps people [[[
 
-.. FIXME: Change to debops-keyring
+.. FIXME Change to debops-keyring
 
 .. _drybjed: https://wiki.debops.org/wiki:user:drybjed
 .. _ypid: https://wiki.debops.org/wiki:user:ypid
+.. _ypid-ansible-common: https://github.com/ypid/ypid-ansible-common/
 
 .. ]]]

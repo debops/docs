@@ -18,7 +18,7 @@ ansible-doc -l 2>/dev/null | cut -d ' ' -f 1 | while read -r ansible_module_name
 do
     if [[ "$ansible_module_name" == "DEPRECATED:" ]]
     then
-        echo "Deprecated modules follow:"
+        echo ".. Deprecated modules follow:"
     else
         echo ".. _Ansible ${ansible_module_name} module: https://docs.ansible.com/ansible/${ansible_module_name}_module.html"
     fi
