@@ -1,0 +1,20 @@
+#!/bin/bash
+## @author Copyright (C) 2016 Robin Schneider <ypid@riseup.net>
+## @license GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.html>
+
+## Link the global.rst include file into all parts of DebOps which use it.
+
+set -e
+
+test -f "includes/global.rst" || exit 1
+
+DOCS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
+
+find . -type d -iwholename '.*docs/includes' | while read -r target_include_dir
+do
+    pushd "$target_include_dir" 1>/dev/null
+    ln -rsf "$DOCS_DIR/includes/global.rst" global.rst
+    popd
+    ## Print for debugging for now.
+    # 1>/dev/null
+done
