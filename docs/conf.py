@@ -87,7 +87,7 @@ release = 'master'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # 'includes/*.rst': https://github.com/debops/docs/issues/144
-exclude_patterns = ['_build', 'debops/*.rst', 'debops-playbooks/*.rst', 'ansible/roles/ansible-*/*.rst', 'ansible/roles/ansible-*/docs/parts', '**includes/*.rst', 'debops-api/README.rst', 'debops-api/tests/**.rst']
+exclude_patterns = ['_build', 'debops/*.rst', 'debops-playbooks/*.rst', 'ansible/roles/ansible-*/*.rst', 'ansible/roles/ansible-*/docs/parts', '**includes/*.rst', 'debops-api/README.rst', 'debops-api/tests/**.rst', 'debops-policy/README.rst']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
