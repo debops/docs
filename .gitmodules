@@ -291,3 +291,6 @@
 [submodule "docs/ansible/roles/ansible-php"]
 	path = docs/ansible/roles/ansible-php
 	url = https://github.com/debops/ansible-php
+[submodule "docs/ansible/roles/ansible-environment"]
+	path = docs/ansible/roles/ansible-environment
+	url = https://github.com/debops/ansible-environment
