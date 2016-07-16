@@ -41,6 +41,8 @@
 .. _DebOps documentation: http://docs.debops.org/en/latest/
 .. _DebOps Contrib: https://github.com/debops-contrib/debops-contrib
 .. _DebOps Contrib playbooks: https://github.com/debops-contrib/debops-contrib-playbooks
+.. _debops-keyring: http://docs.debops.org/en/latest/debops-keyring/docs/index.html
+.. _DebOps Policy: http://docs.debops.org/en/latest/debops-policy/docs/index.html
 
 .. ]]]
 
