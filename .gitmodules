@@ -294,3 +294,6 @@
 [submodule "docs/ansible/roles/ansible-environment"]
 	path = docs/ansible/roles/ansible-environment
 	url = https://github.com/debops/ansible-environment
+[submodule "docs/ansible/roles/ansible-authorized_keys"]
+	path = docs/ansible/roles/ansible-authorized_keys
+	url = https://github.com/debops/ansible-authorized_keys
