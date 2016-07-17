@@ -6,6 +6,7 @@
 .. Ansible core [[[
 
 .. _Ansible: https://www.ansible.com/
+.. _Ansible Galaxy: https://galaxy.ansible.com/
 
 .. ]]]
 
@@ -781,6 +782,8 @@
 .. DebOps project links [[[
 
 .. _DebOps: http://debops.org/
+.. _DebOps Galaxy page: https://galaxy.ansible.com/debops/
+.. _DebOps mailing list: https://lists.debops.org/
 .. _DebOps Playbooks: https://github.com/debops/debops-playbooks/
 .. _DebOps Documentation: http://docs.debops.org/en/latest/
 .. _DebOps Examples: https://github.com/debops/examples/
@@ -841,5 +844,24 @@
 .. _PKI: https://en.wikipedia.org/wiki/Public_key_infrastructure
 .. _HSTS: https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
 .. _Semantic Versioning: http://semver.org/
+
+.. _6to4: https://en.wikipedia.org/wiki/6to4
+.. _6to4 tunnel: https://en.wikipedia.org/wiki/6to4
+.. _Dovecot: http://dovecot.org/
+.. _Elasticsearch: http://elasticsearch.org/
+.. _Etherpad: http://etherpad.org/
+.. _ferm: http://ferm.foo-projects.org/
+.. _ginas: https://github.com/ginas/ginas/
+.. _GitLab CI: https://about.gitlab.com/gitlab-ci/
+.. _GitLab: https://about.gitlab.com/
+.. _Go language: http://golang.org/
+.. _groups.io: https://groups.io/
+.. _HWRaid: http://hwraid.le-vert.net/
+.. _nginx map module: http://nginx.org/en/docs/http/ngx_http_map_module.html
+.. _Postfix: http://www.postfix.org/
+.. _Raspbian: http://raspbian.org/
+.. _RedRampage: https://github.com/redrampage/
+.. _Salt: http://saltstack.com/
+.. _Ubuntu 12.04 LTS (Precise Pangolin): http://releases.ubuntu.com/12.04/
 
 .. ]]]
