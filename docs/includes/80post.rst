@@ -2,6 +2,7 @@
 
 .. _DebOps: http://debops.org/
 .. _DebOps Galaxy page: https://galaxy.ansible.com/debops/
+.. _DebOps API: https://github.com/debops/debops-api
 .. _DebOps mailing list: https://lists.debops.org/
 .. _DebOps Playbooks: https://github.com/debops/debops-playbooks/
 .. _DebOps Documentation: http://docs.debops.org/en/latest/

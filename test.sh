@@ -5,6 +5,9 @@ git submodule update --init
 
 cd docs
 
+make prepare
+ln --help
+
 # Fix sphinx to ignore non-local image warnings
 filename="$(find /home/travis/virtualenv/ -name environment.py)"
 sed -e '/nonlocal\ image\ URI\ found/ s/^/#/' -i ${filename}
