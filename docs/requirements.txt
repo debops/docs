@@ -1,4 +1,4 @@
-sphinx==1.3.4
+sphinx==1.3.6
 
 ## TODO: Install unreleased develop version until htgoebel makes a release.
 # yaml2rst
