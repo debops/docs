@@ -14,7 +14,9 @@ find . -type d -iwholename '.*docs/includes' | while read -r target_include_dir
 do
     pushd "$target_include_dir" 1>/dev/null
     pwd
-    ln -rsf "$DOCS_DIR/includes/global.rst" global.rst
+    ## ln: invalid option -- 'r'
+    ## The version of ln on Travis does not have --relative :<
+    ln -sf "$DOCS_DIR/includes/global.rst" global.rst
     popd 1>/dev/null
     ## Print for debugging for now.
     # 1>/dev/null
