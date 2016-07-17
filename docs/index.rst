@@ -14,6 +14,7 @@ scalable from one container to an entire data center.
    debops-playbooks/docs/index
    ansible/roles/index
    ansible/roles/ansible-*/docs/index
+   debops-api/docs/index
 
 
 .. |debops_logo| image:: http://debops.org/images/debops-small.png

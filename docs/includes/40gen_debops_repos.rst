@@ -16,6 +16,7 @@
 .. _debops.core: https://github.com/debops/ansible-core
 .. _debops.cryptsetup: https://github.com/debops/ansible-cryptsetup
 .. _debops.debops: https://github.com/debops/ansible-debops
+.. _debops.debops_api: https://github.com/debops/ansible-debops_api
 .. _debops.debug: https://github.com/debops/ansible-debug
 .. _debops.dhcpd: https://github.com/debops/ansible-dhcpd
 .. _debops.dhparam: https://github.com/debops/ansible-dhparam
