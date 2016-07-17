@@ -7,6 +7,7 @@ cd docs || exit 1
 
 make prepare
 
+# FIXME: Remove. Deprecated by `suppress_warnings`.
 # Fix sphinx to ignore non-local image warnings
 filename="$(find /home/travis/virtualenv/ -name environment.py)"
 sed -e '/nonlocal\ image\ URI\ found/ s/^/#/' -i "${filename}"

@@ -34,6 +34,8 @@ for element in os.listdir('ansible/roles'):
 
 # -- General configuration ------------------------------------------------
 
+suppress_warnings = ['image.nonlocal_uri']
+
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
@@ -80,7 +82,7 @@ release = 'master'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # 'includes/*.rst': https://github.com/debops/docs/issues/144
-exclude_patterns = ['_build', 'debops/*.rst', 'debops-playbooks/*.rst', 'ansible/roles/ansible-*/*.rst', 'ansible/roles/ansible-*/docs/parts', '**includes/*.rst']
+exclude_patterns = ['_build', 'debops/*.rst', 'debops-playbooks/*.rst', 'ansible/roles/ansible-*/*.rst', 'ansible/roles/ansible-*/docs/parts', '**includes/*.rst', 'debops-api/README.rst', 'debops-api/tests/**.rst']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.

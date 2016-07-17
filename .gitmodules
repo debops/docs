@@ -307,3 +307,4 @@
 [submodule "docs/debops-api"]
 	path = docs/debops-api
 	url = https://github.com/debops/debops-api
+	ignore = untracked
