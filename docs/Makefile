@@ -78,8 +78,10 @@ includes/60gen_ypid_repos.rst: ./bin/gen_rst_defs_using_remote_api
 	"$<" 'github' 'ypid' 'ypid' 'users' > "$@"
 
 .PHONY: linkincludes
-linkincludes:
-	./bin/linkincludes
+## TODO: Remove ln -s hack
+linkincludes: ./bin/linkincludes
+	"$<"
+	ln -s docs/includes debops-api/
 
 
 html: prepare
