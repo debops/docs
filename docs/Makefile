@@ -65,14 +65,15 @@ includes/global.rst: \
 includes/30gen_ansible_modules.rst: ./bin/gen_ansible_modules_rst_defs
 	"$<" > "$@"
 
-includes/40gen_debops_repos.rst: ./bin/gen_rst_defs_using_remote_api
-	"$<" > "$@" 'github' 'DebOps' 'debops' 'orgs'
+# FIXME when api.debops.org is online.
+includes/40gen_debops_repos.rst: ./bin/gen_rst_defs_using_debops_api
+	"$<" --debops-api-response-file /tmp/api/v0/roles/debops.json --role-owner 'debops' > "$@"
 
 includes/45gen_debops_contrib_repos.rst: ./bin/gen_rst_defs_using_remote_api
-	"$<" > "$@" 'github' 'DebOps Contrib' 'debops-contrib' 'orgs'
+	"$<" 'github' 'DebOps Contrib' 'debops-contrib' 'orgs' > "$@"
 
 includes/60gen_ypid_repos.rst: ./bin/gen_rst_defs_using_remote_api
-	"$<" > "$@" 'github' 'ypid' 'ypid' 'users'
+	"$<" 'github' 'ypid' 'ypid' 'users' > "$@"
 
 .PHONY: linkincludes
 linkincludes:

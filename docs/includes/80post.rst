@@ -1,3 +1,32 @@
+.. DebOps project links [[[
+
+.. _DebOps: http://debops.org/
+.. _DebOps Playbooks: https://github.com/debops/debops-playbooks/
+.. _DebOps Documentation: http://docs.debops.org/en/latest/
+.. _DebOps Examples: https://github.com/debops/examples/
+.. _DebOps Contrib: https://github.com/debops-contrib/debops-contrib
+.. _DebOps Contrib playbooks: https://github.com/debops-contrib/debops-contrib-playbooks
+.. _DebOps Policy: http://docs.debops.org/en/latest/debops-policy/docs/index.html
+.. _debops-keyring: http://docs.debops.org/en/latest/debops-keyring/docs/index.html
+
+.. ]]]
+
+.. DebOps deprecated links [[[
+.. _debops.nat: https://github.com/debops/ansible-nat
+.. _debops.sshkeys: https://github.com/debops/ansible-sshkeys
+.. _debops.directories: https://github.com/debops/ansible-directories
+.. ]]]
+
+.. DebOps people [[[
+
+.. FIXME Change to debops-keyring
+
+.. _drybjed: https://wiki.debops.org/wiki:user:drybjed
+.. _ypid: https://wiki.debops.org/wiki:user:ypid
+.. _ypid-ansible-common: https://github.com/ypid/ypid-ansible-common/
+
+.. ]]]
+
 .. Projects [[[
 
 .. _Debian: https://en.wikipedia.org/wiki/Debian
@@ -32,26 +61,5 @@
 .. _PKI: https://en.wikipedia.org/wiki/Public_key_infrastructure
 .. _HSTS: https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
 .. _Semantic Versioning: http://semver.org/
-
-.. ]]]
-
-.. DebOps project links [[[
-
-.. _DebOps: http://debops.org/
-.. _DebOps documentation: http://docs.debops.org/en/latest/
-.. _DebOps Contrib: https://github.com/debops-contrib/debops-contrib
-.. _DebOps Contrib playbooks: https://github.com/debops-contrib/debops-contrib-playbooks
-.. _debops-keyring: http://docs.debops.org/en/latest/debops-keyring/docs/index.html
-.. _DebOps Policy: http://docs.debops.org/en/latest/debops-policy/docs/index.html
-
-.. ]]]
-
-.. DebOps people [[[
-
-.. FIXME Change to debops-keyring
-
-.. _drybjed: https://wiki.debops.org/wiki:user:drybjed
-.. _ypid: https://wiki.debops.org/wiki:user:ypid
-.. _ypid-ansible-common: https://github.com/ypid/ypid-ansible-common/
 
 .. ]]]
