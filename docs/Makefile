@@ -19,7 +19,7 @@ ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 # the i18n builder cannot share the environment and doctrees with the others
 I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 
-.PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest gettext
+.PHONY: help clean distclean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest gettext
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
@@ -48,6 +48,8 @@ help:
 
 clean:
 	rm -rf $(BUILDDIR)/*
+
+distclean:
 	rm -rf includes/*gen_*
 
 .PHONY: FORCE_MAKE
@@ -76,9 +78,8 @@ includes/60gen_ypid_repos.rst: ./bin/gen_rst_defs_using_remote_api
 	"$<" 'github' 'ypid' 'ypid' 'users' > "$@"
 
 .PHONY: linkincludes
-linkincludes:
-	./bin/linkincludes
-
+linkincludes: bin/linkincludes
+	"$<"
 
 html: prepare
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
