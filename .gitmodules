@@ -308,3 +308,6 @@
 	path = docs/debops-api
 	url = https://github.com/debops/debops-api
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-java"]
+	path = docs/ansible/roles/ansible-java
+	url = https://github.com/debops/ansible-java
