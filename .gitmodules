@@ -291,9 +291,20 @@
 [submodule "docs/ansible/roles/ansible-php"]
 	path = docs/ansible/roles/ansible-php
 	url = https://github.com/debops/ansible-php
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-environment"]
 	path = docs/ansible/roles/ansible-environment
 	url = https://github.com/debops/ansible-environment
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-authorized_keys"]
 	path = docs/ansible/roles/ansible-authorized_keys
 	url = https://github.com/debops/ansible-authorized_keys
+	ignore = untracked
+[submodule "docs/ansible/roles/ansible-debops_api"]
+	path = docs/ansible/roles/ansible-debops_api
+	url = https://github.com/debops/ansible-debops_api.git
+	ignore = untracked
+[submodule "docs/debops-api"]
+	path = docs/debops-api
+	url = https://github.com/debops/debops-api
+	ignore = untracked
