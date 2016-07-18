@@ -54,7 +54,7 @@ distclean:
 
 .PHONY: FORCE_MAKE
 
-prepare: includes/global.rst linkincludes
+prepare: includes/global.rst
 
 includes/global.rst: \
 		includes/30gen_ansible_modules.rst \
@@ -77,6 +77,7 @@ includes/45gen_debops_contrib_repos.rst: ./bin/gen_rst_defs_using_remote_api
 includes/60gen_ypid_repos.rst: ./bin/gen_rst_defs_using_remote_api
 	"$<" 'github' 'ypid' 'ypid' 'users' > "$@"
 
+# Run from conf.py
 .PHONY: linkincludes
 linkincludes: bin/linkincludes
 	"$<"

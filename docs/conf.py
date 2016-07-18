@@ -27,6 +27,11 @@ for element in os.listdir('ansible/roles'):
       yaml_strip_regex=r'^\s{66,67}#\s\]{3}\d?$',
     )
 
+# Support global link definitions.
+# https://github.com/debops/docs/issues/155
+from subprocess import call
+call(['bin/linkincludes'])
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
