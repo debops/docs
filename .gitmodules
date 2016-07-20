@@ -311,6 +311,7 @@
 [submodule "docs/ansible/roles/ansible-java"]
 	path = docs/ansible/roles/ansible-java
 	url = https://github.com/debops/ansible-java
+	ignore = untracked
 [submodule "docs/debops-policy"]
 	path = docs/debops-policy
 	url = https://github.com/debops/debops-policy.git
@@ -318,3 +319,4 @@
 [submodule "docs/debops-keyring"]
 	path = docs/debops-keyring
 	url = https://github.com/debops/debops-keyring.git
+	ignore = untracked
