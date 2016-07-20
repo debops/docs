@@ -21,6 +21,3 @@ do
     ## Print for debugging for now.
     # 1>/dev/null
 done
-
-## TODO: Remove ln -s hack
-ln -sf docs/includes debops-api/
