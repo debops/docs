@@ -792,6 +792,7 @@
 .. _DebOps Contrib: https://github.com/debops-contrib/debops-contrib
 .. _DebOps Contrib playbooks: https://github.com/debops-contrib/debops-contrib-playbooks
 .. _DebOps Policy: http://docs.debops.org/en/latest/debops-policy/docs/index.html
+.. _Organizational structure: http://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html
 .. _debops-keyring: http://docs.debops.org/en/latest/debops-keyring/docs/index.html
 
 .. ]]]
@@ -865,5 +866,7 @@
 .. _RedRampage: https://github.com/redrampage/
 .. _Salt: http://saltstack.com/
 .. _Ubuntu 12.04 LTS (Precise Pangolin): http://releases.ubuntu.com/12.04/
+
+.. _RFC2119: https://tools.ietf.org/html/rfc2119
 
 .. ]]]
