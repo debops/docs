@@ -3,6 +3,8 @@
 ## @license GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.html>
 
 ## Link the global.rst include file into all parts of DebOps which use it.
+## Support global link definitions.
+## https://github.com/debops/docs/issues/155
 
 set -e
 

@@ -13,6 +13,7 @@ scalable from one container to an entire data center.
    debops/docs/index
    debops-playbooks/docs/index
    debops-policy/docs/index.rst
+   debops-keyring/docs/index.rst
    ansible/roles/index
    ansible/roles/ansible-*/docs/index
    debops-api/docs/index
