@@ -6,7 +6,7 @@
 ## Hook is installed from `conf.py` from Sphinx.
 
 ## TODO: Move to debops-keyring.
-pip3 install --user Jinja2
+pip3 install --user Jinja2 python-gnupg
 
 bin/linkincludes
 bin/prepare_repos_before_sphinx_runs
