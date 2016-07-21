@@ -1,0 +1,16 @@
+#!/bin/bash
+## @author Copyright (C) 2016 Robin Schneider <ypid@riseup.net>
+## @license GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.html>
+
+# Allows to hook into the docs build process before Sphinx runs.
+
+find . -type d -iwholename '.*/docs/_prepare' | while read prepare_dir
+do
+    pushd "$prepare_dir/../.." 1>/dev/null
+
+	if [[ -f "Makefile" ]]
+	then
+		make install-dependencies
+		make docs-prepare
+	fi
+done

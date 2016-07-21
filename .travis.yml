@@ -1,11 +1,18 @@
 ---
 
-language: python
+sudo: 'required'
+dist: 'trusty'
+language: 'python'
 python:
-  - "2.7"
+  - '2.7'
+
+before_install:
+  - 'sudo apt-get -qq update'
+  - 'sudo apt-get install -y python3-pip'
 
 # command to install dependencies
-install: "pip install -r docs/requirements.txt"
+install:
+  - 'sudo pip install -r docs/requirements.txt'
 
 # command to run tests
-script: ./test.sh -W
+script: 'sudo ./test.sh -W'
