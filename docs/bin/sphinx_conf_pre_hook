@@ -7,3 +7,6 @@
 
 bin/linkincludes
 bin/prepare_repos_before_sphinx_runs
+
+## TODO: Move to debops-keyring.
+pip3 install --user Jinja2
