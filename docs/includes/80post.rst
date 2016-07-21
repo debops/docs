@@ -11,6 +11,9 @@
 .. _DebOps Contrib playbooks: https://github.com/debops-contrib/debops-contrib-playbooks
 .. _DebOps Policy: http://docs.debops.org/en/latest/debops-policy/docs/index.html
 .. _Organizational structure: http://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html
+.. _DebOps code signing policy: http://docs.debops.org/en/latest/debops-policy/docs/code-signing-policy.html
+.. _DebOps security policy: http://docs.debops.org/en/latest/debops-policy/docs/security-policy.html
+.. _DebOps security announcements mailing list: https://lists.debops.org/mailman/listinfo/debops-security
 .. _debops-keyring: http://docs.debops.org/en/latest/debops-keyring/docs/index.html
 
 .. ]]]
@@ -21,9 +24,12 @@
 .. _debops.directories: https://github.com/debops/ansible-directories
 .. ]]]
 
-.. DebOps people [[[
+.. DebOps People [[[
+
+.. _DebOps People: http://docs.debops.org/en/latest/debops-keyring/docs/entities.html
 
 .. FIXME Change to debops-keyring
+   Format: http://docs.debops.org/en/latest/debops-keyring/docs/entities.html#debops-keyring-entity-drybjed
 
 .. _drybjed: https://wiki.debops.org/wiki:user:drybjed
 .. _ypid: https://wiki.debops.org/wiki:user:ypid
@@ -84,6 +90,8 @@
 .. _RedRampage: https://github.com/redrampage/
 .. _Salt: http://saltstack.com/
 .. _Ubuntu 12.04 LTS (Precise Pangolin): http://releases.ubuntu.com/12.04/
+.. _sks-keyservers.net: https://sks-keyservers.net/status/
+.. _OpenPGP Best Practices: https://help.riseup.net/en/security/message-security/openpgp/best-practices
 
 .. _RFC2119: https://tools.ietf.org/html/rfc2119
 
