@@ -10,10 +10,10 @@
 .. _DebOps Contrib: https://github.com/debops-contrib/debops-contrib
 .. _DebOps Contrib playbooks: https://github.com/debops-contrib/debops-contrib-playbooks
 .. _DebOps Policy: http://docs.debops.org/en/latest/debops-policy/docs/index.html
-.. _Organizational structure: http://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html
-.. _DebOps code signing policy: http://docs.debops.org/en/latest/debops-policy/docs/code-signing-policy.html
-.. _DebOps security policy: http://docs.debops.org/en/latest/debops-policy/docs/security-policy.html
-.. _DebOps security announcements mailing list: https://lists.debops.org/mailman/listinfo/debops-security
+.. _Organizational Structure: http://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html
+.. _DebOps Code Signing Policy: http://docs.debops.org/en/latest/debops-policy/docs/code-signing-policy.html
+.. _DebOps Security Policy: http://docs.debops.org/en/latest/debops-policy/docs/security-policy.html
+.. _DebOps Security Announcements mailing list: https://lists.debops.org/mailman/listinfo/debops-security
 .. _debops-keyring: http://docs.debops.org/en/latest/debops-keyring/docs/index.html
 
 .. ]]]
