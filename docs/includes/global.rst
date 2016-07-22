@@ -872,7 +872,7 @@
 .. _RedRampage: https://github.com/redrampage/
 .. _Salt: http://saltstack.com/
 .. _Ubuntu 12.04 LTS (Precise Pangolin): http://releases.ubuntu.com/12.04/
-.. _sks-keyservers.net: https://sks-keyservers.net/status/
+.. _sks-keyservers.net: https://sks-keyservers.net/
 .. _OpenPGP Best Practices: https://help.riseup.net/en/security/message-security/openpgp/best-practices
 
 .. _RFC2119: https://tools.ietf.org/html/rfc2119
