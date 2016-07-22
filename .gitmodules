@@ -320,3 +320,6 @@
 	path = docs/debops-keyring
 	url = https://github.com/debops/debops-keyring.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-hashicorp"]
+	path = docs/ansible/roles/ansible-hashicorp
+	url = https://github.com/debops/ansible-hashicorp
