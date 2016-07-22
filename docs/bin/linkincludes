@@ -24,5 +24,7 @@ do
     # 1>/dev/null
 done
 
-## TODO: Remove ln -s hack
+## Seems that this hack is needed for Travis CI. Not sure why. For readthedocs.org it is not needed.
 ln -sf docs/includes debops-api/
+ln -sf docs/includes debops-keyring/
+ln -sf docs/includes debops-policy/
