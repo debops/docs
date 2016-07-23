@@ -19,4 +19,5 @@
 .. _debops-contrib.checkmk_server: https://github.com/debops-contrib/ansible-checkmk_server
 .. _debops-contrib.btrfs: https://github.com/debops-contrib/ansible-btrfs
 .. _debops-contrib.x2go_server: https://github.com/debops-contrib/ansible-x2go_server
+.. _debops-contrib.consul: https://github.com/debops-contrib/ansible-consul
 .. ]]]
