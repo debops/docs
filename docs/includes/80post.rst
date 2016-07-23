@@ -34,6 +34,12 @@
 .. _drybjed: https://wiki.debops.org/wiki:user:drybjed
 .. _ypid: https://wiki.debops.org/wiki:user:ypid
 .. _ypid-ansible-common: https://github.com/ypid/ypid-ansible-common/
+.. _AnBuKu: https://github.com/AnBuKu
+.. _ganto: https://github.com/ganto
+.. _htgoebel: https://github.com/htgoebel
+.. _nickjj: https://github.com/nickjj
+.. _scibi: https://github.com/scibi
+.. _do3cc: https://github.com/do3cc
 
 .. ]]]
 
