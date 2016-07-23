@@ -69,7 +69,7 @@ includes/30gen_ansible_modules.rst: ./bin/gen_ansible_modules_rst_defs
 
 # FIXME when api.debops.org is online.
 includes/40gen_debops_repos.rst: ./bin/gen_rst_defs_using_debops_api
-	"$<" --debops-api-response-file /tmp/api/v0/roles/debops.json --role-owner 'debops' > "$@"
+	"$<" --debops-api-query v0/roles/debops.json --role-owner 'debops' > "$@"
 
 includes/45gen_debops_contrib_repos.rst: ./bin/gen_rst_defs_using_remote_api
 	"$<" 'github' 'DebOps Contrib' 'debops-contrib' 'orgs' > "$@"

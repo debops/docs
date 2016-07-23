@@ -20,5 +20,4 @@
 .. _ypid.psad: https://github.com/ypid/ansible-psad
 .. _ypid.rsyslog: https://github.com/ypid/ansible-rsyslog
 .. _ypid.shutdown_if_battery_low: https://github.com/ypid/ansible-shutdown_if_battery_low
-.. _ypid.synchronize: https://github.com/ypid/ansible-synchronize
 .. ]]]
