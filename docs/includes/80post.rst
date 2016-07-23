@@ -100,8 +100,19 @@
 .. _RedRampage: https://github.com/redrampage/
 .. _Salt: http://saltstack.com/
 .. _Ubuntu 12.04 LTS (Precise Pangolin): http://releases.ubuntu.com/12.04/
+
 .. _sks-keyservers.net: https://sks-keyservers.net/
+.. _SKS OpenPGP keyserver pool: https://sks-keyservers.net/
+.. Prefer the last one.
+
 .. _OpenPGP Best Practices: https://help.riseup.net/en/security/message-security/openpgp/best-practices
+.. _HashiCorp: https://hashicorp.com/
+.. _HashiCorp Security Policy: https://www.hashicorp.com/security.html
+.. _Consul: https://consul.io/
+.. _Terraform: https://terraform.io/
+.. _Vault: https://vaultproject.io/
+.. _Debian Go Packaging Team: https://qa.debian.org/developer.php?login=pkg-go-maintainers%40lists.alioth.debian.org
+.. _keybase.io: https://keybase.io
 
 .. _RFC2119: https://tools.ietf.org/html/rfc2119
 
