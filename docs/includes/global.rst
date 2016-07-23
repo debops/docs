@@ -783,6 +783,7 @@
 .. DebOps project links [[[
 
 .. _DebOps: http://debops.org/
+.. _DebOps Tools: https://github.com/debops/debops-tools
 .. _DebOps Galaxy page: https://galaxy.ansible.com/debops/
 .. _DebOps API: https://github.com/debops/debops-api
 .. _DebOps mailing list: https://lists.debops.org/
