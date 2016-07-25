@@ -784,6 +784,7 @@
 .. DebOps project links [[[
 
 .. _DebOps: http://debops.org/
+.. _DebOps Project: http://debops.org/
 .. _DebOps Tools: https://github.com/debops/debops-tools
 .. _DebOps Galaxy page: https://galaxy.ansible.com/debops/
 .. _DebOps API: https://github.com/debops/debops-api
@@ -827,6 +828,7 @@
 .. _nickjj: https://github.com/nickjj
 .. _scibi: https://github.com/scibi
 .. _do3cc: https://github.com/do3cc
+.. _thiagotalma: https://github.com/thiagotalma
 
 .. ]]]
 
@@ -898,5 +900,6 @@
 .. _keybase.io: https://keybase.io
 
 .. _RFC2119: https://tools.ietf.org/html/rfc2119
+.. _ISO 8601: https://en.wikipedia.org/wiki/ISO_8601
 
 .. ]]]
