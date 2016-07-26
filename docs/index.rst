@@ -1,5 +1,5 @@
-|debops_logo| `DebOps <http://debops.org>`_ documentation
-#########################################################
+|debops_logo| `DebOps <https://debops.org>`_ documentation
+##########################################################
 
 **Your Debian-based data center in a box**
 
@@ -19,7 +19,7 @@ scalable from one container to an entire data center.
    debops-api/docs/index
 
 
-.. |debops_logo| image:: http://debops.org/images/debops-small.png
+.. |debops_logo| image:: https://debops.org/images/debops-small.png
 
 ..
  Local Variables:
