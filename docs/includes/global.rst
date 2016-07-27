@@ -781,6 +781,8 @@
 .. _ypid.shutdown_if_battery_low: https://github.com/ypid/ansible-shutdown_if_battery_low
 .. ]]]
 
+.. vim: foldmarker=[[[,]]]:foldmethod=marker
+
 .. DebOps project links [[[
 
 .. _DebOps: http://debops.org/
@@ -790,16 +792,16 @@
 .. _DebOps API: https://github.com/debops/debops-api
 .. _DebOps mailing list: https://lists.debops.org/
 .. _DebOps Playbooks: https://github.com/debops/debops-playbooks/
-.. _DebOps Documentation: http://docs.debops.org/en/latest/
+.. _DebOps Documentation: https://docs.debops.org/en/latest/
 .. _DebOps Examples: https://github.com/debops/examples/
 .. _DebOps Contrib: https://github.com/debops-contrib/debops-contrib
 .. _DebOps Contrib playbooks: https://github.com/debops-contrib/debops-contrib-playbooks
-.. _DebOps Policy: http://docs.debops.org/en/latest/debops-policy/docs/index.html
-.. _Organizational Structure: http://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html
-.. _DebOps Code Signing Policy: http://docs.debops.org/en/latest/debops-policy/docs/code-signing-policy.html
-.. _DebOps Security Policy: http://docs.debops.org/en/latest/debops-policy/docs/security-policy.html
+.. _DebOps Policy: https://docs.debops.org/en/latest/debops-policy/docs/index.html
+.. _Organizational Structure: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html
+.. _DebOps Code Signing Policy: https://docs.debops.org/en/latest/debops-policy/docs/code-signing-policy.html
+.. _DebOps Security Policy: https://docs.debops.org/en/latest/debops-policy/docs/security-policy.html
 .. _DebOps Security Announcements mailing list: https://lists.debops.org/mailman/listinfo/debops-security
-.. _debops-keyring: http://docs.debops.org/en/latest/debops-keyring/docs/index.html
+.. _debops-keyring: https://docs.debops.org/en/latest/debops-keyring/docs/index.html
 
 .. ]]]
 
@@ -811,13 +813,17 @@
 
 .. DebOps People [[[
 
-.. _DebOps People: http://docs.debops.org/en/latest/debops-keyring/docs/entities.html
+.. Hyperlink target order:
+   1. DebOps People
+   2. DebOps Wiki
+   3. GitHub profile
+   4. Any HTTPS URL
+   5. Any legacy HTTP URL
 
-.. FIXME Change to debops-keyring
-   Format: http://docs.debops.org/en/latest/debops-keyring/docs/entities.html#debops-keyring-entity-drybjed
+.. _DebOps People: https://docs.debops.org/en/latest/debops-keyring/docs/entities.html
 
-.. _drybjed: https://wiki.debops.org/wiki:user:drybjed
-.. _ypid: https://wiki.debops.org/wiki:user:ypid
+.. _drybjed: https://docs.debops.org/en/latest/debops-keyring/docs/entities.html#debops-keyring-entity-drybjed
+.. _ypid: https://docs.debops.org/en/latest/debops-keyring/docs/entities.html#debops-keyring-entity-ypid
 .. _ypid-ansible-common: https://github.com/ypid/ypid-ansible-common/
 
 .. _AnBuKu: https://github.com/AnBuKu
