@@ -323,6 +323,8 @@
 [submodule "docs/ansible/roles/ansible-hashicorp"]
 	path = docs/ansible/roles/ansible-hashicorp
 	url = https://github.com/debops/ansible-hashicorp
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-nullmailer"]
 	path = docs/ansible/roles/ansible-nullmailer
 	url = https://github.com/debops/ansible-nullmailer
+	ignore = untracked
