@@ -89,4 +89,14 @@ if __name__ == '__main__':
             role_name=metadata['role_name'],
             vcs_url=metadata['vcs_url'],
         ))
+
+    print("")
+
+    for role_full_name, metadata in sorted(debops_api_response.items()):
+        if 'docs_url' in metadata:
+            print('.. _{role_owner}.{role_name} documentation: {vcs_url}'.format(
+                role_owner=metadata['role_owner'],
+                role_name=metadata['role_name'],
+                vcs_url=metadata['docs_url'],
+            ))
     print(".. ]]]")
