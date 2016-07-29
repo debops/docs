@@ -692,6 +692,7 @@
 .. _debops.nginx: https://github.com/debops/ansible-nginx
 .. _debops.nodejs: https://github.com/debops/ansible-nodejs
 .. _debops.ntp: https://github.com/debops/ansible-ntp
+.. _debops.nullmailer: https://github.com/debops/ansible-nullmailer
 .. _debops.openvz: https://github.com/debops/ansible-openvz
 .. _debops.owncloud: https://github.com/debops/ansible-owncloud
 .. _debops.php: https://github.com/debops/ansible-php
@@ -731,6 +732,74 @@
 .. _debops.tinc: https://github.com/debops/ansible-tinc
 .. _debops.unattended_upgrades: https://github.com/debops/ansible-unattended_upgrades
 .. _debops.users: https://github.com/debops/ansible-users
+
+.. _debops.apt documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-apt/docs/index.html
+.. _debops.apt_cacher_ng documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-apt_cacher_ng/docs/index.html
+.. _debops.apt_install documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-apt_install/docs/index.html
+.. _debops.apt_preferences documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-apt_preferences/docs/index.html
+.. _debops.atd documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-atd/docs/index.html
+.. _debops.authorized_keys documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-authorized_keys/docs/index.html
+.. _debops.bootstrap documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-bootstrap/docs/index.html
+.. _debops.core documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-core/docs/index.html
+.. _debops.cryptsetup documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-cryptsetup/docs/index.html
+.. _debops.debops documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-debops/docs/index.html
+.. _debops.debops_api documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-debops_api/docs/index.html
+.. _debops.dhcpd documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-dhcpd/docs/index.html
+.. _debops.dhparam documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-dhparam/docs/index.html
+.. _debops.docker documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-docker/docs/index.html
+.. _debops.docker_gen documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-docker_gen/docs/index.html
+.. _debops.dokuwiki documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-dokuwiki/docs/index.html
+.. _debops.dovecot documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-dovecot/docs/index.html
+.. _debops.environment documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-environment/docs/index.html
+.. _debops.etc_services documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-etc_services/docs/index.html
+.. _debops.fail2ban documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-fail2ban/docs/index.html
+.. _debops.fcgiwrap documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-fcgiwrap/docs/index.html
+.. _debops.ferm documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-ferm/docs/index.html
+.. _debops.gitlab_runner documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-gitlab_runner/docs/index.html
+.. _debops.golang documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-golang/docs/index.html
+.. _debops.grub documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-grub/docs/index.html
+.. _debops.hashicorp documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-hashicorp/docs/index.html
+.. _debops.ifupdown documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-ifupdown/docs/index.html
+.. _debops.ipxe documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-ipxe/docs/index.html
+.. _debops.iscsi documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-iscsi/docs/index.html
+.. _debops.java documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-java/docs/index.html
+.. _debops.librenms documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-librenms/docs/index.html
+.. _debops.libvirt documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-libvirt/docs/index.html
+.. _debops.libvirtd documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-libvirtd/docs/index.html
+.. _debops.logrotate documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-logrotate/docs/index.html
+.. _debops.lvm documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-lvm/docs/index.html
+.. _debops.mailman documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-mailman/docs/index.html
+.. _debops.mariadb documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-mariadb/docs/index.html
+.. _debops.mariadb_server documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-mariadb_server/docs/index.html
+.. _debops.memcached documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-memcached/docs/index.html
+.. _debops.nfs documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-nfs/docs/index.html
+.. _debops.nodejs documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-nodejs/docs/index.html
+.. _debops.ntp documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-ntp/docs/index.html
+.. _debops.nullmailer documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-nullmailer/docs/index.html
+.. _debops.owncloud documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-owncloud/docs/index.html
+.. _debops.php documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-php/docs/index.html
+.. _debops.pki documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-pki/docs/index.html
+.. _debops.postfix documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-postfix/docs/index.html
+.. _debops.postgresql documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-postgresql/docs/index.html
+.. _debops.postgresql_server documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-postgresql_server/docs/index.html
+.. _debops.preseed documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-preseed/docs/index.html
+.. _debops.resources documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-resources/docs/index.html
+.. _debops.rsnapshot documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-rsnapshot/docs/index.html
+.. _debops.rstudio_server documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-rstudio_server/docs/index.html
+.. _debops.rsyslog documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-rsyslog/docs/index.html
+.. _debops.ruby documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-ruby/docs/index.html
+.. _debops.secret documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-secret/docs/index.html
+.. _debops.slapd documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-slapd/docs/index.html
+.. _debops.snmpd documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-snmpd/docs/index.html
+.. _debops.sshd documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-sshd/docs/index.html
+.. _debops.stunnel documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-stunnel/docs/index.html
+.. _debops.subnetwork documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-subnetwork/docs/index.html
+.. _debops.swapfile documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-swapfile/docs/index.html
+.. _debops.tcpwrappers documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-tcpwrappers/docs/index.html
+.. _debops.tftpd documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-tftpd/docs/index.html
+.. _debops.tgt documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-tgt/docs/index.html
+.. _debops.tinc documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-tinc/docs/index.html
+.. _debops.unattended_upgrades documentation: http://docs.debops.org/en/latest/ansible/roles/ansible-unattended_upgrades/docs/index.html
 .. ]]]
 
 .. DebOps Contrib repositories [[[
@@ -798,6 +867,21 @@
 .. _DebOps Contrib playbooks: https://github.com/debops-contrib/debops-contrib-playbooks
 .. _DebOps Policy: https://docs.debops.org/en/latest/debops-policy/docs/index.html
 .. _Organizational Structure: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html
+.. _DebOps Developer: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#developers
+.. _DebOps Developers: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#developers
+.. _DebOps Project Leader: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#project-leader
+.. _DebOps Project Admin: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#project-admins
+.. _DebOps Project Admins: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#project-admins
+.. _DebOps Contributor: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#contributors
+.. _DebOps Contributors: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#contributors
+.. _Author: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#authors
+.. _Authors: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#authors
+.. _Maintainer: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#maintainers
+.. _Maintainers: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#maintainers
+.. _DebOps Maintainer: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#maintainers
+.. _DebOps Maintainers: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#maintainers
+.. _DebOps Bot: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#bots
+.. _DebOps Bots: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#bots
 .. _DebOps Code Signing Policy: https://docs.debops.org/en/latest/debops-policy/docs/code-signing-policy.html
 .. _DebOps Security Policy: https://docs.debops.org/en/latest/debops-policy/docs/security-policy.html
 .. _DebOps Security Announcements mailing list: https://lists.debops.org/mailman/listinfo/debops-security
