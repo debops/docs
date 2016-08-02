@@ -854,8 +854,8 @@
 
 .. DebOps project links [[[
 
-.. _DebOps: http://debops.org/
-.. _DebOps Project: http://debops.org/
+.. _DebOps: https://debops.org/
+.. _DebOps Project: https://debops.org/
 .. _DebOps Tools: https://github.com/debops/debops-tools
 .. _DebOps Galaxy page: https://galaxy.ansible.com/debops/
 .. _DebOps API: https://github.com/debops/debops-api
@@ -919,6 +919,7 @@
 .. _scibi: https://github.com/scibi
 .. _do3cc: https://github.com/do3cc
 .. _thiagotalma: https://github.com/thiagotalma
+.. _mbarcia: https://github.com/mbarcia
 
 .. ]]]
 
@@ -929,7 +930,7 @@
 .. _Linux: https://en.wikipedia.org/wiki/Linux
 .. _PfSense: https://en.wikipedia.org/wiki/PfSense
 .. _FreeBSD: https://en.wikipedia.org/wiki/FreeBSD
-.. _Debian Backports: http://backports.debian.org/
+.. _Debian Backports: https://backports.debian.org/
 
 .. _yaml2rst: https://github.com/htgoebel/yaml2rst
 .. _LUKS: https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup
@@ -971,9 +972,10 @@
 .. _HWRaid: http://hwraid.le-vert.net/
 .. _nginx map module: http://nginx.org/en/docs/http/ngx_http_map_module.html
 .. _Postfix: http://www.postfix.org/
-.. _Raspbian: http://raspbian.org/
+.. _Raspbian: https://raspbian.org/
 .. _RedRampage: https://github.com/redrampage/
-.. _Salt: http://saltstack.com/
+.. _Salt: https://saltstack.com/
+.. _Redis: http://redis.io/
 .. _Ubuntu 12.04 LTS (Precise Pangolin): http://releases.ubuntu.com/12.04/
 
 .. _sks-keyservers.net: https://sks-keyservers.net/
@@ -994,5 +996,7 @@
 
 .. _RFC2119: https://tools.ietf.org/html/rfc2119
 .. _ISO 8601: https://en.wikipedia.org/wiki/ISO_8601
+.. _AppArmor file glob: http://wiki.apparmor.net/index.php/QuickProfileLanguage#File_Globbing
+.. _AppArmor file globs: http://wiki.apparmor.net/index.php/QuickProfileLanguage#File_Globbing
 
 .. ]]]

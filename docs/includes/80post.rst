@@ -67,6 +67,7 @@
 .. _scibi: https://github.com/scibi
 .. _do3cc: https://github.com/do3cc
 .. _thiagotalma: https://github.com/thiagotalma
+.. _mbarcia: https://github.com/mbarcia
 
 .. ]]]
 
@@ -119,9 +120,10 @@
 .. _HWRaid: http://hwraid.le-vert.net/
 .. _nginx map module: http://nginx.org/en/docs/http/ngx_http_map_module.html
 .. _Postfix: http://www.postfix.org/
-.. _Raspbian: http://raspbian.org/
+.. _Raspbian: https://raspbian.org/
 .. _RedRampage: https://github.com/redrampage/
-.. _Salt: http://saltstack.com/
+.. _Salt: https://saltstack.com/
+.. _Redis: http://redis.io/
 .. _Ubuntu 12.04 LTS (Precise Pangolin): http://releases.ubuntu.com/12.04/
 
 .. _sks-keyservers.net: https://sks-keyservers.net/
@@ -142,5 +144,7 @@
 
 .. _RFC2119: https://tools.ietf.org/html/rfc2119
 .. _ISO 8601: https://en.wikipedia.org/wiki/ISO_8601
+.. _AppArmor file glob: http://wiki.apparmor.net/index.php/QuickProfileLanguage#File_Globbing
+.. _AppArmor file globs: http://wiki.apparmor.net/index.php/QuickProfileLanguage#File_Globbing
 
 .. ]]]
