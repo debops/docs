@@ -4,13 +4,13 @@
 
 # Allows to hook into the docs build process before Sphinx runs.
 
-find . -type d -iwholename '.*/docs/_prepare' | while read prepare_dir
+find . -type d -iwholename '.*/docs/_prepare' | while read -r prepare_dir
 do
     pushd "$prepare_dir/../.." 1>/dev/null
 
 	if [[ -f "Makefile" ]]
 	then
-		make install-dependencies
+		make install-dependencies PIP_OPTIONS=--user
 		make docs-prepare
 	fi
 done
