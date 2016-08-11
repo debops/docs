@@ -2,8 +2,10 @@
 
 .. DebOps project links [[[
 
+.. Simply "DebOps" is preferred: https://github.com/debops/docs/issues/197
+.. _DebOps project: https://debops.org/
+
 .. _DebOps: https://debops.org/
-.. _DebOps Project: https://debops.org/
 .. _DebOps Tools: https://github.com/debops/debops-tools
 .. _DebOps Galaxy page: https://galaxy.ansible.com/debops/
 .. _DebOps API: https://github.com/debops/debops-api
@@ -17,9 +19,9 @@
 .. _Organizational Structure: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html
 .. _DebOps Developer: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#developers
 .. _DebOps Developers: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#developers
-.. _DebOps Project Leader: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#project-leader
-.. _DebOps Project Admin: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#project-admins
-.. _DebOps Project Admins: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#project-admins
+.. _DebOps project Leader: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#project-leader
+.. _DebOps project Admin: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#project-admins
+.. _DebOps project Admins: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#project-admins
 .. _DebOps Contributor: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#contributors
 .. _DebOps Contributors: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#contributors
 .. _Author: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#authors
@@ -38,6 +40,11 @@
 .. ]]]
 
 .. DebOps deprecated links [[[
+
+.. If a role gets deprecated and removed from debops/docs (and thus also from
+   the DebOps API), it should be copied to this section in case roles still
+   reference a deprecated role.
+
 .. _debops.nat: https://github.com/debops/ansible-nat
 .. _debops.sshkeys: https://github.com/debops/ansible-sshkeys
 .. _debops.directories: https://github.com/debops/ansible-directories
@@ -45,7 +52,7 @@
 
 .. DebOps People [[[
 
-.. Hyperlink target order:
+.. Link target preference:
    1. DebOps People
    2. DebOps Wiki
    3. GitHub profile
@@ -71,7 +78,16 @@
 
 .. ]]]
 
-.. Projects [[[
+.. External [[[
+
+.. Link target preference:
+   1. English Wikipedia (if the article is good enough and/or it has it’s own article)
+      Wikipedia is intended to act as an entry pointer.
+   2. Project or subject homepage in English
+   3. Non-English Wikipedia (if the article is good enough and/or it has it’s own article)
+   4. Project or subject homepage in non-English
+
+   Ref: https://github.com/debops/docs/issues/203
 
 .. _Debian: https://en.wikipedia.org/wiki/Debian
 .. _GNU: https://en.wikipedia.org/wiki/GNU_Project
@@ -84,19 +100,16 @@
 .. _LUKS: https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup
 .. _dm-crypt: https://en.wikipedia.org/wiki/Dm-crypt
 .. _cryptsetup: https://gitlab.com/cryptsetup/cryptsetup
-.. _X2go: http://wiki.x2go.org/
+.. _X2go: https://en.wikipedia.org/wiki/X2Go
 .. _Wine: https://en.wikipedia.org/wiki/Wine_%28software%29
-.. _ownCloud: https://owncloud.org/
-.. _Let's Encrypt: https://letsencrypt.org/
+.. _ownCloud: https://en.wikipedia.org/wiki/OwnCloud
+.. _NextCloud: https://nextcloud.com/
+.. _Let's Encrypt: https://en.wikipedia.org/wiki/Let's_Encrypt
 
 .. _Opsi: https://en.wikipedia.org/wiki/Opsi
 .. _paedML Linux: https://www.lmz-bw.de/technische-unterstuetzung/kundenportal/linux.html
 .. _linuxmuster.net: https://linuxmuster.net/
 .. _Univention Corporate Server: https://en.wikipedia.org/wiki/Univention_Corporate_Server
-
-.. ]]]
-
-.. IT [[[
 
 .. _OCSP: https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol
 .. _DHCP: https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
@@ -108,22 +121,26 @@
 
 .. _6to4: https://en.wikipedia.org/wiki/6to4
 .. _6to4 tunnel: https://en.wikipedia.org/wiki/6to4
-.. _Dovecot: http://dovecot.org/
-.. _Elasticsearch: http://elasticsearch.org/
-.. _Etherpad: http://etherpad.org/
+.. _Dovecot: https://en.wikipedia.org/wiki/Dovecot_%28software%29
+.. _Elasticsearch: https://en.wikipedia.org/wiki/Elasticsearch
+.. _Etherpad: https://en.wikipedia.org/wiki/Etherpad
 .. _ferm: http://ferm.foo-projects.org/
 .. _ginas: https://github.com/ginas/ginas/
 .. _GitLab CI: https://about.gitlab.com/gitlab-ci/
-.. _GitLab: https://about.gitlab.com/
+.. _GitLab: https://en.wikipedia.org/wiki/GitLab
 .. _Go language: http://golang.org/
 .. _groups.io: https://groups.io/
 .. _HWRaid: http://hwraid.le-vert.net/
+.. _Nginx: https://en.wikipedia.org/wiki/Nginx
 .. _nginx map module: http://nginx.org/en/docs/http/ngx_http_map_module.html
-.. _Postfix: http://www.postfix.org/
-.. _Raspbian: https://raspbian.org/
+.. _MariaDB: https://en.wikipedia.org/wiki/Mariadb
+.. _PHP: https://en.wikipedia.org/wiki/PHP
+.. _Redis: https://en.wikipedia.org/wiki/Redis
+.. _Apache: https://en.wikipedia.org/wiki/Apache_HTTP_Server
+.. _Postfix: https://en.wikipedia.org/wiki/Postfix_%28software%29
+.. _Raspbian: https://en.wikipedia.org/wiki/Raspbian
 .. _RedRampage: https://github.com/redrampage/
-.. _Salt: https://saltstack.com/
-.. _Redis: http://redis.io/
+.. _Salt: https://en.wikipedia.org/wiki/SaltStack
 .. _Ubuntu 12.04 LTS (Precise Pangolin): http://releases.ubuntu.com/12.04/
 
 .. _sks-keyservers.net: https://sks-keyservers.net/
@@ -131,7 +148,7 @@
 .. Prefer the last one.
 
 .. _OpenPGP Best Practices: https://help.riseup.net/en/security/message-security/openpgp/best-practices
-.. _HashiCorp: https://hashicorp.com/
+.. _HashiCorp: https://en.wikipedia.org/wiki/HashiCorp
 .. _HashiCorp Security Policy: https://www.hashicorp.com/security.html
 .. _Consul: https://consul.io/
 .. _Terraform: https://terraform.io/
@@ -141,6 +158,8 @@
 .. _Infrastructures.Org: http://www.infrastructures.org/
 .. _Debian Policy Manual: https://www.debian.org/doc/debian-policy/
 .. _Computing Infrastructure Setup Protocols: http://infrastructure.blueprint.org/Home
+
+.. _ReadTheDocs: https://readthedocs.org/
 
 .. _RFC2119: https://tools.ietf.org/html/rfc2119
 .. _ISO 8601: https://en.wikipedia.org/wiki/ISO_8601
