@@ -331,3 +331,4 @@
 [submodule "docs/ansible/roles/ansible-debops_fact"]
 	path = docs/ansible/roles/ansible-debops_fact
 	url = https://github.com/debops/ansible-debops_fact
+	ignore = untracked
