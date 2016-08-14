@@ -38,7 +38,7 @@
               <a href="{{ meta['github_url'] }}" class="fa fa-github"> Edit on GitHub</a>
             {% else %}
             {# Removed: github_version #}
-              <a href="{{ source_file_to_url_map[pagename]['url'] }}/blob//master/{{ source_file_to_url_map[pagename]['pagename'] }}{{ suffix }}" class="fa fa-github"> Edit on GitHub</a>
+              <a href="{{ source_file_to_url_map[pagename]['url'] }}/blob//master/{{ source_file_to_url_map[pagename]['pagename'] }}" class="fa fa-github"> Edit on GitHub</a>
             {% endif %}
           {% elif display_bitbucket %}
             {% if check_meta and 'bitbucket_url' in meta %}
