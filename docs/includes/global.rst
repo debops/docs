@@ -959,6 +959,13 @@
 .. _ownCloud: https://en.wikipedia.org/wiki/OwnCloud
 .. _NextCloud: https://nextcloud.com/
 .. _Let's Encrypt: https://en.wikipedia.org/wiki/Let's_Encrypt
+.. _ACME: https://en.wikipedia.org/wiki/Automated_Certificate_Management_Environment
+.. _Automated Certificate Management Environment: https://en.wikipedia.org/wiki/Automated_Certificate_Management_Environment
+.. _CSR: https://en.wikipedia.org/wiki/Certificate_signing_request
+.. _Certificate Signing Request: https://en.wikipedia.org/wiki/Certificate_signing_request
+.. _MAC: https://en.wikipedia.org/wiki/Mandatory_access_control
+.. _Mandatory Access Control: https://en.wikipedia.org/wiki/Mandatory_access_control
+.. _acme-tiny: https://github.com/diafygi/acme-tiny
 
 .. _Opsi: https://en.wikipedia.org/wiki/Opsi
 .. _paedML Linux: https://www.lmz-bw.de/technische-unterstuetzung/kundenportal/linux.html

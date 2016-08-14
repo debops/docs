@@ -7,4 +7,3 @@ Ansible roles provided in DebOps
 
    *
    ansible-*/docs/index
-
