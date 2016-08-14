@@ -1,6 +1,7 @@
 sphinx==1.4.4
 sphinx_rtd_theme
 
-## TODO: Install unreleased develop version until htgoebel makes a release.
+# GitPython>=2.0.2
+# TODO: Install unreleased develop version until htgoebel makes a release.
 # yaml2rst
 https://github.com/ypid/yaml2rst/archive/feature/yaml-fold-strip-version-bump.zip

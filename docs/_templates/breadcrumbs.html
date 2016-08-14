@@ -5,7 +5,6 @@
 {% else %}
 {% set suffix = source_suffix %}
 {% endif %}
-<!-- FIXME(ypid): suffix {{ suffix }} -->
 
 {% if meta is defined and meta is not none %}
 {% set check_meta = True %}
@@ -33,12 +32,13 @@
     {% block breadcrumbs_aside %}
       <li class="wy-breadcrumbs-aside">
         {% if pagename != "search" %}
-            {% if display_github %}
+            {% if display_github and pagename in source_file_to_url_map %}
             {% if check_meta and 'github_url' in meta %}
               <!-- User defined GitHub URL -->
               <a href="{{ meta['github_url'] }}" class="fa fa-github"> Edit on GitHub</a>
             {% else %}
-              <a href="https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}" class="fa fa-github"> Edit on GitHub</a>
+            {# Removed: github_version #}
+              <a href="{{ source_file_to_url_map[pagename]['url'] }}/blob//master/{{ source_file_to_url_map[pagename]['pagename'] }}{{ suffix }}" class="fa fa-github"> Edit on GitHub</a>
             {% endif %}
           {% elif display_bitbucket %}
             {% if check_meta and 'bitbucket_url' in meta %}

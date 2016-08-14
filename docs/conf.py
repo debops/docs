@@ -14,24 +14,27 @@
 
 import sys
 import os
+import fnmatch
+import re
 
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+#  import git
 
 # Generate documentation on the fly based on Ansible default variables
 import yaml2rst
 
 for element in os.listdir('ansible/roles'):
-  if os.path.isdir('ansible/roles/' + element):
-    yaml2rst.convert_file(
-      'ansible/roles/' + element + '/defaults/main.yml',
-      'ansible/roles/' + element + '/docs/defaults.rst',
-      strip_regex=r'\s*(:?\[{3}|\]{3})\d?$',
-      yaml_strip_regex=r'^\s{66,67}#\s\]{3}\d?$',
-    )
+    if os.path.isdir('ansible/roles/' + element):
+        yaml2rst.convert_file(
+            'ansible/roles/' + element + '/defaults/main.yml',
+            'ansible/roles/' + element + '/docs/defaults.rst',
+            strip_regex=r'\s*(:?\[{3}|\]{3})\d?$',
+            yaml_strip_regex=r'^\s{66,67}#\s\]{3}\d?$',
+        )
 
-from subprocess import call
+from subprocess import call, check_output
 call(['bin/sphinx_conf_pre_hook'])
 
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
@@ -42,17 +45,97 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
     html_theme = 'sphinx_rtd_theme'
     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
+# Fix "Edit on GitHub" links (((
+# Jinja2 Support is only basic Jinja2 without all the good stuff from Ansible. So I am not gonna mess with that or try to extend it as in:
 # https://stackoverflow.com/questions/36019670/removing-the-edit-on-github-link-when-using-read-the-docs-sphinx-with-readthed
+# What I am gonna do instead is just recompute source file to URL map in Python and job done.
+#
+# git_repo.iter_submodules() fails with "unknown encoding: -----BEGIN PGP SIGNATURE-----"
+
+
+def find_files(directory, pattern):
+    for root, dirs, files in os.walk(directory):
+        for basename in files:
+            if fnmatch.fnmatch(basename, pattern):
+                filename = os.path.join(root, basename)
+                yield filename
+
+
+def get_source_file_to_url_map(start_dir='.'):
+    skip_page_names = [
+        'debops-keyring/docs/entities',  # Auto generated.
+    ]
+
+    source_file_to_url_map = {}
+    repo_dir_to_url_map = {}
+    list_of_submod_paths = []
+
+    cur_dir = os.path.abspath(os.path.dirname(__file__))
+
+    for submodule_path in check_output(['git', 'submodule', '--quiet', 'foreach', 'pwd']).split('\n'):
+        if submodule_path.startswith(cur_dir):
+            submodule_path = submodule_path[len(cur_dir):].lstrip('/')
+        list_of_submod_paths.append(submodule_path)
+
+    for source_file_name in find_files('.', '*.rst'):
+        pagename_source_file = source_file_name.lstrip('/.')[:-4]
+
+        if pagename_source_file in skip_page_names:
+            continue
+
+        dir_path = os.path.dirname(source_file_name)
+        if len(dir_path) > 2:
+            dir_path = dir_path.lstrip('/.')
+
+        # Can also contain subdirs in a repo but this optimization should already
+        # get factor 10 in performance for git Invokation.
+        if dir_path not in repo_dir_to_url_map:
+            #  git_repo = git.Repo(dir_path)
+            #  repo_dir_to_url_map[dir_path] = git_repo.remotes.origin.url
+            for remote_line in check_output(['git', '-C', dir_path, 'remote', '-v']).split('\n'):
+                remote_item = re.split(r'\s', remote_line)
+                if remote_item[0] == 'origin' and remote_item[2] == '(fetch)':
+                    base_url = remote_item[1]
+                    if base_url.endswith('.git'):
+                        base_url = base_url[:-4]
+                    repo_dir_to_url_map[dir_path] = base_url
+                    #  print(repo_dir_to_url_map[dir_path])
+
+        relative_pagename = pagename_source_file
+
+        if relative_pagename == 'index':
+            relative_pagename = 'docs/' + relative_pagename
+
+        for submod_path in list_of_submod_paths:
+            if pagename_source_file.startswith(submod_path + '/'):
+                relative_pagename = pagename_source_file[len(submod_path):].lstrip('/')
+
+
+        #  print('{}: {}'.format(pagename_source_file, repo_dir_to_url_map[dir_path]))
+        source_file_to_url_map[pagename_source_file] = {
+            'url': repo_dir_to_url_map[dir_path],
+            'pagename': relative_pagename,
+        }
+
+
+    #  print(source_file_to_url_map)
+    return source_file_to_url_map
+
 html_context = {
-    'display_github': False,  # Add 'Edit on Github' link instead of 'View page source'
+    'display_github': True,  # Add 'Edit on Github' link instead of 'View page source'
     'last_updated': True,
     'commit': False,
+    'source_file_to_url_map': get_source_file_to_url_map()
 }
+
+# https://stackoverflow.com/a/21909382
+#  import sphinx.application.TemplateBridge
+# )))
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#sys.path.insert(0, os.path.abspath('.'))
+# sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration ------------------------------------------------
 
@@ -241,8 +324,13 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'DebOps.tex', u'DebOps Documentation',
-   u'Maciej Delmanowski, Nick Janetakis, Robin Schneider', 'manual'),
+    (
+        'index',
+        'DebOps.tex',
+        u'DebOps Documentation',
+        u'Maciej Delmanowski, Nick Janetakis, Robin Schneider',
+        'manual'
+    ),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -285,9 +373,15 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'DebOps', u'DebOps Documentation',
-   u'Maciej Delmanowski, Nick Janetakis, Robin Schneider', 'DebOps', 'One line description of project.',
-   'Miscellaneous'),
+    (
+        'index',
+        'DebOps',
+        u'DebOps Documentation',
+        u'Maciej Delmanowski, Nick Janetakis, Robin Schneider',
+        'DebOps',
+        'One line description of project.',
+        'Miscellaneous'
+    ),
 ]
 
 # Documents to append as an appendix to all manuals.
