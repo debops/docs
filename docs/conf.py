@@ -111,7 +111,7 @@ def get_source_file_to_url_map(start_dir='.'):
                 relative_pagename = pagename_source_file[len(submod_path):].lstrip('/')
 
 
-        print('{}: {}'.format(pagename_source_file, repo_dir_to_url_map[dir_path]))
+        #  print('{}: {}'.format(pagename_source_file, repo_dir_to_url_map[dir_path]))
         source_file_to_url_map[pagename_source_file] = {
             'url': repo_dir_to_url_map[dir_path],
             'pagename': relative_pagename,
