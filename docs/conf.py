@@ -62,8 +62,9 @@ def find_files(directory, pattern):
 
 
 def get_source_file_to_url_map(start_dir='.'):
-    skip_page_names = [
-        'debops-keyring/docs/entities',  # Auto generated.
+    skip_patterns = [
+        r'debops-keyring/docs/entities(?:\.rst)$',  # Auto generated.
+        r'ansible/roles/debops[^/]+$',  # Legacy.
     ]
 
     source_file_to_url_map = {}
@@ -78,9 +79,16 @@ def get_source_file_to_url_map(start_dir='.'):
         list_of_submod_paths.append(submodule_path)
 
     for source_file_name in find_files('.', '*.rst'):
-        pagename_source_file = source_file_name.lstrip('/.')[:-4]
+        pagename_source_file = source_file_name.lstrip('/.')
 
-        if pagename_source_file in skip_page_names:
+        skip = False
+        for skip_pattern in skip_patterns:
+            if re.search(skip_pattern, pagename_source_file):
+                #  print(pagename_source_file)
+                skip = True
+                break
+
+        if skip:
             continue
 
         dir_path = os.path.dirname(source_file_name)
@@ -103,22 +111,34 @@ def get_source_file_to_url_map(start_dir='.'):
 
         relative_pagename = pagename_source_file
 
-        if relative_pagename == 'index':
+        if relative_pagename in ['index.rst', 'ansible/roles/index.rst']:
             relative_pagename = 'docs/' + relative_pagename
 
         for submod_path in list_of_submod_paths:
             if pagename_source_file.startswith(submod_path + '/'):
                 relative_pagename = pagename_source_file[len(submod_path):].lstrip('/')
 
+        # Does not work for legacy roles yet. Disabled.
+        #  if re.match(r'docs/copyright(?:\.rst)$', relative_pagename, flags=re.I):
+        #      relative_pagename = 'COPYRIGHT'
 
-        #  print('{}: {}'.format(pagename_source_file, repo_dir_to_url_map[dir_path]))
+        if re.match(r'docs/readme(?:\.rst)$', relative_pagename, flags=re.I):
+            relative_pagename = 'README.rst'
+
+        if re.match(r'docs/changelog(?:\.rst)$', relative_pagename, flags=re.I):
+            relative_pagename = 'CHANGES.rst'
+
+        pagename_source_file = re.sub(r'\.rst$', '', pagename_source_file)
         source_file_to_url_map[pagename_source_file] = {
             'url': repo_dir_to_url_map[dir_path],
             'pagename': relative_pagename,
         }
+        #  print('{}: {}'.format(pagename_source_file, source_file_to_url_map[pagename_source_file]))
 
 
     #  print(source_file_to_url_map)
+    #  import pprint
+    #  pprint.pprint(source_file_to_url_map)
     return source_file_to_url_map
 
 html_context = {
