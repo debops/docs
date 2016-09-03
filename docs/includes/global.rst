@@ -867,6 +867,7 @@
 .. _DebOps Playbooks: https://github.com/debops/debops-playbooks/
 .. _DebOps Documentation: https://docs.debops.org/en/latest/
 .. _DebOps Examples: https://github.com/debops/examples/
+.. _Getting Started with DebOps: https://docs.debops.org/en/latest/debops-playbooks/docs/guides/getting-started.html
 .. _DebOps Contrib: https://github.com/debops-contrib/debops-contrib
 .. _DebOps Contrib playbooks: https://github.com/debops-contrib/debops-contrib-playbooks
 .. _DebOps Policy: https://docs.debops.org/en/latest/debops-policy/docs/index.html
@@ -929,6 +930,8 @@
 .. _do3cc: https://github.com/do3cc
 .. _thiagotalma: https://github.com/thiagotalma
 .. _mbarcia: https://github.com/mbarcia
+.. _jacksingleton: https://github.com/jacksingleton
+.. _ser: https://github.com/ser
 
 .. ]]]
 
@@ -975,6 +978,7 @@
 .. _OCSP: https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol
 .. _DHCP: https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol
 .. _OCSP stapling: https://en.wikipedia.org/wiki/OCSP_stapling
+.. _Tinc: https://tinc-vpn.org/
 
 .. _PKI: https://en.wikipedia.org/wiki/Public_key_infrastructure
 .. _HSTS: https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
@@ -1026,5 +1030,6 @@
 .. _ISO 8601: https://en.wikipedia.org/wiki/ISO_8601
 .. _AppArmor file glob: http://wiki.apparmor.net/index.php/QuickProfileLanguage#File_Globbing
 .. _AppArmor file globs: http://wiki.apparmor.net/index.php/QuickProfileLanguage#File_Globbing
+.. _Threat model: https://en.wikipedia.org/wiki/Threat_model
 
 .. ]]]
