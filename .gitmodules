@@ -332,3 +332,7 @@
 	path = docs/ansible/roles/ansible-debops_fact
 	url = https://github.com/debops/ansible-debops_fact
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-sysctl"]
+	path = docs/ansible/roles/ansible-sysctl
+	url = https://github.com/debops/ansible-sysctl.git
+	ignore = untracked
