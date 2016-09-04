@@ -11,6 +11,7 @@
 .. _DebOps API: https://github.com/debops/debops-api
 .. _DebOps mailing list: https://lists.debops.org/
 .. _DebOps Playbooks: https://github.com/debops/debops-playbooks/
+.. _DebOps common playbook: https://github.com/debops/debops-playbooks/blob/master/playbooks/common.yml
 .. _DebOps Documentation: https://docs.debops.org/en/latest/
 .. _DebOps Examples: https://github.com/debops/examples/
 .. _Getting Started with DebOps: https://docs.debops.org/en/latest/debops-playbooks/docs/guides/getting-started.html
@@ -177,5 +178,7 @@
 .. _AppArmor file glob: http://wiki.apparmor.net/index.php/QuickProfileLanguage#File_Globbing
 .. _AppArmor file globs: http://wiki.apparmor.net/index.php/QuickProfileLanguage#File_Globbing
 .. _Threat model: https://en.wikipedia.org/wiki/Threat_model
+
+.. _hardening.os-hardening: https://github.com/hardening-io/ansible-os-hardening
 
 .. ]]]
