@@ -339,3 +339,6 @@
 [submodule "docs/ansible/roles/ansible-redis"]
 	path = docs/ansible/roles/ansible-redis
 	url = https://github.com/debops/ansible-redis
+[submodule "docs/ansible/roles/ansible-apt_listchanges"]
+	path = docs/ansible/roles/ansible-apt_listchanges
+	url = https://github.com/debops/ansible-apt_listchanges
