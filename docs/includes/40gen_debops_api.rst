@@ -5,6 +5,7 @@
 .. _debops.apt: https://github.com/debops/ansible-apt
 .. _debops.apt_cacher_ng: https://github.com/debops/ansible-apt_cacher_ng
 .. _debops.apt_install: https://github.com/debops/ansible-apt_install
+.. _debops.apt_listchanges: https://github.com/debops/ansible-apt_listchanges
 .. _debops.apt_preferences: https://github.com/debops/ansible-apt_preferences
 .. _debops.atd: https://github.com/debops/ansible-atd
 .. _debops.auth: https://github.com/debops/ansible-auth
@@ -99,6 +100,7 @@
 .. _debops.stunnel: https://github.com/debops/ansible-stunnel
 .. _debops.subnetwork: https://github.com/debops/ansible-subnetwork
 .. _debops.swapfile: https://github.com/debops/ansible-swapfile
+.. _debops.sysctl: https://github.com/debops/ansible-sysctl
 .. _debops.tcpwrappers: https://github.com/debops/ansible-tcpwrappers
 .. _debops.tftpd: https://github.com/debops/ansible-tftpd
 .. _debops.tgt: https://github.com/debops/ansible-tgt
@@ -109,6 +111,7 @@
 .. _debops.apt documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-apt/docs/index.html
 .. _debops.apt_cacher_ng documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-apt_cacher_ng/docs/index.html
 .. _debops.apt_install documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-apt_install/docs/index.html
+.. _debops.apt_listchanges documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-apt_listchanges/docs/index.html
 .. _debops.apt_preferences documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-apt_preferences/docs/index.html
 .. _debops.atd documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-atd/docs/index.html
 .. _debops.authorized_keys documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-authorized_keys/docs/index.html
@@ -157,6 +160,7 @@
 .. _debops.postgresql documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-postgresql/docs/index.html
 .. _debops.postgresql_server documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-postgresql_server/docs/index.html
 .. _debops.preseed documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-preseed/docs/index.html
+.. _debops.redis documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-redis/docs/index.html
 .. _debops.resources documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-resources/docs/index.html
 .. _debops.rsnapshot documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-rsnapshot/docs/index.html
 .. _debops.rstudio_server documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-rstudio_server/docs/index.html
@@ -169,6 +173,7 @@
 .. _debops.stunnel documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-stunnel/docs/index.html
 .. _debops.subnetwork documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-subnetwork/docs/index.html
 .. _debops.swapfile documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-swapfile/docs/index.html
+.. _debops.sysctl documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-sysctl/docs/index.html
 .. _debops.tcpwrappers documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-tcpwrappers/docs/index.html
 .. _debops.tftpd documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-tftpd/docs/index.html
 .. _debops.tgt documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-tgt/docs/index.html
