@@ -79,6 +79,7 @@
 .. _mbarcia: https://github.com/mbarcia
 .. _jacksingleton: https://github.com/jacksingleton
 .. _ser: https://github.com/ser
+.. _yuvadm: https://github.com/yuvadm
 
 .. ]]]
 
@@ -111,6 +112,10 @@
 .. _Let's Encrypt: https://en.wikipedia.org/wiki/Let's_Encrypt
 .. _ACME: https://en.wikipedia.org/wiki/Automated_Certificate_Management_Environment
 .. _Automated Certificate Management Environment: https://en.wikipedia.org/wiki/Automated_Certificate_Management_Environment
+.. _SubjectAltName: https://en.wikipedia.org/wiki/SubjectAltName
+.. _SubjectAltNames: https://en.wikipedia.org/wiki/SubjectAltName
+.. _Subject Alternative Name: https://en.wikipedia.org/wiki/SubjectAltName
+.. _Subject Alternative Names: https://en.wikipedia.org/wiki/SubjectAltName
 .. _CSR: https://en.wikipedia.org/wiki/Certificate_signing_request
 .. _Certificate Signing Request: https://en.wikipedia.org/wiki/Certificate_signing_request
 .. _MAC: https://en.wikipedia.org/wiki/Mandatory_access_control
