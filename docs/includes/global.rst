@@ -878,21 +878,25 @@
 .. _DebOps Contrib playbooks: https://github.com/debops-contrib/debops-contrib-playbooks
 .. _DebOps Policy: https://docs.debops.org/en/latest/debops-policy/docs/index.html
 .. _Organizational Structure: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html
-.. _DebOps Developer: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#developers
-.. _DebOps Developers: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#developers
-.. _DebOps project Leader: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#project-leader
-.. _DebOps project Admin: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#project-admins
-.. _DebOps project Admins: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#project-admins
-.. _DebOps Contributor: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#contributors
-.. _DebOps Contributors: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#contributors
-.. _Author: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#authors
-.. _Authors: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#authors
-.. _Maintainer: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#maintainers
-.. _Maintainers: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#maintainers
-.. _DebOps Maintainer: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#maintainers
-.. _DebOps Maintainers: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#maintainers
-.. _DebOps Bot: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#bots
-.. _DebOps Bots: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#bots
+.. _DebOps Developer: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-developers
+.. _DebOps Developers: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-developers
+.. _Current DebOps Developers: https://docs.debops.org/en/latest/debops-keyring/docs/entities.html#debops-keyring-role-developers
+.. _DebOps project Leader: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-project-leader
+.. _Current DebOps project Leader: https://docs.debops.org/en/latest/debops-keyring/docs/entities.html#debops-keyring-role-leader
+.. _DebOps project Admin: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-project-admins
+.. _DebOps project Admins: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-project-admins
+.. _DebOps Contributor: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-contributors
+.. _DebOps Contributors: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-contributors
+.. _Current DebOps Contributors: https://docs.debops.org/en/latest/debops-keyring/docs/entities.html#debops-keyring-role-contributors
+.. _Current DebOps Bots: https://docs.debops.org/en/latest/debops-keyring/docs/entities.html#debops-keyring-role-bots
+.. _Author: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-authors
+.. _Authors: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-authors
+.. _Maintainer: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-maintainers
+.. _Maintainers: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-maintainers
+.. _DebOps Maintainer: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-maintainers
+.. _DebOps Maintainers: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-maintainers
+.. _DebOps Bot: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-bots
+.. _DebOps Bots: https://docs.debops.org/en/latest/debops-policy/docs/organizational-structure.html#debops-policy-structure-bots
 .. _DebOps Code Signing Policy: https://docs.debops.org/en/latest/debops-policy/docs/code-signing-policy.html
 .. _DebOps Security Policy: https://docs.debops.org/en/latest/debops-policy/docs/security-policy.html
 .. _DebOps Security Announcements mailing list: https://lists.debops.org/mailman/listinfo/debops-security
@@ -939,6 +943,9 @@
 .. _jacksingleton: https://github.com/jacksingleton
 .. _ser: https://github.com/ser
 .. _yuvadm: https://github.com/yuvadm
+.. _pedroluislopez: https://github.com/pedroluislopez
+.. _patrickheeney: https://github.com/patrickheeney
+.. _rchady: https://github.com/rchady
 
 .. ]]]
 
