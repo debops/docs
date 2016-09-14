@@ -342,3 +342,6 @@
 [submodule "docs/ansible/roles/ansible-apt_listchanges"]
 	path = docs/ansible/roles/ansible-apt_listchanges
 	url = https://github.com/debops/ansible-apt_listchanges
+[submodule "docs/ansible/roles/ansible-apt_proxy"]
+	path = docs/ansible/roles/ansible-apt_proxy
+	url = https://github.com/debops/ansible-apt_proxy
