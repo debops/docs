@@ -70,6 +70,9 @@
 .. _drybjed: https://docs.debops.org/en/latest/debops-keyring/docs/entities.html#debops-keyring-entity-drybjed
 .. _ypid: https://docs.debops.org/en/latest/debops-keyring/docs/entities.html#debops-keyring-entity-ypid
 .. _ypid-ansible-common: https://github.com/ypid/ypid-ansible-common/
+.. _ypid-ansible-inventory: https://github.com/ypid/ypid-ansible-inventory
+
+.. _le9i0nx: https://github.com/le9i0nx
 
 .. _AnBuKu: https://github.com/AnBuKu
 .. AuBuKa aka. hugi
@@ -141,6 +144,15 @@
 
 .. _PKI: https://en.wikipedia.org/wiki/Public_key_infrastructure
 .. _HSTS: https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
+.. _HTTP Strict Transport Security: https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security
+.. _HSTS Preload List Submission: https://hstspreload.appspot.com/
+.. _HPKP: https://en.wikipedia.org/wiki/HTTP_Public_Key_Pinning
+.. _HTTP Public Key Pinning: https://en.wikipedia.org/wiki/HTTP_Public_Key_Pinning
+.. _TOFU: https://en.wikipedia.org/wiki/Trust_on_first_use
+.. _trust on first use: https://en.wikipedia.org/wiki/Trust_on_first_use
+.. _Content Security Policy Reference: https://content-security-policy.com/
+.. _SPDY: https://en.wikipedia.org/wiki/SPDY
+.. _HTTP/2: https://en.wikipedia.org/wiki/HTTP/2
 .. _Semantic Versioning: http://semver.org/
 
 .. _6to4: https://en.wikipedia.org/wiki/6to4
@@ -161,6 +173,7 @@
 .. _PHP: https://en.wikipedia.org/wiki/PHP
 .. _Redis: https://en.wikipedia.org/wiki/Redis
 .. _Apache: https://en.wikipedia.org/wiki/Apache_HTTP_Server
+.. _Apache HTTP Server: https://en.wikipedia.org/wiki/Apache_HTTP_Server
 .. _Postfix: https://en.wikipedia.org/wiki/Postfix_%28software%29
 .. _Raspbian: https://en.wikipedia.org/wiki/Raspbian
 .. _RedRampage: https://github.com/redrampage/
@@ -185,12 +198,17 @@
 
 .. _ReadTheDocs: https://readthedocs.org/
 
+.. _RFC7034: https://tools.ietf.org/html/rfc7034
 .. _RFC2119: https://tools.ietf.org/html/rfc2119
 .. _ISO 8601: https://en.wikipedia.org/wiki/ISO_8601
 .. _AppArmor file glob: http://wiki.apparmor.net/index.php/QuickProfileLanguage#File_Globbing
 .. _AppArmor file globs: http://wiki.apparmor.net/index.php/QuickProfileLanguage#File_Globbing
 .. _Threat model: https://en.wikipedia.org/wiki/Threat_model
+.. _OpSec: https://en.wikipedia.org/wiki/Operations_security
+.. _Operations security: https://en.wikipedia.org/wiki/Operations_security
 
 .. _hardening.os-hardening: https://github.com/hardening-io/ansible-os-hardening
+
+.. _HTML title tag: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
 
 .. ]]]
