@@ -339,9 +339,16 @@
 [submodule "docs/ansible/roles/ansible-redis"]
 	path = docs/ansible/roles/ansible-redis
 	url = https://github.com/debops/ansible-redis
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-apt_listchanges"]
 	path = docs/ansible/roles/ansible-apt_listchanges
 	url = https://github.com/debops/ansible-apt_listchanges
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-apt_proxy"]
 	path = docs/ansible/roles/ansible-apt_proxy
 	url = https://github.com/debops/ansible-apt_proxy
+	ignore = untracked
+[submodule "docs/ansible/roles/ansible-apache"]
+	path = docs/ansible/roles/ansible-apache
+	url = https://github.com/debops/ansible-apache.git
+	ignore = untracked
