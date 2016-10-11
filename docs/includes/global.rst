@@ -935,7 +935,7 @@
 .. _ypid-ansible-common: https://github.com/ypid/ypid-ansible-common/
 .. _ypid-ansible-inventory: https://github.com/ypid/ypid-ansible-inventory
 
-.. _le9i0nx: https://github.com/le9i0nx
+.. _le9i0nx: https://docs.debops.org/en/latest/debops-keyring/docs/entities.html#debops-keyring-entity-le9i0nx
 
 .. _AnBuKu: https://github.com/AnBuKu
 .. AuBuKa aka. hugi
@@ -953,6 +953,7 @@
 .. _pedroluislopez: https://github.com/pedroluislopez
 .. _patrickheeney: https://github.com/patrickheeney
 .. _rchady: https://github.com/rchady
+.. _tallandtree: https://github.com/tallandtree
 
 .. ]]]
 
@@ -1013,9 +1014,11 @@
 .. _HTTP Public Key Pinning: https://en.wikipedia.org/wiki/HTTP_Public_Key_Pinning
 .. _TOFU: https://en.wikipedia.org/wiki/Trust_on_first_use
 .. _trust on first use: https://en.wikipedia.org/wiki/Trust_on_first_use
+.. _Content Security Policy: https://content-security-policy.com/
 .. _Content Security Policy Reference: https://content-security-policy.com/
 .. _SPDY: https://en.wikipedia.org/wiki/SPDY
 .. _HTTP/2: https://en.wikipedia.org/wiki/HTTP/2
+.. _Referrer Policy: https://www.w3.org/TR/referrer-policy/
 .. _Semantic Versioning: http://semver.org/
 
 .. _6to4: https://en.wikipedia.org/wiki/6to4
@@ -1061,14 +1064,24 @@
 
 .. _ReadTheDocs: https://readthedocs.org/
 
-.. _RFC7034: https://tools.ietf.org/html/rfc7034
+.. Use http://www.sphinx-doc.org/en/stable/markup/inline.html#role-rfc :) !!!
+   Needs to be fixed first before it can be disabled here.
+   debops-optimize can fix it for you ;)
 .. _RFC2119: https://tools.ietf.org/html/rfc2119
+.. _RFC3339: https://tools.ietf.org/html/rfc3339
+.. _RFC7034: https://tools.ietf.org/html/rfc7034
+
+.. _RFC: https://en.wikipedia.org/wiki/Request_for_Comments
+.. _RFCs: https://en.wikipedia.org/wiki/Request_for_Comments
 .. _ISO 8601: https://en.wikipedia.org/wiki/ISO_8601
 .. _AppArmor file glob: http://wiki.apparmor.net/index.php/QuickProfileLanguage#File_Globbing
 .. _AppArmor file globs: http://wiki.apparmor.net/index.php/QuickProfileLanguage#File_Globbing
 .. _Threat model: https://en.wikipedia.org/wiki/Threat_model
 .. _OpSec: https://en.wikipedia.org/wiki/Operations_security
 .. _Operations security: https://en.wikipedia.org/wiki/Operations_security
+.. _Grsecurity: https://en.wikipedia.org/wiki/Grsecurity
+.. _Kernel Self Protection Project: https://kernsec.org/wiki/index.php/Kernel_Self_Protection_Project
+.. _HSM: https://en.wikipedia.org/wiki/Hardware_security_module
 
 .. _hardening.os-hardening: https://github.com/hardening-io/ansible-os-hardening
 
