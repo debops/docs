@@ -355,3 +355,6 @@
 [submodule "docs/ansible/roles/ansible-users"]
 	path = docs/ansible/roles/ansible-users
 	url = https://github.com/debops/ansible-users
+[submodule "docs/ansible/roles/ansible-elasticsearch"]
+	path = docs/ansible/roles/ansible-elasticsearch
+	url = https://github.com/debops/ansible-elasticsearch
