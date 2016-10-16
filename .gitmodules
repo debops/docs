@@ -358,3 +358,6 @@
 [submodule "docs/ansible/roles/ansible-elasticsearch"]
 	path = docs/ansible/roles/ansible-elasticsearch
 	url = https://github.com/debops/ansible-elasticsearch
+[submodule "docs/ansible/roles/ansible-gunicorn"]
+	path = docs/ansible/roles/ansible-gunicorn
+	url = https://github.com/debops/ansible-gunicorn
