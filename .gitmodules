@@ -361,3 +361,6 @@
 [submodule "docs/ansible/roles/ansible-gunicorn"]
 	path = docs/ansible/roles/ansible-gunicorn
 	url = https://github.com/debops/ansible-gunicorn
+[submodule "docs/ansible/roles/ansible-netbox"]
+	path = docs/ansible/roles/ansible-netbox
+	url = https://github.com/debops/ansible-netbox
