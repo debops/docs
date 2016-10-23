@@ -113,6 +113,7 @@
 .. _Debian Backports: https://backports.debian.org/
 
 .. _yaml2rst: https://github.com/htgoebel/yaml2rst
+.. _yaml4rst: https://github.com/ypid/yaml4rst
 .. _LUKS: https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup
 .. _dm-crypt: https://en.wikipedia.org/wiki/Dm-crypt
 .. _cryptsetup: https://gitlab.com/cryptsetup/cryptsetup
@@ -157,6 +158,8 @@
 .. _HTTP/2: https://en.wikipedia.org/wiki/HTTP/2
 .. _Referrer Policy: https://www.w3.org/TR/referrer-policy/
 .. _Semantic Versioning: http://semver.org/
+.. _Loop device: https://en.wikipedia.org/wiki/Loop_device
+.. _Loop devices: https://en.wikipedia.org/wiki/Loop_device
 
 .. _6to4: https://en.wikipedia.org/wiki/6to4
 .. _6to4 tunnel: https://en.wikipedia.org/wiki/6to4
@@ -200,6 +203,9 @@
 .. _Computing Infrastructure Setup Protocols: http://infrastructure.blueprint.org/Home
 
 .. _ReadTheDocs: https://readthedocs.org/
+
+.. _xkcd 1205: https://xkcd.com/1205/
+.. _xkcd 1319: https://xkcd.com/1319/
 
 .. Use http://www.sphinx-doc.org/en/stable/markup/inline.html#role-rfc :) !!!
    Needs to be fixed first before it can be disabled here.
