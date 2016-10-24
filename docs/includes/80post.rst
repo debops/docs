@@ -222,6 +222,9 @@
 .. _Threat model: https://en.wikipedia.org/wiki/Threat_model
 .. _OpSec: https://en.wikipedia.org/wiki/Operations_security
 .. _Operations security: https://en.wikipedia.org/wiki/Operations_security
+.. _InfoSec: https://en.wikipedia.org/wiki/Information_security
+.. _Information Security: https://en.wikipedia.org/wiki/Information_security
+.. _Computer Security: https://en.wikipedia.org/wiki/Computer_security
 .. _Grsecurity: https://en.wikipedia.org/wiki/Grsecurity
 .. _Kernel Self Protection Project: https://kernsec.org/wiki/index.php/Kernel_Self_Protection_Project
 .. _HSM: https://en.wikipedia.org/wiki/Hardware_security_module
