@@ -364,3 +364,6 @@
 [submodule "docs/ansible/roles/ansible-netbox"]
 	path = docs/ansible/roles/ansible-netbox
 	url = https://github.com/debops/ansible-netbox
+[submodule "docs/ansible/roles/ansible-dnsmasq"]
+	path = docs/ansible/roles/ansible-dnsmasq
+	url = https://github.com/debops/ansible-dnsmasq
