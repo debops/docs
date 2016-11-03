@@ -974,6 +974,9 @@
 .. _PfSense: https://en.wikipedia.org/wiki/PfSense
 .. _FreeBSD: https://en.wikipedia.org/wiki/FreeBSD
 .. _Debian Backports: https://backports.debian.org/
+.. _jessie-backports: https://packages.debian.org/jessie-backports/
+.. _APT: https://en.wikipedia.org/wiki/Advanced_Packaging_Tool
+.. _Advanced Packaging Tool: https://en.wikipedia.org/wiki/Advanced_Packaging_Tool
 
 .. _yaml2rst: https://github.com/htgoebel/yaml2rst
 .. _yaml4rst: https://github.com/ypid/yaml4rst
@@ -996,6 +999,7 @@
 .. _MAC: https://en.wikipedia.org/wiki/Mandatory_access_control
 .. _Mandatory Access Control: https://en.wikipedia.org/wiki/Mandatory_access_control
 .. _acme-tiny: https://github.com/diafygi/acme-tiny
+.. _Firejail: https://firejail.wordpress.com/
 
 .. _Opsi: https://en.wikipedia.org/wiki/Opsi
 .. _paedML Linux: https://www.lmz-bw.de/technische-unterstuetzung/kundenportal/linux.html
@@ -1095,5 +1099,14 @@
 .. _hardening.os-hardening: https://github.com/hardening-io/ansible-os-hardening
 
 .. _HTML title tag: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
+
+.. ]]]
+
+.. Additional reST roles for inline usage [[[
+
+.. role:: jinja_code(code)
+   :language: jinja
+
+.. Can be used like this: :jinja_code:`/usr/local/bin/{{ item.key }}`
 
 .. ]]]
