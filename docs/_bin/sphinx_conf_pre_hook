@@ -5,5 +5,5 @@
 ## Run hook scripts just before Sphinx runs.
 ## Hook is installed from `conf.py` from Sphinx.
 
-bin/linkincludes
-bin/prepare_repos_before_sphinx_runs
+_bin/linkincludes
+_bin/prepare_repos_before_sphinx_runs

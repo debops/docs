@@ -6,6 +6,8 @@
 .. _DebOps project: https://debops.org/
 
 .. _DebOps: https://debops.org/
+.. _DebOps Status: https://debops.org/status.html
+.. _DebOps Status page: https://debops.org/status.html
 .. _DebOps Tools: https://github.com/debops/debops-tools
 .. _DebOps Galaxy page: https://galaxy.ansible.com/debops/
 .. _DebOps API: https://github.com/debops/debops-api
@@ -42,6 +44,8 @@
 .. _DebOps Security Policy: https://docs.debops.org/en/latest/debops-policy/docs/security-policy.html
 .. _DebOps Security Announcements mailing list: https://lists.debops.org/mailman/listinfo/debops-security
 .. _debops-keyring: https://docs.debops.org/en/latest/debops-keyring/docs/index.html
+.. _`debops/docs`: https://github.com/debops/docs/
+.. _DebOps docs global.rst: https://github.com/debops/docs/blob/master/docs/includes/global.rst
 
 .. ]]]
 
@@ -118,6 +122,7 @@
 
 .. _yaml2rst: https://github.com/htgoebel/yaml2rst
 .. _yaml4rst: https://github.com/ypid/yaml4rst
+.. _ansigenome: https://github.com/nickjj/ansigenome
 .. _LUKS: https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup
 .. _dm-crypt: https://en.wikipedia.org/wiki/Dm-crypt
 .. _cryptsetup: https://gitlab.com/cryptsetup/cryptsetup
