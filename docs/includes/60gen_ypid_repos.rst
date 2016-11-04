@@ -7,6 +7,7 @@
 .. _ypid.divert: https://github.com/ypid/ansible-divert
 .. _ypid.docker: https://github.com/ypid/ansible-docker
 .. _ypid.file_attributes: https://github.com/ypid/ansible-file_attributes
+.. _ypid.firejail: https://github.com/ypid/ansible-firejail
 .. _ypid.gdm: https://github.com/ypid/ansible-gdm
 .. _ypid.hdparm: https://github.com/ypid/ansible-hdparm
 .. _ypid.import_pgp_public_keys: https://github.com/ypid/ansible-import_pgp_public_keys

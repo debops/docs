@@ -62,7 +62,7 @@ includes/global.rst: \
 		includes/45gen_debops_contrib_repos.rst \
 		includes/60gen_ypid_repos.rst \
 		FORCE_MAKE
-	run-parts --list --regex '.*\.rst' includes | grep -v 'global.rst$$' | xargs awk 'FNR==1{print ""}{print}' > "$@"
+	run-parts --list --regex '.*\.rst' includes | grep -v --extended-regexp '(global|all).rst$$' | xargs awk 'FNR==1{print ""}{print}' > "$@"
 
 includes/30gen_ansible_modules.rst: ./_bin/gen_ansible_modules_rst_defs
 	"$<" > "$@"
