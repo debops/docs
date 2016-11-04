@@ -11,6 +11,6 @@
 
 This is the repository for `DebOps`_ documentation, managed using `Read The Docs`_.
 
-.. _DebOps documentation: http://docs.debops.org/
-.. _DebOps: http://debops.org/
+.. _DebOps documentation: https://docs.debops.org/
+.. _DebOps: https://debops.org/
 .. _Read The Docs: https://readthedocs.org/projects/debops/
