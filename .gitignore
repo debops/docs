@@ -1,3 +1,8 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
 # Created by http://www.gitignore.io
 
 ### vim ###
@@ -19,4 +24,3 @@ Session.vim
 auto-save-list
 tramp
 .\#*
-
