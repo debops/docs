@@ -19,12 +19,18 @@ do
     ## ln: invalid option -- 'r'
     ## The version of ln on Travis does not have --relative :<
     ln -sf "$DOCS_DIR/includes/global.rst" global.rst
+
+    ## Should not be needed but for some reason when setting up DebOps Contrib,
+    ## it was needed for CHANGES.rst.
+    ln -sf "$DOCS_DIR/includes" ../../
+
     popd 1>/dev/null
     ## Print for debugging for now.
-    # 1>/dev/null
 done
 
+test -d ansible/roles && ln -sf ../../includes/ ansible/roles
+
 ## Seems that this hack is needed for Travis CI. Not sure why. For readthedocs.org it is not needed.
-ln -sf docs/includes debops-api/
-ln -sf docs/includes debops-keyring/
-ln -sf docs/includes debops-policy/
+test -d debops-api && ln -sf docs/includes debops-api/
+test -d debops-keyring && ln -sf docs/includes debops-keyring/
+test -d debops-policy && ln -sf docs/includes debops-policy/

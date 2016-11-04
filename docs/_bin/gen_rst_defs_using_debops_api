@@ -5,7 +5,7 @@
 __license__ = 'GPL-3.0'
 __author__ = 'Robin Schneider <ypid@riseup.net>'
 __version__ = '0.1.0'
-SCRIPT_URL = 'https://github.com/debops/docs/blob/master/docs/docs/bin/gen_rst_defs_using_debops_api'
+SCRIPT_URL = 'https://github.com/debops/docs/blob/master/docs/docs/_bin/gen_rst_defs_using_debops_api'
 
 """
 Generate URL definitions based on data returned by the DebOps API.

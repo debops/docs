@@ -355,15 +355,20 @@
 [submodule "docs/ansible/roles/ansible-users"]
 	path = docs/ansible/roles/ansible-users
 	url = https://github.com/debops/ansible-users
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-elasticsearch"]
 	path = docs/ansible/roles/ansible-elasticsearch
 	url = https://github.com/debops/ansible-elasticsearch
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-gunicorn"]
 	path = docs/ansible/roles/ansible-gunicorn
 	url = https://github.com/debops/ansible-gunicorn
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-netbox"]
 	path = docs/ansible/roles/ansible-netbox
 	url = https://github.com/debops/ansible-netbox
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-dnsmasq"]
 	path = docs/ansible/roles/ansible-dnsmasq
 	url = https://github.com/debops/ansible-dnsmasq
+	ignore = untracked

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # DebOps documentation build configuration file
-# Copyright (C) 2014-2016 DebOps Project http://debops.org/
+# Copyright (C) 2014-2016 DebOps Project https://debops.org/
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -12,157 +12,29 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys
-import os
-import fnmatch
-import re
-
-#  import git
-
-# Generate documentation on the fly based on Ansible default variables
-import yaml2rst
-
-for element in os.listdir('ansible/roles'):
-    if os.path.isdir('ansible/roles/' + element):
-        yaml2rst.convert_file(
-            'ansible/roles/' + element + '/defaults/main.yml',
-            'ansible/roles/' + element + '/docs/defaults.rst',
-            strip_regex=r'\s*(:?\[{3}|\]{3})\d?$',
-            yaml_strip_regex=r'^\s{66,67}#\s\]{3}\d?$',
-        )
-
-from subprocess import call, check_output
-call(['bin/sphinx_conf_pre_hook'])
-
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-html_theme = 'default'
-
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
-# Fix "Edit on GitHub" links (((
-# Jinja2 Support is only basic Jinja2 without all the good stuff from Ansible. So I am not gonna mess with that or try to extend it as in:
-# https://stackoverflow.com/questions/36019670/removing-the-edit-on-github-link-when-using-read-the-docs-sphinx-with-readthed
-# What I am gonna do instead is just recompute source file to URL map in Python and job done.
-#
-# git_repo.iter_submodules() fails with "unknown encoding: -----BEGIN PGP SIGNATURE-----"
-
-
-def find_files(directory, pattern):
-    for root, dirs, files in os.walk(directory):
-        for basename in files:
-            if fnmatch.fnmatch(basename, pattern):
-                filename = os.path.join(root, basename)
-                yield filename
-
-
-def get_source_file_to_url_map(start_dir='.'):
-    skip_patterns = [
-        r'debops-keyring/docs/entities(?:\.rst)$',  # Auto generated.
-        r'ansible/roles/debops[^/]+$',  # Legacy.
-    ]
-
-    source_file_to_url_map = {}
-    repo_dir_to_url_map = {}
-    list_of_submod_paths = []
-
-    cur_dir = os.path.abspath(os.path.dirname(__file__))
-
-    for submodule_path in check_output(['git', 'submodule', '--quiet', 'foreach', 'pwd']).split('\n'):
-        if submodule_path.startswith(cur_dir):
-            submodule_path = submodule_path[len(cur_dir):].lstrip('/')
-        list_of_submod_paths.append(submodule_path)
-
-    for source_file_name in find_files('.', '*.rst'):
-        pagename_source_file = source_file_name.lstrip('/.')
-
-        skip = False
-        for skip_pattern in skip_patterns:
-            if re.search(skip_pattern, pagename_source_file):
-                #  print(pagename_source_file)
-                skip = True
-                break
-
-        if skip:
-            continue
-
-        dir_path = os.path.dirname(source_file_name)
-        if len(dir_path) > 2:
-            dir_path = dir_path.lstrip('/.')
-
-        # Can also contain subdirs in a repo but this optimization should already
-        # get factor 10 in performance for git Invokation.
-        if dir_path not in repo_dir_to_url_map:
-            #  git_repo = git.Repo(dir_path)
-            #  repo_dir_to_url_map[dir_path] = git_repo.remotes.origin.url
-            for remote_line in check_output(['git', '-C', dir_path, 'remote', '-v']).split('\n'):
-                remote_item = re.split(r'\s', remote_line)
-                if remote_item[0] == 'origin' and remote_item[2] == '(fetch)':
-                    base_url = remote_item[1]
-                    if base_url.endswith('.git'):
-                        base_url = base_url[:-4]
-                    repo_dir_to_url_map[dir_path] = base_url
-                    #  print(repo_dir_to_url_map[dir_path])
-
-        relative_pagename = pagename_source_file
-
-        if relative_pagename in ['index.rst', 'ansible/roles/index.rst']:
-            relative_pagename = 'docs/' + relative_pagename
-
-        for submod_path in list_of_submod_paths:
-            if pagename_source_file.startswith(submod_path + '/'):
-                relative_pagename = pagename_source_file[len(submod_path):].lstrip('/')
-
-        # Does not work for legacy roles yet. Disabled.
-        #  if re.match(r'docs/copyright(?:\.rst)$', relative_pagename, flags=re.I):
-        #      relative_pagename = 'COPYRIGHT'
-
-        if re.match(r'docs/readme(?:\.rst)$', relative_pagename, flags=re.I):
-            relative_pagename = 'README.rst'
-
-        if re.match(r'docs/changelog(?:\.rst)$', relative_pagename, flags=re.I):
-            relative_pagename = 'CHANGES.rst'
-
-        pagename_source_file = re.sub(r'\.rst$', '', pagename_source_file)
-        source_file_to_url_map[pagename_source_file] = {
-            'url': repo_dir_to_url_map[dir_path],
-            'pagename': relative_pagename,
-        }
-        #  print('{}: {}'.format(pagename_source_file, source_file_to_url_map[pagename_source_file]))
-
-
-    #  print(source_file_to_url_map)
-    #  import pprint
-    #  pprint.pprint(source_file_to_url_map)
-    return source_file_to_url_map
-
-html_context = {
-    'display_github': True,  # Add 'Edit on Github' link instead of 'View page source'
-    'last_updated': True,
-    'commit': False,
-    'source_file_to_url_map': get_source_file_to_url_map()
-}
-
-# https://stackoverflow.com/a/21909382
-#  import sphinx.application.TemplateBridge
-# )))
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
+#
+import os
+import sys
 # sys.path.insert(0, os.path.abspath('.'))
+
+sys.path.insert(0, os.path.abspath('_lib'))
+from sphinxcontrib import debops
+
+debops.yaml2rst_role_defaults('ansible/roles/')
+
+from subprocess import call
+call(['_bin/sphinx_conf_pre_hook'])
 
 # -- General configuration ------------------------------------------------
 
 suppress_warnings = ['image.nonlocal_uri']
 
 # If your documentation needs a minimal Sphinx version, state it here.
-#needs_sphinx = '1.0'
+#
+# needs_sphinx = '1.0'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -172,18 +44,23 @@ extensions = []
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-# The suffix of source filenames.
+# The suffix(es) of source filenames.
+# You can specify multiple suffix as a list of string:
+#
+# source_suffix = ['.rst', '.md']
 source_suffix = '.rst'
 
 # The encoding of source files.
-#source_encoding = 'utf-8-sig'
+#
+# source_encoding = 'utf-8-sig'
 
 # The master toctree document.
 master_doc = 'index'
 
 # General information about the project.
 project = u'DebOps'
-copyright = u'2014-2016, Maciej Delmanowski, Nick Janetakis, Robin Schneider'
+author = u'Maciej Delmanowski, Nick Janetakis, Robin Schneider'
+copyright = u'2014-2016, {}'.format(author)
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -196,33 +73,44 @@ release = 'master'
 
 # The language for content autogenerated by Sphinx. Refer to documentation
 # for a list of supported languages.
-#language = None
+#
+# This is also used if you do content translation via gettext catalogs.
+# Usually you set "language" from the command line for these cases.
+language = None
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
-#today = ''
+#
+# today = ''
+#
 # Else, today_fmt is used as the format for a strftime call.
-#today_fmt = '%B %d, %Y'
+#
+# today_fmt = '%B %d, %Y'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
+# This patterns also effect to html_static_path and html_extra_path
 # 'includes/*.rst': https://github.com/debops/docs/issues/144
 exclude_patterns = ['_build', 'debops/*.rst', 'debops-playbooks/*.rst', 'ansible/roles/ansible-*/*.rst', 'ansible/roles/ansible-*/docs/parts', '**includes/*.rst', 'debops-api/README.rst', 'debops-api/tests/**.rst', 'debops-policy/README.rst']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
-#default_role = None
+#
+# default_role = None
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
-#add_function_parentheses = True
+#
+# add_function_parentheses = True
 
 # If true, the current module name will be prepended to all description
 # unit titles (such as .. function::).
-#add_module_names = True
+#
+# add_module_names = True
 
 # If true, sectionauthor and moduleauthor directives will be shown in the
 # output. They are ignored by default.
-#show_authors = False
+#
+# show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -232,42 +120,73 @@ pygments_style = 'sphinx'
 # for more details.
 highlight_language = 'YAML'
 
-## TODO: Change later to this when it can handle:
-## enabled: '{{ True if (owncloud_database_name != owncloud_database_user) else False }}'
+# TODO: Change later to this when it can handle:
+# enabled: '{{ True if (owncloud_database_name != owncloud_database_user) else False }}'
 #  highlight_language = 'YAML+Jinja'
 
 # A list of ignored prefixes for module index sorting.
-#modindex_common_prefix = []
+# modindex_common_prefix = []
 
 # If true, keep warnings as "system message" paragraphs in the built documents.
-#keep_warnings = False
+# keep_warnings = False
+
+# If true, `todo` and `todoList` produce output, else they produce nothing.
+todo_include_todos = False
 
 
 # -- Options for HTML output ----------------------------------------------
 
+# The theme to use for HTML and HTML Help pages.  See the documentation for
+# a list of builtin themes.
+html_theme = 'default'
+
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+
+if not on_rtd:  # only import and set the theme if we're building docs locally
+    import sphinx_rtd_theme
+    html_theme = 'sphinx_rtd_theme'
+    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
+html_context = {
+    'display_github': True,  # Add 'Edit on Github' link instead of 'View page source'
+    'last_updated': True,
+    'commit': False,
+    'source_file_to_url_map': debops.get_source_file_to_url_map(
+        skip_patterns=[
+            r'debops-keyring/docs/entities(?:\.rst)$',  # Auto generated.
+            r'ansible/roles/debops[^/]+$',  # Legacy.
+        ],
+    )
+}
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+#
+# html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
-#html_theme_path = []
+# html_theme_path = []
 
-# The name for this set of Sphinx documents.  If None, it defaults to
-# "<project> v<release> documentation".
-#html_title = None
+# The name for this set of Sphinx documents.
+# "<project> v<release> documentation" by default.
+#
+# html_title = None
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-#html_short_title = None
+#
+# html_short_title = None
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-#html_logo = None
+#
+# html_logo = None
 
-# The name of an image file (within the static path) to use as favicon of the
-# docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
+# The name of an image file (relative to this directory) to use as a favicon of
+# the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-#html_favicon = None
+#
+# html_favicon = None
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -277,101 +196,147 @@ html_static_path = ['_static']
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
-#html_extra_path = []
+#
+# html_extra_path = []
 
-# If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
-# using the given strftime format.
-#html_last_updated_fmt = '%b %d, %Y'
+# If not None, a 'Last updated on:' timestamp is inserted at every page
+# bottom, using the given strftime format.
+# The empty string is equivalent to '%b %d, %Y'.
+#
+# html_last_updated_fmt = None
 
-# http://www.sphinx-doc.org/en/stable/config.html#confval-html_use_smartypants
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
-html_use_smartypants = False
-# Disabled because it will render :command:`iptables --list` as `iptables –list`.
-
+#
+# html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
+#
+# html_sidebars = {}
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
-#html_additional_pages = {}
+#
+# html_additional_pages = {}
 
 # If false, no module index is generated.
-#html_domain_indices = True
+#
+# html_domain_indices = True
 
 # If false, no index is generated.
-#html_use_index = True
+#
+# html_use_index = True
 
 # If true, the index is split into individual pages for each letter.
-#html_split_index = False
+#
+# html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
+#
+# html_show_sourcelink = True
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
-#html_show_sphinx = True
+#
+# html_show_sphinx = True
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-#html_show_copyright = True
+#
+# html_show_copyright = True
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the
 # base URL from which the finished HTML is served.
-#html_use_opensearch = ''
+#
+# html_use_opensearch = ''
 
 # This is the file name suffix for HTML files (e.g. ".xhtml").
-#html_file_suffix = None
+# html_file_suffix = None
+
+# Language to be used for generating the HTML full-text search index.
+# Sphinx supports the following languages:
+#   'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'ja'
+#   'nl', 'no', 'pt', 'ro', 'ru', 'sv', 'tr', 'zh'
+#
+# html_search_language = 'en'
+
+# A dictionary with options for the search language support, empty by default.
+# 'ja' uses this config value.
+# 'zh' user can custom change `jieba` dictionary path.
+#
+# html_search_options = {'type': 'default'}
+
+# The name of a javascript file (relative to the configuration directory) that
+# implements a search results scorer. If empty, the default will be used.
+#
+# html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'DebOpsdoc'
 
-
 # -- Options for LaTeX output ---------------------------------------------
 
-latex_elements = {
-# The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
-
-# The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
-
-# Additional stuff for the LaTeX preamble.
-#'preamble': '',
-}
+#  latex_elements = {
+#       The paper size ('letterpaper' or 'a4paper').
+#
+#       'papersize': 'letterpaper',
+#
+#       The font size ('10pt', '11pt' or '12pt').
+#
+#       'pointsize': '10pt',
+#
+#       Additional stuff for the LaTeX preamble.
+#
+#       'preamble': '',
+#
+#       Latex figure (float) alignment
+#
+#       'figure_align': 'htbp',
+#  }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (
-        'index',
+        master_doc,
         'DebOps.tex',
         u'DebOps Documentation',
-        u'Maciej Delmanowski, Nick Janetakis, Robin Schneider',
-        'manual'
+        author,
+        'manual',
     ),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = None
+#
+# latex_logo = None
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
-#latex_use_parts = False
+#
+# latex_use_parts = False
 
 # If true, show page references after internal links.
-#latex_show_pagerefs = False
+#
+# latex_show_pagerefs = False
 
 # If true, show URL addresses after external links.
-#latex_show_urls = False
+#
+# latex_show_urls = False
 
 # Documents to append as an appendix to all manuals.
-#latex_appendices = []
+#
+# latex_appendices = []
+
+# It false, will not define \strong, \code, 	itleref, \crossref ... but only
+# \sphinxstrong, ..., \sphinxtitleref, ... To help avoid clash with user added
+# packages.
+#
+# latex_keep_old_macro_names = True
 
 # If false, no module index is generated.
-#latex_domain_indices = True
+#
+# latex_domain_indices = True
 
 
 # -- Options for manual page output ---------------------------------------
@@ -379,12 +344,18 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'debops', u'DebOps Documentation',
-     [u'Maciej Delmanowski, Nick Janetakis, Robin Schneider'], 1)
+    (
+        master_doc,
+        'debops',
+        u'DebOps Documentation',
+        [author],
+        1,
+    )
 ]
 
 # If true, show URL addresses after external links.
-#man_show_urls = False
+#
+# man_show_urls = False
 
 
 # -- Options for Texinfo output -------------------------------------------
@@ -394,24 +365,28 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (
-        'index',
+        master_doc,
         'DebOps',
         u'DebOps Documentation',
-        u'Maciej Delmanowski, Nick Janetakis, Robin Schneider',
+        author,
         'DebOps',
         'One line description of project.',
-        'Miscellaneous'
+        'Miscellaneous',
     ),
 ]
 
 # Documents to append as an appendix to all manuals.
-#texinfo_appendices = []
+#
+# texinfo_appendices = []
 
 # If false, no module index is generated.
-#texinfo_domain_indices = True
+#
+# texinfo_domain_indices = True
 
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
-#texinfo_show_urls = 'footnote'
+#
+# texinfo_show_urls = 'footnote'
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
-#texinfo_no_detailmenu = False
+#
+# texinfo_no_detailmenu = False
