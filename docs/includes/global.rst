@@ -672,6 +672,7 @@
 .. _debops.gitusers: https://github.com/debops/ansible-gitusers
 .. _debops.golang: https://github.com/debops/ansible-golang
 .. _debops.grub: https://github.com/debops/ansible-grub
+.. _debops.gunicorn: https://github.com/debops/ansible-gunicorn
 .. _debops.hashicorp: https://github.com/debops/ansible-hashicorp
 .. _debops.hwraid: https://github.com/debops/ansible-hwraid
 .. _debops.ifupdown: https://github.com/debops/ansible-ifupdown
@@ -692,6 +693,7 @@
 .. _debops.monit: https://github.com/debops/ansible-monit
 .. _debops.monkeysphere: https://github.com/debops/ansible-monkeysphere
 .. _debops.mysql: https://github.com/debops/ansible-mysql
+.. _debops.netbox: https://github.com/debops/ansible-netbox
 .. _debops.nfs: https://github.com/debops/ansible-nfs
 .. _debops.nginx: https://github.com/debops/ansible-nginx
 .. _debops.nodejs: https://github.com/debops/ansible-nodejs
@@ -755,10 +757,12 @@
 .. _debops.debops_fact documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-debops_fact/docs/index.html
 .. _debops.dhcpd documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-dhcpd/docs/index.html
 .. _debops.dhparam documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-dhparam/docs/index.html
+.. _debops.dnsmasq documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-dnsmasq/docs/index.html
 .. _debops.docker documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-docker/docs/index.html
 .. _debops.docker_gen documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-docker_gen/docs/index.html
 .. _debops.dokuwiki documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-dokuwiki/docs/index.html
 .. _debops.dovecot documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-dovecot/docs/index.html
+.. _debops.elasticsearch documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-elasticsearch/docs/index.html
 .. _debops.environment documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-environment/docs/index.html
 .. _debops.etc_services documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-etc_services/docs/index.html
 .. _debops.fail2ban documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-fail2ban/docs/index.html
@@ -767,6 +771,7 @@
 .. _debops.gitlab_runner documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-gitlab_runner/docs/index.html
 .. _debops.golang documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-golang/docs/index.html
 .. _debops.grub documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-grub/docs/index.html
+.. _debops.gunicorn documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-gunicorn/docs/index.html
 .. _debops.hashicorp documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-hashicorp/docs/index.html
 .. _debops.ifupdown documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-ifupdown/docs/index.html
 .. _debops.ipxe documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-ipxe/docs/index.html
@@ -781,6 +786,7 @@
 .. _debops.mariadb documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-mariadb/docs/index.html
 .. _debops.mariadb_server documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-mariadb_server/docs/index.html
 .. _debops.memcached documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-memcached/docs/index.html
+.. _debops.netbox documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-netbox/docs/index.html
 .. _debops.nfs documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-nfs/docs/index.html
 .. _debops.nodejs documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-nodejs/docs/index.html
 .. _debops.ntp documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-ntp/docs/index.html
@@ -811,6 +817,7 @@
 .. _debops.tgt documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-tgt/docs/index.html
 .. _debops.tinc documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-tinc/docs/index.html
 .. _debops.unattended_upgrades documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-unattended_upgrades/docs/index.html
+.. _debops.users documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-users/docs/index.html
 .. ]]]
 
 .. DebOps Contrib repositories [[[
@@ -835,6 +842,9 @@
 .. _debops-contrib.btrfs: https://github.com/debops-contrib/ansible-btrfs
 .. _debops-contrib.x2go_server: https://github.com/debops-contrib/ansible-x2go_server
 .. _debops-contrib.consul: https://github.com/debops-contrib/ansible-consul
+.. _debops-contrib.gdnsd: https://github.com/debops-contrib/ansible-gdnsd
+.. _debops-contrib.kibana: https://github.com/debops-contrib/ansible-kibana
+.. _debops-contrib.elasticbeats: https://github.com/debops-contrib/ansible-elasticbeats
 .. ]]]
 
 .. ypid repositories [[[

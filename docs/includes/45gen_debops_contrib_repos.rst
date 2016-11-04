@@ -20,4 +20,7 @@
 .. _debops-contrib.btrfs: https://github.com/debops-contrib/ansible-btrfs
 .. _debops-contrib.x2go_server: https://github.com/debops-contrib/ansible-x2go_server
 .. _debops-contrib.consul: https://github.com/debops-contrib/ansible-consul
+.. _debops-contrib.gdnsd: https://github.com/debops-contrib/ansible-gdnsd
+.. _debops-contrib.kibana: https://github.com/debops-contrib/ansible-kibana
+.. _debops-contrib.elasticbeats: https://github.com/debops-contrib/ansible-elasticbeats
 .. ]]]
