@@ -54,7 +54,7 @@ distclean:
 
 .PHONY: FORCE_MAKE
 
-prepare: includes/global.rst
+prepare:
 
 includes/global.rst: \
 		includes/30gen_ansible_modules.rst \
