@@ -45,7 +45,7 @@ def get_source_file_to_url_map(start_dir='.', skip_patterns=[]):
     repo_dir_to_url_map = {}
     list_of_submod_paths = []
 
-    cur_dir = os.path.abspath(os.path.dirname(__file__))
+    cur_dir = os.path.abspath(start_dir)
 
     for submodule_path in check_output(['git', 'submodule', '--quiet', 'foreach', 'pwd']).split('\n'):
         if submodule_path.startswith(cur_dir):
@@ -103,7 +103,7 @@ def get_source_file_to_url_map(start_dir='.', skip_patterns=[]):
             relative_pagename = 'CHANGES.rst'
 
         pagename_source_file = re.sub(r'\.rst$', '', pagename_source_file)
-        print(dir_path)
+        #  print(dir_path)
         source_file_to_url_map[pagename_source_file] = {
             'url': repo_dir_to_url_map[dir_path],
             'pagename': relative_pagename,

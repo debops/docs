@@ -152,6 +152,7 @@ html_context = {
     'last_updated': True,
     'commit': False,
     'source_file_to_url_map': debops.get_source_file_to_url_map(
+        start_dir=os.path.dirname(__file__),
         skip_patterns=[
             r'debops-keyring/docs/entities(?:\.rst)$',  # Auto generated.
             r'ansible/roles/debops[^/]+$',  # Legacy.
