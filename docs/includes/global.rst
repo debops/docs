@@ -6,6 +6,7 @@
 .. Ansible core [[[
 
 .. _Ansible: https://www.ansible.com/
+.. _Ansible Security: https://www.ansible.com/security
 .. _Ansible Galaxy: https://galaxy.ansible.com/
 
 .. ]]]
