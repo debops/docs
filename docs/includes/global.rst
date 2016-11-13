@@ -988,6 +988,7 @@
    Ref: https://github.com/debops/docs/issues/203
 
 .. _Debian: https://en.wikipedia.org/wiki/Debian
+.. _Debian Wiki: https://wiki.debian.org/
 .. _GNU: https://en.wikipedia.org/wiki/GNU_Project
 .. _Linux: https://en.wikipedia.org/wiki/Linux
 .. _PfSense: https://en.wikipedia.org/wiki/PfSense
