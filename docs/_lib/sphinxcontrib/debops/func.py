@@ -102,6 +102,9 @@ def get_source_file_to_url_map(start_dir='.', skip_patterns=[]):
         if re.match(r'docs/changelog(?:\.rst)$', relative_pagename, flags=re.I):
             relative_pagename = 'CHANGES.rst'
 
+        if re.match(r'docs/defaults(?:\.rst)$', relative_pagename, flags=re.I):
+            relative_pagename = 'defaults/main.yml'
+
         pagename_source_file = re.sub(r'\.rst$', '', pagename_source_file)
         #  print(dir_path)
         source_file_to_url_map[pagename_source_file] = {
