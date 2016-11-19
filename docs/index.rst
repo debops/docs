@@ -1,8 +1,6 @@
 |debops_logo| DebOps_ documentation
 ###################################
 
-.. include:: includes/all.rst
-
 **Your Debian-based data center in a box**
 
 A collection of Ansible_ playbooks,
@@ -20,6 +18,12 @@ scalable from one container to an entire data center.
    ansible/roles/ansible-*/docs/index
    debops-contrib
    debops-api/docs/index
+
+
+.. Seems that includes don’t work for images? Define them here.
+.. |debops_logo| image:: https://debops.org/images/debops-small.png
+
+.. include:: includes/all.rst
 
 ..
  Local Variables:

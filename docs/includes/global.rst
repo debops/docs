@@ -876,9 +876,6 @@
 
 .. DebOps project links [[[
 
-.. |debops_logo| image:: https://debops.org/images/debops-small.png
-
-
 .. Simply "DebOps" is preferred: https://github.com/debops/docs/issues/197
 .. _DebOps project: https://debops.org/
 
