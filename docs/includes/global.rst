@@ -876,7 +876,9 @@
 
 .. DebOps project links [[[
 
-.. |debops_logo| image:: https://debops.org/images/debops-small.png
+.. Seems that image definitions can not be included that easily?
+   Ref: https://github.com/debops-contrib/docs/pull/4
+   |debops_logo| image:: https://debops.org/images/debops-small.png
 
 
 .. Simply "DebOps" is preferred: https://github.com/debops/docs/issues/197
