@@ -251,6 +251,11 @@
 
 .. _HTML title tag: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
 
+.. _Ansible Modules: https://docs.ansible.com/ansible/modules.html
+.. _YAML Syntax: https://docs.ansible.com/ansible/YAMLSyntax.html
+.. _reStructuredText: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+.. _Sphinx: http://www.sphinx-doc.org/
+
 .. ]]]
 
 .. Additional reST roles for inline usage [[[
