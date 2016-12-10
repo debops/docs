@@ -372,3 +372,6 @@
 	path = docs/ansible/roles/ansible-dnsmasq
 	url = https://github.com/debops/ansible-dnsmasq
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-cron"]
+	path = docs/ansible/roles/ansible-cron
+	url = https://github.com/debops/ansible-cron
