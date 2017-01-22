@@ -228,10 +228,6 @@
 	path = docs/ansible/roles/ansible-etc_services
 	url = https://github.com/debops/ansible-etc_services
 	ignore = untracked
-[submodule "docs/ansible/roles/ansible-subnetwork"]
-	path = docs/ansible/roles/ansible-subnetwork
-	url = https://github.com/debops/ansible-subnetwork.git
-	ignore = untracked
 [submodule "docs/ansible/roles/ansible-apt_cacher_ng"]
 	path = docs/ansible/roles/ansible-apt_cacher_ng
 	url = https://github.com/debops/ansible-apt_cacher_ng.git
@@ -375,3 +371,4 @@
 [submodule "docs/ansible/roles/ansible-cron"]
 	path = docs/ansible/roles/ansible-cron
 	url = https://github.com/debops/ansible-cron
+	ignore = untracked
