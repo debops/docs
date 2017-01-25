@@ -20,6 +20,7 @@
 .. _DebOps Playbooks: https://github.com/debops/debops-playbooks/
 .. _DebOps common playbook: https://github.com/debops/debops-playbooks/blob/master/playbooks/common.yml
 .. _DebOps Documentation: https://docs.debops.org/en/latest/
+.. _DebOps Contrib Documentation: https://docs.contrib.debops.org/en/latest/
 .. _DebOps Examples: https://github.com/debops/examples/
 .. _Getting Started with DebOps: https://docs.debops.org/en/latest/debops-playbooks/docs/guides/getting-started.html
 .. _DebOps Contrib: https://github.com/debops-contrib/debops-contrib

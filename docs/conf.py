@@ -20,13 +20,14 @@ import os
 import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+from subprocess import call
+call(['make', 'prepare'])
+call(['_bin/sphinx_conf_pre_hook'])
+
 sys.path.insert(0, os.path.abspath('_lib'))
 from sphinxcontrib import debops
 
 debops.yaml2rst_role_defaults('ansible/roles/')
-
-from subprocess import call
-call(['_bin/sphinx_conf_pre_hook'])
 
 # -- General configuration ------------------------------------------------
 
