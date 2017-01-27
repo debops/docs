@@ -60,7 +60,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'DebOps'
 author = u'Maciej Delmanowski, Nick Janetakis, Robin Schneider'
-copyright = u'2014-2016, {}'.format(author)
+copyright = u'2014-2017, {}'.format(author)
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -210,6 +210,8 @@ html_static_path = ['_static']
 # typographically correct entities.
 #
 # html_use_smartypants = True
+html_use_smartypants = False
+# Set to False to render :command:`iptables --list` as `iptables --list` and not `iptables –list`.
 
 # Custom sidebar templates, maps document names to template names.
 #
