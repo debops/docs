@@ -22,7 +22,7 @@ do
 
     ## Should not be needed but for some reason when setting up DebOps Contrib,
     ## it was needed for CHANGES.rst.
-    ln -sf "$DOCS_DIR/includes" ../../
+    ln -sf "./docs/includes" ../../
 
     popd 1>/dev/null
     ## Print for debugging for now.
