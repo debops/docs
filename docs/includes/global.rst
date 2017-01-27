@@ -855,13 +855,12 @@
 .. _ypid.cryptsetup_remote_unlock: https://github.com/ypid/ansible-cryptsetup_remote_unlock
 .. _ypid.dhclient: https://github.com/ypid/ansible-dhclient
 .. _ypid.divert: https://github.com/ypid/ansible-divert
+.. _ypid.dm: https://github.com/ypid/ansible-dm
 .. _ypid.docker: https://github.com/ypid/ansible-docker
 .. _ypid.file_attributes: https://github.com/ypid/ansible-file_attributes
-.. _ypid.gdm: https://github.com/ypid/ansible-gdm
 .. _ypid.hdparm: https://github.com/ypid/ansible-hdparm
 .. _ypid.import_pgp_public_keys: https://github.com/ypid/ansible-import_pgp_public_keys
 .. _ypid.initramfs_message: https://github.com/ypid/ansible-initramfs_message
-.. _ypid.kernel_module: https://github.com/ypid/ansible-kernel_module
 .. _ypid.linuxmuster_net_client: https://github.com/ypid/ansible-linuxmuster_net_client
 .. _ypid.login_defs: https://github.com/ypid/ansible-login_defs
 .. _ypid.opsi: https://github.com/ypid/ansible-opsi
