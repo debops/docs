@@ -151,6 +151,8 @@
 .. _Mandatory Access Control: https://en.wikipedia.org/wiki/Mandatory_access_control
 .. _acme-tiny: https://github.com/diafygi/acme-tiny
 .. _Firejail: https://firejail.wordpress.com/
+.. _Qubes OS: https://en.wikipedia.org/wiki/Qubes_OS
+.. _ansible-qubes: https://github.com/Rudd-O/ansible-qubes
 
 .. _Opsi: https://en.wikipedia.org/wiki/Opsi
 .. _paedML Linux: https://www.lmz-bw.de/technische-unterstuetzung/kundenportal/linux.html
