@@ -372,3 +372,7 @@
 	path = docs/ansible/roles/ansible-cron
 	url = https://github.com/debops/ansible-cron
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-persistent_paths"]
+	path = docs/ansible/roles/ansible-persistent_paths
+	url = https://github.com/debops/ansible-persistent_paths.git
+	ignore = untracked
