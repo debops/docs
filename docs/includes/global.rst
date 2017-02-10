@@ -955,6 +955,7 @@
 .. _ypid-ansible-inventory: https://github.com/ypid/ypid-ansible-inventory
 
 .. _le9i0nx: https://docs.debops.org/en/latest/debops-keyring/docs/entities.html#debops-keyring-entity-le9i0nx
+.. _muelli: https://docs.debops.org/en/latest/debops-keyring/docs/entities.html#debops-keyring-entity-muelli
 
 .. _AnBuKu: https://github.com/AnBuKu
 .. AuBuKa aka. hugi
