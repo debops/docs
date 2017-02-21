@@ -376,3 +376,6 @@
 	path = docs/ansible/roles/ansible-persistent_paths
 	url = https://github.com/debops/ansible-persistent_paths.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-root_account"]
+	path = docs/ansible/roles/ansible-root_account
+	url = https://github.com/debops/ansible-root_account
