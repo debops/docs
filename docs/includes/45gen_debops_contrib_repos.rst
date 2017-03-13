@@ -7,6 +7,7 @@
 .. _debops-contrib.snapshot_snapper: https://github.com/debops-contrib/ansible-snapshot_snapper
 .. _debops-contrib.roundcube: https://github.com/debops-contrib/ansible-roundcube
 .. _debops-contrib.checkmk_agent: https://github.com/debops-contrib/ansible-checkmk_agent
+.. _debops-contrib.kernel_module: https://github.com/debops-contrib/ansible-kernel_module
 .. _debops-contrib.lam: https://github.com/debops-contrib/ansible-lam
 .. _debops-contrib.foodsoft: https://github.com/debops-contrib/ansible-foodsoft
 .. _debops-contrib.collectd: https://github.com/debops-contrib/ansible-collectd
@@ -23,4 +24,5 @@
 .. _debops-contrib.gdnsd: https://github.com/debops-contrib/ansible-gdnsd
 .. _debops-contrib.kibana: https://github.com/debops-contrib/ansible-kibana
 .. _debops-contrib.elasticbeats: https://github.com/debops-contrib/ansible-elasticbeats
+.. _debops-contrib.firejail: https://github.com/debops-contrib/ansible-firejail
 .. ]]]
