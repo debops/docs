@@ -7,6 +7,7 @@
 .. _ypid.divert: https://github.com/ypid/ansible-divert
 .. _ypid.dm: https://github.com/ypid/ansible-dm
 .. _ypid.docker: https://github.com/ypid/ansible-docker
+.. _ypid.dotfiles: https://github.com/ypid/ansible-dotfiles
 .. _ypid.file_attributes: https://github.com/ypid/ansible-file_attributes
 .. _ypid.hdparm: https://github.com/ypid/ansible-hdparm
 .. _ypid.import_pgp_public_keys: https://github.com/ypid/ansible-import_pgp_public_keys
@@ -16,6 +17,7 @@
 .. _ypid.opsi: https://github.com/ypid/ansible-opsi
 .. _ypid.packages: https://github.com/ypid/ansible-packages
 .. _ypid.paedml_linux: https://github.com/ypid/ansible-paedml_linux
+.. _ypid.plymouth: https://github.com/ypid/ansible-plymouth
 .. _ypid.psad: https://github.com/ypid/ansible-psad
 .. _ypid.rsyslog: https://github.com/ypid/ansible-rsyslog
 .. _ypid.shutdown_if_battery_low: https://github.com/ypid/ansible-shutdown_if_battery_low

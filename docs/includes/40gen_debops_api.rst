@@ -17,6 +17,7 @@
 .. _debops.boxbackup: https://github.com/debops/ansible-boxbackup
 .. _debops.console: https://github.com/debops/ansible-console
 .. _debops.core: https://github.com/debops/ansible-core
+.. _debops.cron: https://github.com/debops/ansible-cron
 .. _debops.cryptsetup: https://github.com/debops/ansible-cryptsetup
 .. _debops.debops: https://github.com/debops/ansible-debops
 .. _debops.debops_api: https://github.com/debops/ansible-debops_api
@@ -73,8 +74,8 @@
 .. _debops.nullmailer: https://github.com/debops/ansible-nullmailer
 .. _debops.openvz: https://github.com/debops/ansible-openvz
 .. _debops.owncloud: https://github.com/debops/ansible-owncloud
+.. _debops.persistent_paths: https://github.com/debops/ansible-persistent_paths
 .. _debops.php: https://github.com/debops/ansible-php
-.. _debops.php5: https://github.com/debops/ansible-php5
 .. _debops.phpipam: https://github.com/debops/ansible-phpipam
 .. _debops.phpmyadmin: https://github.com/debops/ansible-phpmyadmin
 .. _debops.pki: https://github.com/debops/ansible-pki
@@ -87,6 +88,7 @@
 .. _debops.redis: https://github.com/debops/ansible-redis
 .. _debops.reprepro: https://github.com/debops/ansible-reprepro
 .. _debops.resources: https://github.com/debops/ansible-resources
+.. _debops.root_account: https://github.com/debops/ansible-root_account
 .. _debops.rsnapshot: https://github.com/debops/ansible-rsnapshot
 .. _debops.rstudio_server: https://github.com/debops/ansible-rstudio_server
 .. _debops.rsyslog: https://github.com/debops/ansible-rsyslog
@@ -123,6 +125,7 @@
 .. _debops.authorized_keys documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-authorized_keys/docs/index.html
 .. _debops.bootstrap documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-bootstrap/docs/index.html
 .. _debops.core documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-core/docs/index.html
+.. _debops.cron documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-cron/docs/index.html
 .. _debops.cryptsetup documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-cryptsetup/docs/index.html
 .. _debops.debops documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-debops/docs/index.html
 .. _debops.debops_api documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-debops_api/docs/index.html
@@ -164,6 +167,7 @@
 .. _debops.ntp documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-ntp/docs/index.html
 .. _debops.nullmailer documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-nullmailer/docs/index.html
 .. _debops.owncloud documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-owncloud/docs/index.html
+.. _debops.persistent_paths documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-persistent_paths/docs/index.html
 .. _debops.php documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-php/docs/index.html
 .. _debops.pki documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-pki/docs/index.html
 .. _debops.postfix documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-postfix/docs/index.html
@@ -172,6 +176,7 @@
 .. _debops.preseed documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-preseed/docs/index.html
 .. _debops.redis documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-redis/docs/index.html
 .. _debops.resources documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-resources/docs/index.html
+.. _debops.root_account documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-root_account/docs/index.html
 .. _debops.rsnapshot documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-rsnapshot/docs/index.html
 .. _debops.rstudio_server documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-rstudio_server/docs/index.html
 .. _debops.rsyslog documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-rsyslog/docs/index.html
