@@ -1017,6 +1017,11 @@
 .. _LUKS: https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup
 .. _dm-crypt: https://en.wikipedia.org/wiki/Dm-crypt
 .. _cryptsetup: https://gitlab.com/cryptsetup/cryptsetup
+.. _Dropbear: https://en.wikipedia.org/wiki/Dropbear_%28software%29
+.. _Mandos: https://wiki.recompile.se/wiki/Mandos
+.. _Evil Maid: https://blog.invisiblethings.org/2009/10/15/evil-maid-goes-after-truecrypt.html
+.. _Evil Maid Attack: https://blog.invisiblethings.org/2009/10/15/evil-maid-goes-after-truecrypt.html
+.. _`Evil Maid goes after TrueCrypt!`: https://blog.invisiblethings.org/2009/10/15/evil-maid-goes-after-truecrypt.html
 .. _X2go: https://en.wikipedia.org/wiki/X2Go
 .. _Wine: https://en.wikipedia.org/wiki/Wine_%28software%29
 .. _ownCloud: https://en.wikipedia.org/wiki/OwnCloud
@@ -1036,6 +1041,7 @@
 .. _Firejail: https://firejail.wordpress.com/
 .. _Qubes OS: https://en.wikipedia.org/wiki/Qubes_OS
 .. _ansible-qubes: https://github.com/Rudd-O/ansible-qubes
+.. _Avahi: https://en.wikipedia.org/wiki/Avahi_%28software%29
 
 .. _Opsi: https://en.wikipedia.org/wiki/Opsi
 .. _paedML Linux: https://www.lmz-bw.de/technische-unterstuetzung/kundenportal/linux.html
@@ -1134,6 +1140,7 @@
 
 .. _hardening.os-hardening: https://github.com/hardening-io/ansible-os-hardening
 
+.. _SOTA: https://en.wikipedia.org/wiki/State_of_the_art
 .. _HTML title tag: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title
 
 .. _Ansible Modules: https://docs.ansible.com/ansible/modules.html
