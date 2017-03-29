@@ -51,6 +51,7 @@
 .. _debops-keyring: https://docs.debops.org/en/latest/debops-keyring/docs/index.html
 .. _`debops/docs`: https://github.com/debops/docs/
 .. _DebOps docs global.rst: https://github.com/debops/docs/blob/master/docs/includes/global.rst
+.. _debops__tpl_macros.j2: https://github.com/debops/debops-playbooks/blob/master/templates/debops__tpl_macros.j2
 
 .. ]]]
 
