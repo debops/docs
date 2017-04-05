@@ -379,3 +379,6 @@
 [submodule "docs/ansible/roles/ansible-root_account"]
 	path = docs/ansible/roles/ansible-root_account
 	url = https://github.com/debops/ansible-root_account
+[submodule "docs/ansible/roles/ansible-nfs_server"]
+	path = docs/ansible/roles/ansible-nfs_server
+	url = https://github.com/debops/ansible-nfs_server
