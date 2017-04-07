@@ -382,3 +382,6 @@
 [submodule "docs/ansible/roles/ansible-nfs_server"]
 	path = docs/ansible/roles/ansible-nfs_server
 	url = https://github.com/debops/ansible-nfs_server
+[submodule "docs/ansible/roles/ansible-nsswitch"]
+	path = docs/ansible/roles/ansible-nsswitch
+	url = https://github.com/debops/ansible-nsswitch
