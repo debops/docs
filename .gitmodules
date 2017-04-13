@@ -385,3 +385,6 @@
 [submodule "docs/ansible/roles/ansible-nsswitch"]
 	path = docs/ansible/roles/ansible-nsswitch
 	url = https://github.com/debops/ansible-nsswitch
+[submodule "docs/ansible/roles/ansible-avahi"]
+	path = docs/ansible/roles/ansible-avahi
+	url = https://github.com/debops/ansible-avahi
