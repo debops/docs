@@ -161,6 +161,9 @@
 .. _Qubes OS: https://en.wikipedia.org/wiki/Qubes_OS
 .. _ansible-qubes: https://github.com/Rudd-O/ansible-qubes
 .. _Avahi: https://en.wikipedia.org/wiki/Avahi_%28software%29
+.. _Check_MK: https://mathias-kettner.com/check_mk.html
+.. _Nagios: https://www.nagios.org/
+.. _Icinga: https://www.icinga.org/
 
 .. _Opsi: https://en.wikipedia.org/wiki/Opsi
 .. _paedML Linux: https://www.lmz-bw.de/technische-unterstuetzung/kundenportal/linux.html
