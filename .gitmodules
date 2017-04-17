@@ -379,12 +379,20 @@
 [submodule "docs/ansible/roles/ansible-root_account"]
 	path = docs/ansible/roles/ansible-root_account
 	url = https://github.com/debops/ansible-root_account
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-nfs_server"]
 	path = docs/ansible/roles/ansible-nfs_server
 	url = https://github.com/debops/ansible-nfs_server
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-nsswitch"]
 	path = docs/ansible/roles/ansible-nsswitch
 	url = https://github.com/debops/ansible-nsswitch
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-avahi"]
 	path = docs/ansible/roles/ansible-avahi
 	url = https://github.com/debops/ansible-avahi
+	ignore = untracked
+[submodule "docs/ansible/roles/ansible-nginx"]
+	path = docs/ansible/roles/ansible-nginx
+	url = https://github.com/debops/ansible-nginx.git
+	ignore = untracked
