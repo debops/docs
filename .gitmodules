@@ -396,3 +396,6 @@
 	path = docs/ansible/roles/ansible-nginx
 	url = https://github.com/debops/ansible-nginx.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-mosquitto"]
+	path = docs/ansible/roles/ansible-mosquitto
+	url = https://github.com/debops/ansible-mosquitto
