@@ -399,3 +399,6 @@
 [submodule "docs/ansible/roles/ansible-mosquitto"]
 	path = docs/ansible/roles/ansible-mosquitto
 	url = https://github.com/debops/ansible-mosquitto
+[submodule "docs/ansible/roles/ansible-elastic_co"]
+	path = docs/ansible/roles/ansible-elastic_co
+	url = https://github.com/debops/ansible-elastic_co
