@@ -402,3 +402,6 @@
 [submodule "docs/ansible/roles/ansible-elastic_co"]
 	path = docs/ansible/roles/ansible-elastic_co
 	url = https://github.com/debops/ansible-elastic_co
+[submodule "docs/ansible/roles/ansible-salt"]
+	path = docs/ansible/roles/ansible-salt
+	url = https://github.com/debops/ansible-salt
