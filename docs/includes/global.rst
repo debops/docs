@@ -1012,6 +1012,11 @@
 .. _APT: https://en.wikipedia.org/wiki/Advanced_Packaging_Tool
 .. _Advanced Packaging Tool: https://en.wikipedia.org/wiki/Advanced_Packaging_Tool
 
+.. _Free software: https://en.wikipedia.org/wiki/Free_software
+.. _GPL-3.0: https://en.wikipedia.org/wiki/GNU_GPLv3
+.. _Open-source software: https://en.wikipedia.org/wiki/Open-source_software
+.. _Free and open-source software: https://en.wikipedia.org/wiki/Free_and_open-source_software
+
 .. _yaml2rst: https://github.com/htgoebel/yaml2rst
 .. _yaml4rst: https://github.com/ypid/yaml4rst
 .. _ansigenome: https://github.com/nickjj/ansigenome
