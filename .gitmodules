@@ -405,3 +405,6 @@
 [submodule "docs/ansible/roles/ansible-salt"]
 	path = docs/ansible/roles/ansible-salt
 	url = https://github.com/debops/ansible-salt
+[submodule "docs/ansible/roles/ansible-libvirtd_qemu"]
+	path = docs/ansible/roles/ansible-libvirtd_qemu
+	url = https://github.com/debops/ansible-libvirtd_qemu
