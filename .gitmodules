@@ -408,3 +408,6 @@
 [submodule "docs/ansible/roles/ansible-kibana"]
 	path = docs/ansible/roles/ansible-kibana
 	url = https://github.com/debops/ansible-kibana
+[submodule "docs/ansible/roles/ansible-libvirtd_qemu"]
+	path = docs/ansible/roles/ansible-libvirtd_qemu
+	url = https://github.com/debops/ansible-libvirtd_qemu
