@@ -414,3 +414,6 @@
 [submodule "docs/ansible/roles/ansible-rabbitmq_server"]
 	path = docs/ansible/roles/ansible-rabbitmq_server
 	url = https://github.com/debops/ansible-rabbitmq_server
+[submodule "docs/ansible/roles/ansible-rabbitmq_management"]
+	path = docs/ansible/roles/ansible-rabbitmq_management
+	url = https://github.com/debops/ansible-rabbitmq_management
