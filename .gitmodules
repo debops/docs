@@ -411,3 +411,6 @@
 [submodule "docs/ansible/roles/ansible-libvirtd_qemu"]
 	path = docs/ansible/roles/ansible-libvirtd_qemu
 	url = https://github.com/debops/ansible-libvirtd_qemu
+[submodule "docs/ansible/roles/ansible-rabbitmq_server"]
+	path = docs/ansible/roles/ansible-rabbitmq_server
+	url = https://github.com/debops/ansible-rabbitmq_server
