@@ -3,6 +3,7 @@
 
 .. _debops-contrib.openvpn: https://github.com/debops-contrib/ansible-openvpn
 .. _debops-contrib.nullmailer: https://github.com/debops-contrib/ansible-nullmailer
+.. _debops-contrib.dropbear_initramfs: https://github.com/debops-contrib/ansible-dropbear_initramfs
 .. _debops-contrib.apparmor: https://github.com/debops-contrib/ansible-apparmor
 .. _debops-contrib.snapshot_snapper: https://github.com/debops-contrib/ansible-snapshot_snapper
 .. _debops-contrib.roundcube: https://github.com/debops-contrib/ansible-roundcube
@@ -25,4 +26,8 @@
 .. _debops-contrib.kibana: https://github.com/debops-contrib/ansible-kibana
 .. _debops-contrib.elasticbeats: https://github.com/debops-contrib/ansible-elasticbeats
 .. _debops-contrib.firejail: https://github.com/debops-contrib/ansible-firejail
+.. _debops-contrib.volkszaehler: https://github.com/debops-contrib/ansible-volkszaehler
+.. _debops-contrib.homeassistant: https://github.com/debops-contrib/ansible-homeassistant
+.. _debops-contrib.neurodebian: https://github.com/debops-contrib/ansible-neurodebian
+.. _debops-contrib.bitcoind: https://github.com/debops-contrib/ansible-bitcoind
 .. ]]]

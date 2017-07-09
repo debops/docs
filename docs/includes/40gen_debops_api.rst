@@ -12,6 +12,7 @@
 .. _debops.atd: https://github.com/debops/ansible-atd
 .. _debops.auth: https://github.com/debops/ansible-auth
 .. _debops.authorized_keys: https://github.com/debops/ansible-authorized_keys
+.. _debops.avahi: https://github.com/debops/ansible-avahi
 .. _debops.backporter: https://github.com/debops/ansible-backporter
 .. _debops.bootstrap: https://github.com/debops/ansible-bootstrap
 .. _debops.boxbackup: https://github.com/debops/ansible-boxbackup
@@ -30,6 +31,7 @@
 .. _debops.docker_gen: https://github.com/debops/ansible-docker_gen
 .. _debops.dokuwiki: https://github.com/debops/ansible-dokuwiki
 .. _debops.dovecot: https://github.com/debops/ansible-dovecot
+.. _debops.elastic_co: https://github.com/debops/ansible-elastic_co
 .. _debops.elasticsearch: https://github.com/debops/ansible-elasticsearch
 .. _debops.encfs: https://github.com/debops/ansible-encfs
 .. _debops.environment: https://github.com/debops/ansible-environment
@@ -52,10 +54,12 @@
 .. _debops.ipxe: https://github.com/debops/ansible-ipxe
 .. _debops.iscsi: https://github.com/debops/ansible-iscsi
 .. _debops.java: https://github.com/debops/ansible-java
+.. _debops.kibana: https://github.com/debops/ansible-kibana
 .. _debops.kvm: https://github.com/debops/ansible-kvm
 .. _debops.librenms: https://github.com/debops/ansible-librenms
 .. _debops.libvirt: https://github.com/debops/ansible-libvirt
 .. _debops.libvirtd: https://github.com/debops/ansible-libvirtd
+.. _debops.libvirtd_qemu: https://github.com/debops/ansible-libvirtd_qemu
 .. _debops.logrotate: https://github.com/debops/ansible-logrotate
 .. _debops.lvm: https://github.com/debops/ansible-lvm
 .. _debops.lxc: https://github.com/debops/ansible-lxc
@@ -65,11 +69,14 @@
 .. _debops.memcached: https://github.com/debops/ansible-memcached
 .. _debops.monit: https://github.com/debops/ansible-monit
 .. _debops.monkeysphere: https://github.com/debops/ansible-monkeysphere
+.. _debops.mosquitto: https://github.com/debops/ansible-mosquitto
 .. _debops.mysql: https://github.com/debops/ansible-mysql
 .. _debops.netbox: https://github.com/debops/ansible-netbox
 .. _debops.nfs: https://github.com/debops/ansible-nfs
+.. _debops.nfs_server: https://github.com/debops/ansible-nfs_server
 .. _debops.nginx: https://github.com/debops/ansible-nginx
 .. _debops.nodejs: https://github.com/debops/ansible-nodejs
+.. _debops.nsswitch: https://github.com/debops/ansible-nsswitch
 .. _debops.ntp: https://github.com/debops/ansible-ntp
 .. _debops.nullmailer: https://github.com/debops/ansible-nullmailer
 .. _debops.openvz: https://github.com/debops/ansible-openvz
@@ -83,6 +90,8 @@
 .. _debops.postgresql: https://github.com/debops/ansible-postgresql
 .. _debops.postgresql_server: https://github.com/debops/ansible-postgresql_server
 .. _debops.preseed: https://github.com/debops/ansible-preseed
+.. _debops.rabbitmq_management: https://github.com/debops/ansible-rabbitmq_management
+.. _debops.rabbitmq_server: https://github.com/debops/ansible-rabbitmq_server
 .. _debops.radvd: https://github.com/debops/ansible-radvd
 .. _debops.rails_deploy: https://github.com/debops/ansible-rails_deploy
 .. _debops.redis: https://github.com/debops/ansible-redis
@@ -123,6 +132,7 @@
 .. _debops.apt_proxy documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-apt_proxy/docs/index.html
 .. _debops.atd documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-atd/docs/index.html
 .. _debops.authorized_keys documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-authorized_keys/docs/index.html
+.. _debops.avahi documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-avahi/docs/index.html
 .. _debops.bootstrap documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-bootstrap/docs/index.html
 .. _debops.core documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-core/docs/index.html
 .. _debops.cron documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-cron/docs/index.html
@@ -137,6 +147,7 @@
 .. _debops.docker_gen documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-docker_gen/docs/index.html
 .. _debops.dokuwiki documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-dokuwiki/docs/index.html
 .. _debops.dovecot documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-dovecot/docs/index.html
+.. _debops.elastic_co documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-elastic_co/docs/index.html
 .. _debops.elasticsearch documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-elasticsearch/docs/index.html
 .. _debops.environment documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-environment/docs/index.html
 .. _debops.etc_services documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-etc_services/docs/index.html
@@ -152,18 +163,24 @@
 .. _debops.ipxe documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-ipxe/docs/index.html
 .. _debops.iscsi documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-iscsi/docs/index.html
 .. _debops.java documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-java/docs/index.html
+.. _debops.kibana documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-kibana/docs/index.html
 .. _debops.librenms documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-librenms/docs/index.html
 .. _debops.libvirt documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-libvirt/docs/index.html
 .. _debops.libvirtd documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-libvirtd/docs/index.html
+.. _debops.libvirtd_qemu documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-libvirtd_qemu/docs/index.html
 .. _debops.logrotate documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-logrotate/docs/index.html
 .. _debops.lvm documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-lvm/docs/index.html
 .. _debops.mailman documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-mailman/docs/index.html
 .. _debops.mariadb documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-mariadb/docs/index.html
 .. _debops.mariadb_server documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-mariadb_server/docs/index.html
 .. _debops.memcached documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-memcached/docs/index.html
+.. _debops.mosquitto documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-mosquitto/docs/index.html
 .. _debops.netbox documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-netbox/docs/index.html
 .. _debops.nfs documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-nfs/docs/index.html
+.. _debops.nfs_server documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-nfs_server/docs/index.html
+.. _debops.nginx documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-nginx/docs/index.html
 .. _debops.nodejs documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-nodejs/docs/index.html
+.. _debops.nsswitch documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-nsswitch/docs/index.html
 .. _debops.ntp documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-ntp/docs/index.html
 .. _debops.nullmailer documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-nullmailer/docs/index.html
 .. _debops.owncloud documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-owncloud/docs/index.html
@@ -174,6 +191,8 @@
 .. _debops.postgresql documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-postgresql/docs/index.html
 .. _debops.postgresql_server documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-postgresql_server/docs/index.html
 .. _debops.preseed documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-preseed/docs/index.html
+.. _debops.rabbitmq_management documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-rabbitmq_management/docs/index.html
+.. _debops.rabbitmq_server documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-rabbitmq_server/docs/index.html
 .. _debops.redis documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-redis/docs/index.html
 .. _debops.resources documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-resources/docs/index.html
 .. _debops.root_account documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-root_account/docs/index.html
@@ -181,6 +200,7 @@
 .. _debops.rstudio_server documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-rstudio_server/docs/index.html
 .. _debops.rsyslog documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-rsyslog/docs/index.html
 .. _debops.ruby documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-ruby/docs/index.html
+.. _debops.salt documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-salt/docs/index.html
 .. _debops.secret documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-secret/docs/index.html
 .. _debops.slapd documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-slapd/docs/index.html
 .. _debops.snmpd documentation: https://docs.debops.org/en/latest/ansible/roles/ansible-snmpd/docs/index.html
