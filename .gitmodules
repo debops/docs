@@ -399,21 +399,32 @@
 [submodule "docs/ansible/roles/ansible-mosquitto"]
 	path = docs/ansible/roles/ansible-mosquitto
 	url = https://github.com/debops/ansible-mosquitto
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-elastic_co"]
 	path = docs/ansible/roles/ansible-elastic_co
 	url = https://github.com/debops/ansible-elastic_co
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-salt"]
 	path = docs/ansible/roles/ansible-salt
 	url = https://github.com/debops/ansible-salt
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-kibana"]
 	path = docs/ansible/roles/ansible-kibana
 	url = https://github.com/debops/ansible-kibana
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-libvirtd_qemu"]
 	path = docs/ansible/roles/ansible-libvirtd_qemu
 	url = https://github.com/debops/ansible-libvirtd_qemu
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-rabbitmq_server"]
 	path = docs/ansible/roles/ansible-rabbitmq_server
 	url = https://github.com/debops/ansible-rabbitmq_server
+	ignore = untracked
 [submodule "docs/ansible/roles/ansible-rabbitmq_management"]
 	path = docs/ansible/roles/ansible-rabbitmq_management
 	url = https://github.com/debops/ansible-rabbitmq_management
+	ignore = untracked
+[submodule "docs/ansible/roles/ansible-gitlab"]
+	path = docs/ansible/roles/ansible-gitlab
+	url = https://github.com/debops/ansible-gitlab.git
+	ignore = untracked
