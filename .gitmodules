@@ -428,3 +428,6 @@
 	path = docs/ansible/roles/ansible-gitlab
 	url = https://github.com/debops/ansible-gitlab.git
 	ignore = untracked
+[submodule "docs/ansible/roles/ansible-etc_aliases"]
+	path = docs/ansible/roles/ansible-etc_aliases
+	url = https://github.com/debops/ansible-etc_aliases
