@@ -434,3 +434,6 @@
 [submodule "docs/ansible/roles/ansible-unbound"]
 	path = docs/ansible/roles/ansible-unbound
 	url = https://github.com/debops/ansible-unbound
+[submodule "docs/ansible/roles/ansible-ansible_plugins"]
+	path = docs/ansible/roles/ansible-ansible_plugins
+	url = https://github.com/debops/ansible-ansible_plugins
