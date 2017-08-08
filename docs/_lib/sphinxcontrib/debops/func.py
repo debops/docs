@@ -13,7 +13,7 @@ import yaml2rst
 def yaml2rst_role_defaults(dir_path):  # NOQA
     """Generate documentation on the fly based on Ansible default variables"""
     for element in os.listdir(dir_path):
-        if os.path.isdir(dir_path + element) and element not in ['includes']:
+        if os.path.isdir(dir_path + element + '/defaults') and element not in ['includes']:
             yaml2rst.convert_file(
                 dir_path + element + '/defaults/main.yml',
                 dir_path + element + '/docs/defaults.rst',
