@@ -447,3 +447,6 @@
 [submodule "docs/ansible/roles/ansible-opendkim"]
 	path = docs/ansible/roles/ansible-opendkim
 	url = https://github.com/debops/ansible-opendkim
+[submodule "docs/debops-tools"]
+	path = docs/debops-tools
+	url = https://github.com/debops/debops-tools
