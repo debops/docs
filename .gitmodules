@@ -18,11 +18,6 @@
 	url = https://github.com/debops/ansible-nfs
 	ignore = untracked
 	branch = master
-[submodule "docs/debops"]
-	path = docs/debops
-	url = https://github.com/debops/debops
-	ignore = untracked
-	branch = master
 [submodule "docs/ansible/roles/ansible-stunnel"]
 	path = docs/ansible/roles/ansible-stunnel
 	url = https://github.com/debops/ansible-stunnel
