@@ -437,3 +437,18 @@
 [submodule "docs/ansible/roles/ansible-ansible_plugins"]
 	path = docs/ansible/roles/ansible-ansible_plugins
 	url = https://github.com/debops/ansible-ansible_plugins
+[submodule "docs/ansible/roles/ansible-saslauthd"]
+	path = docs/ansible/roles/ansible-saslauthd
+	url = https://github.com/debops/ansible-saslauthd
+[submodule "docs/ansible/roles/ansible-postconf"]
+	path = docs/ansible/roles/ansible-postconf
+	url = https://github.com/debops/ansible-postconf
+[submodule "docs/ansible/roles/ansible-postscreen"]
+	path = docs/ansible/roles/ansible-postscreen
+	url = https://github.com/debops/ansible-postscreen
+[submodule "docs/ansible/roles/ansible-postwhite"]
+	path = docs/ansible/roles/ansible-postwhite
+	url = https://github.com/debops/ansible-postwhite
+[submodule "docs/ansible/roles/ansible-opendkim"]
+	path = docs/ansible/roles/ansible-opendkim
+	url = https://github.com/debops/ansible-opendkim
