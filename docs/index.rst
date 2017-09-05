@@ -10,7 +10,7 @@ scalable from one container to an entire data center.
    :maxdepth: 2
    :glob:
 
-   debops/docs/index
+   debops-tools/docs/index
    debops-playbooks/docs/index
    debops-policy/docs/index.rst
    debops-keyring/docs/index.rst

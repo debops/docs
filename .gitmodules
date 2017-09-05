@@ -18,11 +18,6 @@
 	url = https://github.com/debops/ansible-nfs
 	ignore = untracked
 	branch = master
-[submodule "docs/debops"]
-	path = docs/debops
-	url = https://github.com/debops/debops
-	ignore = untracked
-	branch = master
 [submodule "docs/ansible/roles/ansible-stunnel"]
 	path = docs/ansible/roles/ansible-stunnel
 	url = https://github.com/debops/ansible-stunnel
@@ -437,3 +432,21 @@
 [submodule "docs/ansible/roles/ansible-ansible_plugins"]
 	path = docs/ansible/roles/ansible-ansible_plugins
 	url = https://github.com/debops/ansible-ansible_plugins
+[submodule "docs/ansible/roles/ansible-saslauthd"]
+	path = docs/ansible/roles/ansible-saslauthd
+	url = https://github.com/debops/ansible-saslauthd
+[submodule "docs/ansible/roles/ansible-postconf"]
+	path = docs/ansible/roles/ansible-postconf
+	url = https://github.com/debops/ansible-postconf
+[submodule "docs/ansible/roles/ansible-postscreen"]
+	path = docs/ansible/roles/ansible-postscreen
+	url = https://github.com/debops/ansible-postscreen
+[submodule "docs/ansible/roles/ansible-postwhite"]
+	path = docs/ansible/roles/ansible-postwhite
+	url = https://github.com/debops/ansible-postwhite
+[submodule "docs/ansible/roles/ansible-opendkim"]
+	path = docs/ansible/roles/ansible-opendkim
+	url = https://github.com/debops/ansible-opendkim
+[submodule "docs/debops-tools"]
+	path = docs/debops-tools
+	url = https://github.com/debops/debops-tools

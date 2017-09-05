@@ -91,7 +91,7 @@ language = None
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
 # 'includes/*.rst': https://github.com/debops/docs/issues/144
-exclude_patterns = ['_build', 'debops/*.rst', 'debops-playbooks/*.rst', 'ansible/roles/ansible-*/*.rst', 'ansible/roles/ansible-*/docs/parts', '**includes/*.rst', 'debops-api/README.rst', 'debops-api/tests/**.rst', 'debops-policy/README.rst']
+exclude_patterns = ['_build', 'debops-tools/*.rst', 'debops-playbooks/*.rst', 'ansible/roles/ansible-*/*.rst', 'ansible/roles/ansible-*/docs/parts', '**includes/*.rst', 'debops-api/README.rst', 'debops-api/tests/**.rst', 'debops-policy/README.rst']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
