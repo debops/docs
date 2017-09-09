@@ -450,3 +450,6 @@
 [submodule "docs/debops-tools"]
 	path = docs/debops-tools
 	url = https://github.com/debops/debops-tools
+[submodule "docs/ansible/roles/ansible-etherpad"]
+	path = docs/ansible/roles/ansible-etherpad
+	url = https://github.com/debops/ansible-etherpad
