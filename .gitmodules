@@ -453,3 +453,6 @@
 [submodule "docs/ansible/roles/ansible-etherpad"]
 	path = docs/ansible/roles/ansible-etherpad
 	url = https://github.com/debops/ansible-etherpad
+[submodule "docs/ansible/roles/ansible-radvd"]
+	path = docs/ansible/roles/ansible-radvd
+	url = https://github.com/debops/ansible-radvd
