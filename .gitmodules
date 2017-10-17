@@ -459,3 +459,6 @@
 [submodule "docs/ansible/roles/ansible-monit"]
 	path = docs/ansible/roles/ansible-monit
 	url = https://github.com/debops/ansible-monit
+[submodule "docs/ansible/roles/ansible-cran"]
+	path = docs/ansible/roles/ansible-cran
+	url = https://github.com/debops/ansible-cran
